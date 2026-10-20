@@ -2125,7 +2125,7 @@ input[type='range']::-moz-range-thumb {
 
 .startbtns {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto 1fr auto;
   gap: 10px;
   margin-top: 20px;
 }
@@ -2138,6 +2138,61 @@ input[type='range']::-moz-range-thumb {
 .startbtns > .pill:not(.primary) {
   min-height: 56px;
   padding: 0 22px;
+}
+
+.startbtns > .pill {
+  white-space: nowrap;
+}
+
+/* Handy: drei Knöpfe in einer Reihe, der Pfeil im mittleren muss weichen */
+@media (max-width: 480px) {
+  .startbtns > .pill:not(.primary) {
+    padding: 0 18px;
+  }
+  .startbtns > .pill.primary .arrow {
+    display: none;
+  }
+}
+
+/* Solo: Treffer links, Restzeit rechts, Überspringen neben dem Feedback */
+.solo-line {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.solo-time {
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+
+.game:has(.counting) .solo-time {
+  color: var(--accent);
+}
+
+.solo-foot {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.solo-foot .feedback {
+  flex: 1;
+  min-height: 18px;
+  margin-top: 8px;
+}
+
+.solo-foot .link {
+  flex: none;
+  color: var(--muted);
+}
+
+.winner .chips {
+  flex-wrap: wrap;
+  margin: 4px 0 18px;
 }
 
 @media (max-width: 899px) {
@@ -2387,22 +2442,26 @@ input[type='range']::-moz-range-thumb {
 }
 
 /* Online-Tabelle nach jeder Runde: Karte unten, "Runde 2." / "Endstand." frei darüber */
-.winner.online .panel {
+.winner.online .panel,
+.winner.soloend .panel {
   grid-row: 3;
 }
 
 @media (min-width: 900px) {
-  .winner.online {
+  .winner.online,
+  .winner.soloend {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
   }
-  .winner.online .panel {
+  .winner.online .panel,
+  .winner.soloend .panel {
     grid-column: 1;
     grid-row: 3;
     justify-self: center;
     width: min(100%, 440px);
   }
-  .winner.online .emboss-win {
+  .winner.online .emboss-win,
+  .winner.soloend .emboss-win {
     padding-bottom: 36vh;
   }
 }
@@ -3030,5 +3089,12 @@ input[type='range']::-moz-range-thumb {
     align-self: end;
     max-height: calc(var(--app-h) - 70px);
     padding: 16px;
+  }
+}
+
+/* Schmales Handy: neben dem Darkmode-Knopf reicht das Fragezeichen */
+@media (max-width: 420px) {
+  .how-text {
+    display: none;
   }
 }

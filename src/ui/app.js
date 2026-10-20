@@ -12,6 +12,7 @@ import {
 } from '../logic/match.js';
 import { alivePlayers, canAct, createGame, currentPlayer, reduce, winner } from '../logic/game.js';
 import { normalize } from '../logic/normalize.js';
+import { createSolo, SKIP_PENALTY_MS, skipSolo, SOLO_SECONDS, soloScore, submitSolo } from '../logic/solo.js';
 import { demoTransport } from '../net/demo.js';
 import { cleanCode, hostTransport, joinTransport } from '../net/peer.js';
 import { createGuestRoom, createHostRoom } from '../net/room.js';
@@ -218,7 +219,7 @@ export function startApp(root, rawCategories) {
       <main class="screen start">
         <header class="topbar">
           <div><div class="brand">Wer weiß noch eins?</div><div class="meta">Nr. 001 · Partyspiel</div></div>
-          <button class="link" data-act="how">So geht's <span class="q">?</span></button>
+          <button class="link" data-act="how" aria-label="So geht's"><span class="how-text">So geht's</span> <span class="q">?</span></button>
         </header>
         <div class="emboss emboss-start" aria-hidden="true"><span>Ein Land</span><span>mit T.</span></div>
         <section class="panel">
@@ -226,6 +227,7 @@ export function startApp(root, rawCategories) {
           <h1 class="serif">Wer weiß <br>noch eins?</h1>
           <p class="lede">Reihum ein Wort mit dem Buchstaben. Nichts doppelt. Wem nichts mehr einfällt, wird runtergezählt und fliegt raus.</p>
           <div class="startbtns">
+            <button class="pill" data-act="solo">Solo</button>
             <button class="pill primary" data-act="new">Neues Spiel <span class="arrow"></span></button>
             <button class="pill" data-act="online">Online</button>
           </div>
@@ -243,6 +245,10 @@ export function startApp(root, rawCategories) {
     el.querySelector('[data-act="online"]').onclick = (e) => {
       sfx.unlock();
       launch(e.currentTarget, showOnline);
+    };
+    el.querySelector('[data-act="solo"]').onclick = (e) => {
+      sfx.unlock();
+      launch(e.currentTarget, showSolo);
     };
     el.querySelector('[data-act="how"]').onclick = showHowTo;
     function showCategory() {
@@ -2131,6 +2137,206 @@ export function startApp(root, rawCategories) {
   }
 
   /* ---------------- Sieger ---------------- */
+
+  /* ---------------- Solo ---------------- */
+
+  /** Solo braucht eine Liste zum Prüfen: Zufall oder Themen ohne Liste spielen ein zufälliges Listen-Thema. */
+  function soloCategory() {
+    const c = byId[settings.categoryId];
+    if (c && !c.open) return c;
+    const pool = themePool();
+    return byId[pool[Math.floor(Math.random() * pool.length)]];
+  }
+
+  /** Allein gegen die Uhr: nach jedem Treffer ein neuer Buchstabe. Uhr läuft hier, Logik in solo.js. */
+  function showSolo(cat = soloCategory()) {
+    stopGame();
+    leaveScreen(root);
+    let s = createSolo({ category: cat });
+    const el = h(`
+      <main class="screen game solo">
+        <header class="topbar">
+          <div><div class="brand">Wer weiß noch eins?</div><div class="meta">Solo · ${esc(cat.label)} · ${SOLO_SECONDS} Sekunden</div></div>
+          <button class="link" data-act="quit">Beenden</button>
+        </header>
+        <div class="stage">
+          <div class="emboss emboss-letter" aria-hidden="true" data-v="bigletter"></div>
+          <div class="count" data-v="count" aria-live="assertive"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" pathLength="100"/></svg></div>
+          <div class="say" data-v="say" aria-live="polite"></div>
+        </div>
+        <section class="hud">
+          <div class="task"><span class="meta">${esc(cat.task)}</span><span class="tletter" data-v="letter"></span></div>
+          <div class="solo-line"><span class="turnline serif" data-v="score"></span><span class="solo-time" data-v="time"></span></div>
+          <div class="bar"><i data-v="bar"></i></div>
+          <ul class="chips" data-v="chips" aria-label="Deine Treffer"></ul>
+          <form class="answer" data-v="form" autocomplete="off">
+            <input data-v="input" maxlength="40" placeholder="Antwort eintippen" autocapitalize="words" autocorrect="off" spellcheck="false" enterkeyhint="send" aria-label="Antwort" disabled>
+            <button class="send" aria-label="Absenden"><span class="arrow"></span></button>
+          </form>
+          <div class="solo-foot"><div class="feedback" data-v="feedback" aria-live="polite"></div><button class="link" type="button" data-act="skip">Überspringen (−${SKIP_PENALTY_MS / 1000} s)</button></div>
+        </section>
+      </main>`);
+    root.append(el);
+    const q = (k) => el.querySelector(`[data-v="${k}"]`);
+    const input = q('input');
+    const form = q('form');
+    const totalMs = SOLO_SECONDS * 1000;
+    let usedMs = 0; // ohne Pausen
+    let startedAt = 0;
+    let running = false;
+    let raf = 0;
+    let lastCount = null;
+    const left = () => totalMs - (running ? usedMs + performance.now() - startedAt : usedMs);
+
+    function showLetter() {
+      morphText(q('letter'), s.letter, { blur: 6 });
+      morphText(q('bigletter'), s.letter, { blur: 24, duration: 640 });
+    }
+    function showScore() {
+      const n = soloScore(s);
+      morphText(q('score'), `<em>${n}</em> Treffer`, { blur: 5, html: true });
+      q('chips').innerHTML = s.answers
+        .map((a) => `<li class="chip">${esc(a.text)}</li>`)
+        .reverse()
+        .join('');
+    }
+    function feedback(msg, bad) {
+      morphText(q('feedback'), msg, { blur: 3, duration: 300 });
+      if (!bad) return;
+      form.classList.remove('shake');
+      void form.offsetWidth;
+      form.classList.add('shake');
+      sfx.nope();
+      input.select();
+    }
+
+    function frame() {
+      if (!el.isConnected) return pause();
+      const ms = left();
+      q('bar').style.transform = `scaleX(${Math.max(0, ms / totalMs)})`;
+      q('time').textContent = `${Math.max(0, Math.ceil(ms / 1000))} s`;
+      const n = Math.ceil(ms / 1000);
+      if (n <= 5 && n !== lastCount) {
+        lastCount = n;
+        el.querySelector('.stage').classList.add('counting');
+        if (n > 0) {
+          countTo(q('count'), n);
+          sfx.tick(n);
+        }
+      }
+      if (ms <= 0) return finish();
+      raf = requestAnimationFrame(frame);
+    }
+    function pause() {
+      if (running) usedMs += performance.now() - startedAt;
+      running = false;
+      cancelAnimationFrame(raf);
+    }
+    function resume() {
+      if (running || !el.isConnected) return;
+      running = true;
+      startedAt = performance.now();
+      raf = requestAnimationFrame(frame);
+    }
+    function finish() {
+      pause();
+      document.removeEventListener('visibilitychange', onVisible);
+      input.disabled = true;
+      setTimeout(() => el.isConnected && showSoloEnd(s, cat), 700);
+    }
+    // Handy gesperrt oder Tab weg: Uhr hält an
+    const onVisible = () => (document.hidden ? pause() : el.isConnected && !input.disabled && resume());
+    document.addEventListener('visibilitychange', onVisible);
+
+    form.onsubmit = (e) => {
+      e.preventDefault();
+      if (input.disabled || !input.value.trim()) return;
+      const [next, r] = submitSolo(s, cat, input.value);
+      const msg = {
+        wrongLetter: `Fängt nicht mit ${s.letter} an.`,
+        tooShort: 'Nur ein Buchstabe zählt nicht.',
+        used: `${r.name} hattest du schon.`,
+        unknown: `„${input.value.trim()}“ kenne ich nicht.`,
+      }[r.kind];
+      if (r.kind === 'empty') return;
+      if (r.kind !== 'valid') return feedback(msg, true);
+      s = next;
+      sfx.valid();
+      input.value = '';
+      feedback(r.typo ? `✓ ${r.name} (gemeint)` : `✓ ${r.name}`);
+      showScore();
+      showLetter();
+      input.focus({ preventScroll: true });
+    };
+    el.querySelector('[data-act="skip"]').onclick = () => {
+      if (input.disabled) return;
+      s = skipSolo(s, cat);
+      input.value = '';
+      usedMs += SKIP_PENALTY_MS;
+      feedback(`Übersprungen · −${SKIP_PENALTY_MS / 1000} s`);
+      showLetter();
+      input.focus({ preventScroll: true });
+    };
+    el.querySelector('[data-act="quit"]').onclick = () => {
+      pause();
+      document.removeEventListener('visibilitychange', onVisible);
+      showStart();
+    };
+
+    showScore();
+    q('time').textContent = `${SOLO_SECONDS} s`;
+    // 3-2-1, dann läuft die Uhr
+    say('Gleich geht’s los.');
+    [3, 2, 1].forEach((n, i) =>
+      setTimeout(() => {
+        if (!el.isConnected) return;
+        countTo(q('count'), n);
+        sfx.tick(n);
+      }, i * 800),
+    );
+    setTimeout(() => {
+      if (!el.isConnected) return;
+      clearCount(q('count'));
+      showLetter();
+      input.disabled = false;
+      input.focus({ preventScroll: true });
+      if (!document.hidden) resume();
+    }, 2400);
+  }
+
+  function showSoloEnd(s, cat) {
+    const n = soloScore(s);
+    const key = `solo:${cat.id}`;
+    const best = store.get(key, 0);
+    const record = n > best;
+    if (record) store.set(key, n);
+    if (record && n > 0) sfx.win();
+    leaveScreen(root);
+    const el = h(`
+      <main class="screen winner soloend">
+        <canvas class="confetti" aria-hidden="true"></canvas>
+        <header class="topbar">
+          <div><div class="brand">Wer weiß noch eins?</div><div class="meta">Solo · ${esc(cat.label)} · ${SOLO_SECONDS} Sekunden</div></div>
+        </header>
+        <div class="emboss emboss-win" aria-hidden="true"><span>Zeit um.</span></div>
+        <section class="panel">
+          <h1 class="serif">${record && n > 0 ? 'Neuer Rekord!' : 'Geschafft.'}</h1>
+          <div class="score"><span class="big">${n}</span><span class="of">Treffer in ${SOLO_SECONDS} Sekunden</span></div>
+          <p class="lede">${record && best > 0 ? `Alter Rekord: ${best}.` : !record ? `Dein Rekord in ${esc(cat.label)}: <b>${best}</b>.` : ''}${
+            s.skips ? ` ${s.skips}× übersprungen.` : ''
+          }</p>
+          ${n ? `<ul class="chips">${s.answers.map((a) => `<li class="chip">${esc(a.text)}</li>`).join('')}</ul>` : ''}
+          <div class="row2">
+            <button class="pill" data-act="home">Startseite</button>
+            <button class="pill primary" data-act="again">Nochmal <span class="arrow"></span></button>
+          </div>
+        </section>
+      </main>`);
+    root.append(el);
+    if (record && n > 0) requestAnimationFrame(() => confetti(el.querySelector('.confetti')));
+    el.querySelector('[data-act="again"]').onclick = () => showSolo(cat);
+    el.querySelector('[data-act="home"]').onclick = showStart;
+  }
 
   function showWinner(s) {
     stopGame();
