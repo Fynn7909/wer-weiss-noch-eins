@@ -1,0 +1,58 @@
+[
+  {
+    "id": "automarken",
+    "label": "Automarken",
+    "task": "EINE AUTOMARKE MIT",
+    "group": "Marken & Technik",
+    "words": "Abarth, Alfa Romeo, Alpine, Aston Martin, Audi, Bentley, BMW, Bugatti, Buick, BYD, Cadillac, Chevrolet, Chrysler, Citroën, Cupra, Dacia, Daewoo, Daihatsu, Dodge, DS, Ferrari, Fiat, Fisker, Ford, Genesis, GMC, Honda, Hummer, Hyundai, Infiniti, Isuzu, Jaguar, Jeep, Kia, Koenigsegg, Lada, Lamborghini, Lancia, Land Rover, Lexus, Lincoln, Lotus, Lucid, Maserati, Maybach, Mazda, McLaren, Mercedes / Mercedes-Benz, MG, Mini, Mitsubishi, Nio, Nissan, Opel, Pagani, Peugeot, Polestar, Porsche, RAM, Renault, Rimac, Rivian, Rolls-Royce, Saab, Seat, Skoda, Smart, SsangYong, Subaru, Suzuki, Tata, Tesla, Toyota, Trabant / Trabi, Vauxhall, Volvo, VW / Volkswagen, Wartburg, Xpeng, Zastava, Borgward, Aiways, Microlino"
+  },
+  {
+    "id": "modemarken",
+    "label": "Modemarken",
+    "task": "EINE MODEMARKE MIT",
+    "group": "Marken & Technik",
+    "words": "Abercrombie, Adidas, Armani, Asics, Balenciaga, Burberry, Bershka, Birkenstock, Boss / Hugo Boss, Calvin Klein, Carhartt, Chanel, Champion, Converse, Crocs, C&A, Diesel, Dior, Dolce & Gabbana, Esprit, Ellesse, Fila, Fendi, Gap, Gucci, Guess, H&M, Hollister, Hermès, Jack & Jones, Jack Wolfskin, Kappa, Lacoste, Levi's, Louis Vuitton, Mango, Moncler, New Balance, Nike, North Face / The North Face, Off-White, Only, Prada, Primark, Puma, Ralph Lauren, Reebok, Rolex, Superdry, s.Oliver, Stone Island, Supreme, Tommy Hilfiger, Timberland, Under Armour, Uniqlo, Vans, Versace, Valentino, Wrangler, Yves Saint Laurent / YSL, Zara, Zalando, Shein, Pull & Bear, Tom Tailor, Marc O'Polo, Napapijri, Stüssy, Palace, Patagonia, Salomon, On, Hoka, Skechers, Ugg, Dr. Martens, Ray-Ban"
+  },
+  {
+    "id": "techmarken",
+    "label": "Technik-Marken",
+    "task": "EINE TECHNIK-MARKE MIT",
+    "group": "Marken & Technik",
+    "words": "Acer, AEG, Alienware, Amazon, AMD, Apple, Asus, Bang & Olufsen, Beats, Bosch, Bose, Braun, Canon, Dell, Dyson, Epson, Fujitsu, Garmin, GoPro, Google, Grundig, Hisense, HP, Huawei, IBM, Intel, JBL, Kärcher, Lenovo, LG, Logitech, Medion, Microsoft, Miele, Motorola, MSI, Nikon, Nintendo, Nokia, Nvidia, OnePlus, Oppo, Panasonic, Philips, PlayStation, Razer, Realme, Samsung, Sennheiser, Sharp, Siemens, Sonos, Sony, Teufel, Telefunken, Tesla, TCL, Toshiba, Valve, Vivo, Xbox, Xiaomi, Yamaha, Zeiss, ZTE, Roomba, Tefal, WMF, Krups, Nespresso, Thermomix, Severin, Bauknecht, Gaggenau, Fairphone, Corsair, Steelseries, HyperX"
+  },
+  {
+    "id": "apps",
+    "label": "Apps & Websites",
+    "task": "EINE APP ODER WEBSITE MIT",
+    "group": "Marken & Technik",
+    "words": "Airbnb, Amazon, Audible, BeReal, Booking, Bumble, ChatGPT, Discord, Disney+, DB Navigator, Duolingo, eBay, Etsy, Facebook, FaceTime, Google, Google Maps, Instagram, Kleinanzeigen / eBay Kleinanzeigen, LinkedIn, Lieferando, Messenger, Netflix, Outlook, PayPal, Pinterest, Prime Video, Quizlet, Reddit, Roblox, Shazam, Signal, Skype, Snapchat, SoundCloud, Spotify, Steam, Telegram, Temu, Threads, TikTok, Tinder, Tumblr, Twitch, Twitter / X, Uber, Vinted, WhatsApp, Wikipedia, Wish, Yahoo, YouTube, Zoom, Zalando, Teams, Gmail, Canva, Notion, Dropbox, Excel, Word, PowerPoint, Wetter.com, Kicker, Bild, Tagesschau, Sky, Joyn, RTL+, Waipu, Shein, Klarna, Revolut, N26, Trade Republic, Komoot, Strava, Flightradar, Pokémon Go, Clash Royale, Wordle, Glovo, Wolt, Too Good To Go"
+  },
+  {
+    "id": "fussballvereine",
+    "label": "Fußballvereine",
+    "task": "EIN FUSSBALLVEREIN MIT",
+    "group": "Marken & Technik",
+    "words": "Ajax / Ajax Amsterdam, Arsenal, Aston Villa, Atlético Madrid, Augsburg / FC Augsburg, Barcelona / FC Barcelona / Barça, Bayern / FC Bayern / Bayern München, Benfica, Bochum / VfL Bochum, Bremen / Werder Bremen / Werder, Celtic, Chelsea, Darmstadt, Dortmund / BVB / Borussia Dortmund, Dynamo Dresden, Eintracht Frankfurt / Frankfurt, Everton, Feyenoord, Fiorentina, Freiburg / SC Freiburg, Fortuna Düsseldorf, Galatasaray, Gladbach / Borussia Mönchengladbach, Heidenheim, Hertha / Hertha BSC, Hoffenheim, HSV / Hamburger SV, Hannover 96, Holstein Kiel, Inter Mailand / Inter, Juventus / Juve, Kaiserslautern, Köln / 1. FC Köln, Leipzig / RB Leipzig, Leverkusen / Bayer Leverkusen, Liverpool, Lazio, Mainz / Mainz 05, Manchester City / Man City, Manchester United / Man United, Milan / AC Mailand, Napoli / SSC Neapel, Nürnberg, Newcastle, Olympique Marseille, Paris Saint-Germain / PSG, Porto / FC Porto, Real Madrid, Roma / AS Rom, Rapid Wien, Red Bull Salzburg, St. Pauli, Sevilla, Schalke / Schalke 04, Sporting Lissabon, Stuttgart / VfB Stuttgart, Tottenham, Union Berlin, Valencia, Villarreal, Wolfsburg / VfL Wolfsburg, West Ham, Zenit, Fenerbahçe, Beşiktaş, Basel, Young Boys, Karlsruher SC / KSC, Paderborn, Bielefeld / Arminia, Magdeburg, Rostock / Hansa Rostock, Braunschweig, Greuther Fürth, Elversberg"
+  },
+  {
+    "id": "supermarkt",
+    "label": "Läden & Supermärkte",
+    "task": "EIN LADEN ODER SUPERMARKT MIT",
+    "group": "Marken & Technik",
+    "words": "Aldi, Apple Store, Bauhaus, Budni, C&A, Deichmann, Decathlon, Dehner, DM, Douglas, Edeka, Expert, Fressnapf, Galeria, Globus, Hornbach, H&M, Hagebaumarkt, Ikea, Intersport, Jysk, Kaufland, KiK, Lidl, Media Markt, Müller, Netto, Norma, Obi, Penny, Primark, Real, Rewe, Rossmann, Saturn, Snipes, Tedi, Thalia, Tegut, Takko, Toom, Tchibo, Woolworth, XXXLutz, Zara, Zara Home, Action, Kodi, Lush, Søstrene Grene, Depot, Butlers, Nanu-Nana, Thomas Philipps, Poco, Roller, Höffner, Porta, Bünting, Famila, Marktkauf, Hit, Combi, Wasgau, Netto City, Alnatura, Denn's, Basic, Bio Company, Spar, Billa, Hofer, Migros, Coop"
+  },
+  {
+    "id": "fahrzeuge",
+    "label": "Fahrzeuge",
+    "task": "EIN FAHRZEUG MIT",
+    "group": "Marken & Technik",
+    "words": "Auto, Ambulanz / Krankenwagen, Bagger, Boot, Bus, Bulldozer, Cabrio, Containerschiff, Dampflok, Dreirad, Düsenjet, E-Scooter, Fahrrad, Fähre, Feuerwehrauto, Flugzeug, Floß, Gabelstapler, Gondel, Hubschrauber, Heißluftballon, Inlineskates, Jeep, Jacht / Yacht, Jetski, Kajak, Kanu, Kran, Kutsche, Lastwagen / LKW, Limousine, Lokomotive, Motorrad, Mofa, Mähdrescher, Müllauto, Panzer, Pickup, Polizeiauto, Quad, Rakete, Rikscha, Roller, Ruderboot, Schlitten, Schiff, Segelboot, Segelflugzeug, Skateboard, Straßenbahn, S-Bahn, Taxi, Traktor, Transporter, Tretroller, U-Boot, U-Bahn, Ufo, Van, Wohnmobil, Wohnwagen, Zeppelin, Zug, Zweirad, Kettcar, Bobby-Car, Seifenkiste, Pedalo, Raupe, Planierraupe, Walze, Hoverboard, Segway, Gleitschirm, Drachen, Raumschiff, Katamaran, Tandem, Unicycle / Einrad, Kickboard, Golfcart, Monstertruck, Rennwagen, Formel 1, Tuk-Tuk, Moped, Vespa"
+  },
+  {
+    "id": "elektro",
+    "label": "Elektrogeräte",
+    "task": "EIN ELEKTROGERÄT MIT",
+    "group": "Marken & Technik",
+    "words": "Akkuschrauber, Bohrmaschine, Beamer, Bügeleisen, Computer, Drucker, Dunstabzugshaube, Eierkocher, Entsafter, E-Reader, Fernseher, Föhn, Gefriertruhe, Glätteisen, Grill, Handy / Smartphone, Heizlüfter, Herd, Joystick, Kaffeemaschine, Kamera, Kopfhörer, Konsole, Kühlschrank, Lampe, Laptop, Lautsprecher, Lockenstab, Luftbefeuchter, Massagegerät, Maus, Mikrofon, Mikrowelle, Mixer, Monitor, Navi, Nähmaschine, Ofen, Pürierstab, Radio, Rasierer, Rasenmäher, Router, Saugroboter, Scanner, Smartwatch, Spülmaschine, Staubsauger, Stereoanlage, Tablet, Tastatur, Taschenlampe, Telefon, Toaster, Trockner, Ventilator, Waffeleisen, Wasserkocher, Waschmaschine, Webcam, Wecker, Zahnbürste / Elektrische Zahnbürste, Zentrifuge, Heißluftfritteuse / Airfryer, Thermomix, Klimaanlage, Drohne, Plattenspieler, Fritteuse, Raclette, Sandwichmaker, Popcornmaschine, Eismaschine, Brotbackautomat, Milchaufschäumer"
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "filme",
+    "label": "Filme",
+    "task": "EIN FILM MIT",
+    "group": "Filme, Serien & Spiele",
+    "open": true,
+    "words": "Avatar, Avengers, Alien, Aladdin, Barbie, Batman, Bambi, Braveheart, Cars, Casablanca, Coco, Dune, Der Pate, Der Herr der Ringe / Herr der Ringe, Der König der Löwen / König der Löwen, Deadpool, Die Eiskönigin / Frozen, E.T., Encanto, Fast & Furious, Findet Nemo, Forrest Gump, Fluch der Karibik, Ghostbusters, Gladiator, Grease, Harry Potter, Hangover, Home Alone / Kevin allein zu Haus, Inception, Indiana Jones, Interstellar, Jumanji, Jurassic Park, James Bond, Joker, Kung Fu Panda, Keinohrhasen, Matrix, Madagascar, Mamma Mia, Minions, Moana / Vaiana, Mission Impossible, Oppenheimer, Oben / Up, Pulp Fiction, Ratatouille, Rocky, Rambo, Shrek, Spider-Man, Star Wars, Titanic, Toy Story, Top Gun, Transformers, Wall-E, Wonka, Zoomania, Zurück in die Zukunft, Der Schuh des Manitu, Fack ju Göhte, Die Tribute von Panem, Twilight, Ice Age, Alles steht Kopf / Inside Out, Hotel Transsilvanien, Kokowääh, Sonic, Mario / Super Mario Bros"
+  },
+  {
+    "id": "serien",
+    "label": "Serien",
+    "task": "EINE SERIE MIT",
+    "group": "Filme, Serien & Spiele",
+    "open": true,
+    "words": "Avatar, Breaking Bad, Bridgerton, Big Bang Theory, Brooklyn Nine-Nine, Dark, Dexter, Doctor Who, Euphoria, Emily in Paris, Friends, Family Guy, Game of Thrones, Grey's Anatomy, Gossip Girl, Haus des Geldes, How I Met Your Mother, House of the Dragon, Lost, Lucifer, Malcolm mittendrin, Modern Family, Money Heist, Narcos, Outer Banks, Peaky Blinders, Prison Break, Riverdale, Rick and Morty, Squid Game, Stranger Things, Suits, South Park, SpongeBob, The Office, The Walking Dead, The Crown, The Boys, The Mandalorian, The Last of Us, The Witcher, Tatort, Two and a Half Men, Vikings, Wednesday, Westworld, You, Young Sheldon, Yellowstone, Zwei Asse, Pastewka, Stromberg, How to Sell Drugs Online (Fast), Die Simpsons / Simpsons, Sherlock, Arcane, One Piece, Naruto, Dragon Ball, Attack on Titan, Gilmore Girls, The Bear, Shogun, Severance, Andor, Loki, Hawkeye, Elite, Sex Education, Heartstopper, Ginny & Georgia, Kitz, Club der roten Bänder"
+  },
+  {
+    "id": "cartoons",
+    "label": "Zeichentrick- & Comicfiguren",
+    "task": "EINE COMIC- ODER ZEICHENTRICKFIGUR MIT",
+    "group": "Filme, Serien & Spiele",
+    "words": "Asterix, Obelix, Idefix, Bart Simpson / Bart, Homer Simpson / Homer, Lisa Simpson, Marge, Benjamin Blümchen, Bibi Blocksberg, Biene Maja, Bugs Bunny, Calvin, Charlie Brown, Daffy Duck, Daisy Duck, Donald Duck, Dagobert Duck, Dora, Duffy, Garfield, Goofy, Hello Kitty, Heidi, Hobbes, Jerry, Lucky Luke, Micky Maus / Mickey Mouse, Minnie Maus, Paddington, Patrick Star, Peppa Wutz / Peppa Pig, Pinky, Brain, Pluto, Popeye, Pumuckl, Road Runner, Rick, Morty, Scooby-Doo, Schlümpfe / Schlumpf, Sandmännchen, Snoopy, SpongeBob / SpongeBob Schwammkopf, Shaggy, Sylvester, Tweety, Tom, Tim und Struppi / Tintin, Thaddäus, Wickie, Willi, Woody Woodpecker, Wile E. Coyote, Yakari, Feuerwehrmann Sam, Paw Patrol, Shaun das Schaf, Wallace, Gromit, Pikachu, Naruto, Goku, Ruffy, Conan, Sailor Moon, Totoro, Bob der Baumeister, Teletubbies, Caillou, Bluey, Fred Feuerstein / Flintstone, Pink Panther / Rosaroter Panther, Inspector Gadget, Mainzelmännchen, Kim Possible, Phineas, Ferb"
+  },
+  {
+    "id": "disney",
+    "label": "Disney & Pixar",
+    "task": "EINE DISNEY- ODER PIXARFIGUR MIT",
+    "group": "Filme, Serien & Spiele",
+    "words": "Aladdin, Anna, Ariel / Arielle, Aurora, Baloo / Balu, Bambi, Baymax, Belle, Biest, Buzz Lightyear / Buzz, Cinderella, Cruella, Dumbo, Dory, Elsa, Eeyore / I-Aah, Esmeralda, Flounder / Fabius, Gaston, Genie / Dschinni, Hercules, Jafar, Jasmine, Kaa, King Louie, Kristoff, Lightning McQueen, Lilo, Stitch, Maleficent, Maui, Merida, Mike Glotzkowski, Mirabel, Mogli, Moana / Vaiana, Mufasa, Mulan, Nala, Nemo, Olaf, Pocahontas, Pumbaa, Pinocchio, Peter Pan, Rapunzel, Remy, Scar, Sebastian, Simba, Sully, Sven, Tiana, Timon, Tinkerbell, Tigger, Ursula, Winnie Puuh / Winnie Pooh, Woody, Wall-E, Wreck-it Ralph / Ralph, Zazu, Joy / Freude, Kummer, Mater / Hook, Flynn Rider, Pascal, Hades, Megara, Abu, Iago, Rafiki, Grinch, Schneewittchen"
+  },
+  {
+    "id": "superhelden",
+    "label": "Superhelden & Schurken",
+    "task": "EIN SUPERHELD ODER SCHURKE MIT",
+    "group": "Filme, Serien & Spiele",
+    "words": "Ant-Man, Aquaman, Batman, Black Panther, Black Widow, Bane, Captain America, Captain Marvel, Catwoman, Cyborg, Daredevil, Deadpool, Doctor Strange, Doctor Doom, Flash, Green Lantern, Groot, Harley Quinn, Hawkeye, Hulk, Iron Man, Joker, Kingpin, Loki, Lex Luthor, Magneto, Mystique, Nick Fury, Nightwing, Poison Ivy, Professor X, Rocket, Robin, Scarlet Witch, Shazam, She-Hulk, Silver Surfer, Spider-Man, Star-Lord, Storm, Superman, Supergirl, Thanos, Thor, Two-Face, Venom, Vision, Wolverine, Wonder Woman, Wanda, Riddler, Pinguin, Green Goblin, Doc Ock / Doctor Octopus, Mysterio, Ultron, Hela, Red Skull, Winter Soldier, Falcon, Black Adam, Blue Beetle, Batgirl, Moon Knight, Ms. Marvel, Gamora, Drax, Mantis, Nebula, Darkseid, Brainiac, Zod, Krypto"
+  },
+  {
+    "id": "pokemon",
+    "label": "Pokémon",
+    "task": "EIN POKÉMON MIT",
+    "group": "Filme, Serien & Spiele",
+    "words": "Abra, Aerodactyl, Arktos, Arkani, Bisasam, Bisaknosp, Bisaflor, Bibor, Dragoran, Dratini, Dragonir, Evoli, Enton, Entei, Flamara, Fukano, Garados, Gengar, Glumanda, Glutexo, Glurak, Golbat, Golem, Gastly, Habitak, Heiteira, Ho-Oh, Hypno, Igelavar, Jirachi, Jurob, Karpador, Kangama, Knogga, Kokowei, Lahmus, Lapras, Lavados, Lucario, Lugia, Machollo, Magikarp, Mauzi, Mew, Mewtu, Mogelbaum, Nidoking, Nachtara, Onix, Pikachu, Pummeluff, Psiana, Quapsel, Raichu, Rattfratz, Rayquaza, Relaxo, Rettan, Schiggy, Schillok, Turtok, Sandan, Sleima, Smettbo, Taubsi, Tauboss, Togepi, Tragosso, Traumato, Vulnona, Voltilamm, Ampharos, Zapdos, Zubat, Zygarde, Panflam, Plinfa, Chelast, Garchomp / Knakrack, Greninja / Quajutsu, Mimigma, Feelinara, Aquana, Blitza, Sniebel, Endivie, Feurigel, Karnimani"
+  },
+  {
+    "id": "videospiele",
+    "label": "Videospiele",
+    "task": "EIN VIDEOSPIEL MIT",
+    "group": "Filme, Serien & Spiele",
+    "open": true,
+    "words": "Among Us, Animal Crossing, Apex Legends, Assassin's Creed, Battlefield, Brawl Stars, Call of Duty, Candy Crush, Clash of Clans, Clash Royale, Counter-Strike, Cyberpunk, Diablo, Donkey Kong, Doom, Elden Ring, EA FC / FIFA, Fall Guys, Fallout, Fortnite, Forza, Genshin Impact, Grand Theft Auto / GTA, Gran Turismo, Halo, Hogwarts Legacy, Kirby, League of Legends, Mario Kart, Minecraft, Mortal Kombat, Need for Speed, Overwatch, Pac-Man, Pokémon, Portal, PUBG, Rocket League, Roblox, Red Dead Redemption, Sims / Die Sims, Skyrim, Sonic, Splatoon, Stardew Valley, Street Fighter, Super Mario, Super Smash Bros, Subway Surfers, Tetris, The Witcher, Tekken, Terraria, Valorant, World of Warcraft, Wii Sports, Zelda, Uncharted, Undertale, Hollow Knight, God of War, Halo Infinite, Hades, It Takes Two, Pong, Lemmings, Dota, Spider-Man, Tomb Raider, Resident Evil, Silent Hill, Metroid"
+  },
+  {
+    "id": "bands",
+    "label": "Bands",
+    "task": "EINE BAND MIT",
+    "group": "Filme, Serien & Spiele",
+    "words": "ABBA, AC/DC, Aerosmith, Arctic Monkeys, Backstreet Boys, Beatles / The Beatles, Bilderbuch, Blink-182, BTS, Blackpink, Bon Jovi, Coldplay, Daft Punk, Deichkind, Depeche Mode, Die Ärzte, Die Toten Hosen, Electric Callboy, Fall Out Boy, Foo Fighters, Fleetwood Mac, Guns N' Roses, Green Day, Imagine Dragons, Iron Maiden, Juli, Jonas Brothers, Kraftwerk, Kings of Leon, Kiss, Linkin Park, Led Zeppelin, Maroon 5, Metallica, Muse, Måneskin, Nirvana, Nickelback, OneRepublic, One Direction, Oasis, Pink Floyd, Queen, Radiohead, Rammstein, Red Hot Chili Peppers, Rolling Stones, Scorpions, Silbermond, Slipknot, Sportfreunde Stiller, The Killers, Tokio Hotel, Twenty One Pilots, U2, Unheilig, Wir sind Helden, Westlife, Wanda, Xavas, Zoe Wees, Revolverheld, Kraftklub, Annenmaykantereit, Madsen, Element of Crime, Beatsteaks, Seeed, Santiano, Die Prinzen, Pur, Höhner, Brings, Cascada, Scooter, Eurythmics, Bee Gees, Boney M., Modern Talking, Spice Girls, Take That, Panic! at the Disco, Paramore, Gorillaz"
+  },
+  {
+    "id": "harry-potter",
+    "label": "Harry Potter",
+    "task": "ETWAS AUS HARRY POTTER MIT",
+    "group": "Filme, Serien & Spiele",
+    "words": "Askaban, Avada Kedavra, Basilisk, Bellatrix, Besen, Butterbier, Cedric, Cho Chang, Dementor, Dobby, Draco / Draco Malfoy, Dumbledore, Expelliarmus, Firenze, Fawkes, Feuerblitz, Fred, George, Ginny, Gilderoy Lockhart, Gringotts, Gryffindor, Hagrid, Harry, Hedwig, Hermine, Hogsmeade, Hogwarts, Hufflepuff, Horkrux, Ilvermorny, Krätze, Kniesel, Lucius, Luna, Lupin, Malfoy, McGonagall, Minerva, Muggel, Neville, Nimbus, Nagini, Patronus, Peeves, Quidditch, Quirrell, Ravenclaw, Remus, Ron, Seidenschnabel, Sirius, Slytherin, Snape, Schnatz, Sprechender Hut, Tom Riddle, Umbridge, Voldemort, Weasley, Winkelgasse, Zaubertrank, Zauberstab, Zauberer, Nimbus 2000, Klatscher, Quaffel, Grimmauldplatz, Fuchsbau, Tonks, Kreacher, Cornelius Fudge, Durmstrang, Beauxbatons, Fleur, Viktor Krum, Trimagisches Turnier, Heiligtümer des Todes, Tarnumhang, Karte des Rumtreibers, Lumos, Alohomora, Wingardium Leviosa, Accio, Stupor, Riddikulus"
+  },
+  {
+    "id": "spiele",
+    "label": "Brett- & Kartenspiele",
+    "task": "EIN BRETT- ODER KARTENSPIEL MIT",
+    "group": "Filme, Serien & Spiele",
+    "words": "Activity, Azul, Backgammon, Bingo, Blackjack, Bohnanza, Canasta, Carcassonne, Cluedo, Codenames, Dame, Dixit, Dobble, Domino, Doppelkopf, Exploding Kittens, Halma, Jenga, Kniffel / Yahtzee, Labyrinth, Ligretto, Mau-Mau, Mensch ärgere dich nicht, Memory, Mikado, Monopoly, Mühle, Mastermind, Phase 10, Poker, Quartett, Risiko, Rommé, Schach, Scrabble, Schwarzer Peter, Skat, Siedler von Catan / Catan, Skip-Bo, Solitär, Stadt Land Fluss, Tabu, Twister, Uno, Vier gewinnt, Wizard, Werwolf, Wer bin ich, Tic Tac Toe, Ticket to Ride / Zug um Zug, Pictionary, Pandemie, Qwirkle, Rummikub, Halli Galli, Speed, Bluff, Doodle, Hanabi, Kakerlakenpoker, Nobody is perfect, Trivial Pursuit, Sagaland, Spiel des Lebens, Malefiz, Fang den Hut, Elfer raus, Durak, Schafkopf, Watten, Jass, Bridge, Go, Mahjong, Patience"
+  },
+  {
+    "id": "musikgenres",
+    "label": "Musikrichtungen",
+    "task": "EINE MUSIKRICHTUNG MIT",
+    "group": "Filme, Serien & Spiele",
+    "words": "Afrobeat, Ambient, Bachata, Balkan, Blues, Bossa Nova, Chanson, Country, Dancehall, Deutschrap, Disco, Drum and Bass, Dubstep, Electro, EDM, Emo, Flamenco, Folk, Funk, Gospel, Grime, Grunge, Hardstyle, Hardrock, Heavy Metal / Metal, Hip-Hop, House, Indie, Jazz, J-Pop, Jodeln, Klassik, K-Pop, Latin, Lo-Fi, Mambo, Metalcore, Musical, Neue Deutsche Welle, Oper, Pop, Punk, R&B, Rap, Reggae, Reggaeton, Rock, Rock 'n' Roll, Rumba, Salsa, Samba, Schlager, Ska, Soul, Swing, Synthwave, Tango, Techno, Trance, Trap, Volksmusik, Walzer, Wave, Zydeco, Big Band, Krautrock, Phonk, Afro House, Gabber, Garage, Polka, Marschmusik, A cappella, Barock, Romantik"
+  },
+  {
+    "id": "minecraft",
+    "label": "Minecraft",
+    "task": "ETWAS AUS MINECRAFT MIT",
+    "group": "Filme, Serien & Spiele",
+    "words": "Amboss, Axolotl, Bambus, Biene, Blaze / Lohe, Bogen, Creeper, Diamant, Drache / Enderdrache, Eisen, Eisengolem, Elytra, Enderman, Enderperle, Endportal, Erz, Fackel, Gold, Ghast, Glowstone, Hacke, Holz, Kiste, Kohle, Kupfer, Kuh, Lava, Lapislazuli, Nether, Netherit, Obsidian, Ofen, Papagei, Pferd, Phantom, Pickaxe / Spitzhacke, Redstone, Schaf, Schleim, Schwein, Schwert, Shulker, Skelett, Smaragd, Spinne, Steve, Alex, TNT, Trank, Truhe, Villager / Dorfbewohner, Warden, Werkbank, Wither, Wolf, Zombie, Zaubertisch, Wüstentempel, Dschungel, Biom, Netherportal, Glas, Sand, Kies, Kaktus, Melone, Kürbis, Leiter, Bett, Eimer, Angel, Kompass, Karte, Uhr, Schild, Trident / Dreizack, Armbrust, Feuerwerksrakete, Ziegel, Beton, Wolle, Totem"
+  }
+]

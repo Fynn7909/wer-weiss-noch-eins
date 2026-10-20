@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sportarten",
+    "label": "Sportarten",
+    "task": "EINE SPORTART MIT",
+    "group": "Sport & Freizeit",
+    "words": "Aerobic, Angeln, Badminton, Ballett, Baseball, Basketball, Biathlon, Billard, Bobfahren, Bogenschießen, Boxen, Bouldern, Bowling, Cricket, Curling, Darts, Dressurreiten, Eishockey, Eiskunstlauf, Eisschnelllauf, Fechten, Feldhockey, Football, Formel 1, Fußball, Freeclimbing, Gewichtheben, Golf, Handball, Hochsprung, Hockey, Hürdenlauf, Inlineskaten, Joggen, Judo, Jiu-Jitsu, Kajak, Kanu, Karate, Kegeln, Kickboxen, Kitesurfen, Klettern, Kraftsport, Kung Fu, Lacrosse, Laufen, Leichtathletik, Marathon, MMA, Minigolf, Motocross, Mountainbiken, Netball, Parkour, Pilates, Polo, Radfahren, Reiten, Ringen, Rodeln, Rudern, Rugby, Schach, Schwimmen, Segeln, Skateboarden, Skifahren, Skispringen, Snowboarden, Softball, Speerwurf, Squash, Stabhochsprung, Sumo, Surfen, Taekwondo, Tauchen, Tennis, Tischtennis, Triathlon, Turnen, Ultimate Frisbee, Volleyball, Wakeboarden, Wasserball, Wandern, Weitsprung, Windsurfen, Yoga, Zehnkampf, Zumba, Padel, Beachvolleyball, Crossfit, Kugelstoßen, Diskuswurf, Hammerwurf, Synchronschwimmen, Wasserspringen, Rollschuhlaufen, Langlauf"
+  },
+  {
+    "id": "instrumente",
+    "label": "Musikinstrumente",
+    "task": "EIN MUSIKINSTRUMENT MIT",
+    "group": "Sport & Freizeit",
+    "words": "Akkordeon / Ziehharmonika, Alphorn, Banjo, Bass / E-Bass, Becken, Blockflöte, Bongo, Bratsche, Cajón, Cello, Cembalo, Didgeridoo, Dudelsack, E-Gitarre, Fagott, Flöte / Querflöte, Glockenspiel, Gitarre, Gong, Harfe, Harmonium, Horn, Kontrabass, Keyboard, Klarinette, Klavier / Piano, Kastagnetten, Kazoo, Lyra, Laute, Mandoline, Maracas / Rasseln, Marimba, Mundharmonika, Oboe, Orgel, Panflöte, Pauke, Piccolo, Posaune, Rassel, Saxophon, Schellenkranz / Tamburin, Schlagzeug, Sitar, Synthesizer, Tuba, Trompete, Triangel, Trommel, Ukulele, Violine / Geige, Vibraphon, Waldhorn, Xylophon, Zither, Zimbel, Djembe, Melodica, Okarina, Theremin, Steeldrum, Kalimba, Hackbrett, Drehorgel, Spinett, Tenorhorn, Fanfare, Shamisen, Koto, Balalaika, Bouzouki, Dulcimer"
+  },
+  {
+    "id": "hobbys",
+    "label": "Hobbys",
+    "task": "EIN HOBBY MIT",
+    "group": "Sport & Freizeit",
+    "words": "Angeln, Backen, Basteln, Bloggen, Brettspiele, Bouldern, Camping, Chillen, Cosplay, Fotografieren, Gärtnern, Gaming / Zocken, Geocaching, Gitarre spielen, Häkeln, Imkern, Jonglieren, Joggen, Kochen, Klettern, Kreuzworträtsel, Lesen, Malen, Meditieren, Modellbau, Musik machen, Nähen, Origami, Puzzeln, Podcasten, Reisen, Reiten, Schach, Schwimmen, Singen, Skaten, Sammeln, Sport, Stricken, Sudoku, Surfen, Tanzen, Tauchen, Töpfern, Videos drehen, Vögel beobachten, Wandern, Yoga, Zeichnen, Zaubern, Briefmarken sammeln, Lego bauen, Theater spielen, Fahrradfahren, Fitness, Gassi gehen, Heimwerken, Kalligraphie, Karaoke, Programmieren, Rätseln, Schreiben, Serien schauen, Shoppen, Sprachen lernen, Streamen, Upcycling, Volleyball, Wellness, Zelten, Drachen steigen, Pilze sammeln, Sterne beobachten"
+  },
+  {
+    "id": "taenze",
+    "label": "Tänze",
+    "task": "EIN TANZ MIT",
+    "group": "Sport & Freizeit",
+    "words": "Ballett, Bachata, Boogie-Woogie, Breakdance, Cha-Cha-Cha, Charleston, Contemporary, Discofox, Flamenco, Foxtrott, Hip-Hop, Hula, Jazzdance, Jive, Krumping, Kizomba, Lambada, Limbo, Line Dance, Macarena, Mambo, Moonwalk, Paso Doble, Polka, Polonaise, Pogo, Quickstep, Rumba, Rock 'n' Roll, Salsa, Samba, Schuhplattler, Square Dance, Stepptanz, Swing, Tango, Twerking, Twist, Walzer, Wiener Walzer, Voguing, Zumba, Bauchtanz, Cancan, Dabke, Haka, Lindy Hop, Merengue, Popping, Locking, Shuffle, Floss, Dougie, Gangnam Style, Kasatschok, Sirtaki, Menuett, Gavotte, Bolero, Fandango, Tarantella, Reggaeton, Poledance, Formationstanz"
+  },
+  {
+    "id": "spielzeug",
+    "label": "Spielzeug",
+    "task": "EIN SPIELZEUG MIT",
+    "group": "Sport & Freizeit",
+    "words": "Actionfigur, Bauklötze, Ball, Barbie, Bobby-Car, Bausteine, Bilderbuch, Brummkreisel, Dreirad, Drachen, Eisenbahn / Modelleisenbahn, Fidget Spinner, Fingerfarben, Frisbee, Gameboy, Hüpfburg, Hula-Hoop, Holzpferd / Schaukelpferd, Jo-Jo, Kaleidoskop, Kartenspiel, Kasperpuppe / Handpuppe, Kreisel, Knete, Kuscheltier / Plüschtier, Lego, Matchbox, Murmeln, Murmelbahn, Malbuch, Playmobil, Puppe, Puppenhaus, Puzzle, Rassel, Rubik's Cube / Zauberwürfel, Roller, Rutsche, Sandkasten, Schaukel, Schleich, Seifenblasen, Springseil, Stofftier, Steckenpferd, Teddybär / Teddy, Trampolin, Tamagotchi, Wasserpistole, Wippe, Zinnsoldat, Tretauto, Ferngesteuertes Auto, Drohne, Kaufladen, Kinderküche, Spielzeugauto, Hot Wheels, Nerf, Slime / Schleim, Squishy, Tonie / Toniebox, Pop It, Duplo, Brio, Carrera, Furby, Polly Pocket, Sylvanian Families, Monchhichi"
+  },
+  {
+    "id": "strand",
+    "label": "Am Strand",
+    "task": "ETWAS AM STRAND MIT",
+    "group": "Sport & Freizeit",
+    "words": "Badeanzug, Badehose, Badetuch, Ball, Bikini, Boot, Burg / Sandburg, Cocktail, Delfin, Düne, Eimer, Eis, Fischbrötchen, Flip-Flops, Frisbee, Handtuch, Hut, Insel, Kescher, Krabbe, Kühltasche, Leuchtturm, Liegestuhl, Luftmatratze, Möwe, Muschel, Meer, Palme, Picknick, Qualle, Rettungsschwimmer, Rettungsring, Sand, Sandale, Schaufel, Schwimmflügel, Schnorchel, Sonnenbrand, Sonnenbrille, Sonnencreme, Sonnenschirm, Strandkorb, Surfbrett, Taucherbrille, Tang / Seetang, Taucher, Volleyball, Welle, Wasserball, Wind, Windschutz, Zelt, Krebs, Seestern, Flut, Ebbe, Bucht, Steg, Pier, Kiosk, Strandbar, Kokosnuss, Hängematte, Badelatschen, Kite, SUP / Stand-up-Paddle, Tretboot, Jetski, Bademeister"
+  },
+  {
+    "id": "urlaub",
+    "label": "Dinge im Koffer",
+    "task": "ETWAS IM KOFFER MIT",
+    "group": "Sport & Freizeit",
+    "words": "Adapter, Badehose, Bikini, Buch, Bürste, Creme, Deo, Duschgel, Föhn, Gürtel, Handtuch, Handy, Hemd, Hose, Hut, Jacke, Jeans, Kamm, Kamera, Kleid, Kopfhörer, Kopfkissen, Kulturbeutel, Ladekabel, Ladegerät, Lippenpflege, Medikamente, Mütze, Nagelschere, Nackenkissen, Pass / Reisepass, Pflaster, Pullover, Powerbank, Rasierer, Regenjacke, Rock, Sandalen, Schal, Schlafanzug / Pyjama, Schuhe, Shampoo, Shorts, Snacks, Socken, Sonnenbrille, Sonnencreme, Strümpfe, Tablet, T-Shirt, Taschenlampe, Tickets, Unterhose, Unterwäsche, Wäsche, Wecker, Zahnbürste, Zahnpasta, Zelt, Brille, Kontaktlinsen, Geldbeutel / Portemonnaie, Ausweis, Schlüssel, Kartenspiel, Reiseführer, Kuscheltier, Mückenspray, Flipflops, Wanderschuhe, Kleiderbügel, Waschmittel, Ohrstöpsel, Schlafmaske"
+  },
+  {
+    "id": "party",
+    "label": "Party & Feiern",
+    "task": "ETWAS AUF EINER PARTY MIT",
+    "group": "Sport & Freizeit",
+    "words": "Bier, Bowle, Ballons / Luftballons, Bierpong, Buffet, Chips, Cocktail, Discokugel, DJ, Dekoration, Einladung, Feuerwerk, Flaschendrehen, Gäste, Geburtstagskuchen, Geschenk, Girlande, Glitzer, Grill, Hut, Kerzen, Konfetti, Karaoke, Kuchen, Lichterkette, Limo, Lautsprecher, Musik, Nachbarn, Nachtisch, Pizza, Polonaise, Punsch, Partyhut, Playlist, Quatsch, Sekt, Salat, Snacks, Spiele, Stimmung, Strohhalm, Tanzfläche, Torte, Tröte, Twister, Überraschung, Wahrheit oder Pflicht, Würstchen, Wunderkerze, Zelt, Zuckerwatte, Fotobox, Kostüm, Maske, Motto, Pinata, Pappteller, Plastikbecher, Kater, Aufräumen, Musikbox, Nebelmaschine, Lichtshow, Flunkyball, Kiste, Eiswürfel, Sangria, Popcorn, Nachos, Dip"
+  }
+]

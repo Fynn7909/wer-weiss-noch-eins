@@ -1,0 +1,1550 @@
+{
+  "id": "capitals",
+  "label": "Hauptstädte",
+  "task": "EINE HAUPTSTADT MIT",
+  "group": "Geografie",
+  "entries": [
+    {
+      "name": "Kabul",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kairo",
+      "variants": [
+        "Cairo"
+      ],
+      "letters": [
+        "K",
+        "C"
+      ]
+    },
+    {
+      "name": "Tirana",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Algier",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Andorra la Vella",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Luanda",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "St. John's",
+      "variants": [
+        "Saint John's"
+      ],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Malabo",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Buenos Aires",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Jerewan",
+      "variants": [
+        "Eriwan",
+        "Yerevan"
+      ],
+      "letters": [
+        "J",
+        "E",
+        "Y"
+      ]
+    },
+    {
+      "name": "Baku",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Addis Abeba",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Canberra",
+      "variants": [],
+      "letters": [
+        "C"
+      ]
+    },
+    {
+      "name": "Nassau",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Manama",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Dhaka",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Bridgetown",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Minsk",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Brüssel",
+      "variants": [
+        "Bruxelles"
+      ],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Belmopan",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Porto-Novo",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Thimphu",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Sucre",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "La Paz",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Sarajevo",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Gaborone",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Brasília",
+      "variants": [
+        "Brasilia"
+      ],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bandar Seri Begawan",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Sofia",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Ouagadougou",
+      "variants": [
+        "Wagadugu"
+      ],
+      "letters": [
+        "O",
+        "W"
+      ]
+    },
+    {
+      "name": "Gitega",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Santiago de Chile",
+      "variants": [
+        "Santiago"
+      ],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Peking",
+      "variants": [
+        "Beijing"
+      ],
+      "letters": [
+        "P",
+        "B"
+      ]
+    },
+    {
+      "name": "San José",
+      "variants": [
+        "San Jose"
+      ],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Kopenhagen",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Berlin",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Roseau",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Santo Domingo",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Dschibuti",
+      "variants": [
+        "Djibouti"
+      ],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Kinshasa",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Quito",
+      "variants": [],
+      "letters": [
+        "Q"
+      ]
+    },
+    {
+      "name": "Yamoussoukro",
+      "variants": [],
+      "letters": [
+        "Y"
+      ]
+    },
+    {
+      "name": "San Salvador",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Asmara",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Tallinn",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Mbabane",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Lobamba",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Suva",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Helsinki",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Paris",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Libreville",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Banjul",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Tiflis",
+      "variants": [
+        "Tbilissi",
+        "Tbilisi"
+      ],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Accra",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "St. George's",
+      "variants": [
+        "Saint George's"
+      ],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Athen",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Guatemala-Stadt",
+      "variants": [
+        "Guatemala City",
+        "Guatemala"
+      ],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Conakry",
+      "variants": [],
+      "letters": [
+        "C"
+      ]
+    },
+    {
+      "name": "Bissau",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Georgetown",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Port-au-Prince",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Tegucigalpa",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Neu-Delhi",
+      "variants": [
+        "New Delhi",
+        "Delhi"
+      ],
+      "letters": [
+        "N",
+        "D"
+      ]
+    },
+    {
+      "name": "Jakarta",
+      "variants": [
+        "Djakarta"
+      ],
+      "letters": [
+        "J",
+        "D"
+      ]
+    },
+    {
+      "name": "Bagdad",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Teheran",
+      "variants": [
+        "Tehran"
+      ],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Dublin",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Reykjavík",
+      "variants": [
+        "Reykjavik"
+      ],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Jerusalem",
+      "variants": [],
+      "letters": [
+        "J"
+      ]
+    },
+    {
+      "name": "Rom",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Kingston",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Tokio",
+      "variants": [
+        "Tokyo"
+      ],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Sanaa",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Amman",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Phnom Penh",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Jaunde",
+      "variants": [
+        "Yaoundé",
+        "Yaounde"
+      ],
+      "letters": [
+        "J",
+        "Y"
+      ]
+    },
+    {
+      "name": "Ottawa",
+      "variants": [],
+      "letters": [
+        "O"
+      ]
+    },
+    {
+      "name": "Praia",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Astana",
+      "variants": [
+        "Nur-Sultan"
+      ],
+      "letters": [
+        "A",
+        "N"
+      ]
+    },
+    {
+      "name": "Doha",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Nairobi",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Bischkek",
+      "variants": [
+        "Bishkek"
+      ],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "South Tarawa",
+      "variants": [
+        "Tarawa"
+      ],
+      "letters": [
+        "S",
+        "T"
+      ]
+    },
+    {
+      "name": "Bogotá",
+      "variants": [
+        "Bogota"
+      ],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Moroni",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Zagreb",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Havanna",
+      "variants": [
+        "Havana"
+      ],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Kuwait-Stadt",
+      "variants": [
+        "Kuwait City",
+        "Kuwait"
+      ],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Vientiane",
+      "variants": [],
+      "letters": [
+        "V"
+      ]
+    },
+    {
+      "name": "Maseru",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Riga",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Beirut",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Monrovia",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Tripolis",
+      "variants": [
+        "Tripoli"
+      ],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Vaduz",
+      "variants": [],
+      "letters": [
+        "V"
+      ]
+    },
+    {
+      "name": "Vilnius",
+      "variants": [
+        "Wilna"
+      ],
+      "letters": [
+        "V",
+        "W"
+      ]
+    },
+    {
+      "name": "Luxemburg",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Antananarivo",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Lilongwe",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Kuala Lumpur",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Malé",
+      "variants": [
+        "Male"
+      ],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Bamako",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Valletta",
+      "variants": [],
+      "letters": [
+        "V"
+      ]
+    },
+    {
+      "name": "Rabat",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Majuro",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Nouakchott",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Port Louis",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Mexiko-Stadt",
+      "variants": [
+        "Mexico City"
+      ],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Palikir",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Chișinău",
+      "variants": [
+        "Chisinau",
+        "Kischinau"
+      ],
+      "letters": [
+        "C",
+        "K"
+      ]
+    },
+    {
+      "name": "Monaco",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Ulaanbaatar",
+      "variants": [
+        "Ulan Bator"
+      ],
+      "letters": [
+        "U"
+      ]
+    },
+    {
+      "name": "Podgorica",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Maputo",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Naypyidaw",
+      "variants": [
+        "Naypyitaw"
+      ],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Windhoek",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Yaren",
+      "variants": [],
+      "letters": [
+        "Y"
+      ]
+    },
+    {
+      "name": "Kathmandu",
+      "variants": [
+        "Katmandu"
+      ],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Wellington",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Managua",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Amsterdam",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Niamey",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Abuja",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Pjöngjang",
+      "variants": [
+        "Pyongyang"
+      ],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Skopje",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Oslo",
+      "variants": [],
+      "letters": [
+        "O"
+      ]
+    },
+    {
+      "name": "Maskat",
+      "variants": [
+        "Muscat"
+      ],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Wien",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Dili",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Islamabad",
+      "variants": [],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Ngerulmud",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Panama-Stadt",
+      "variants": [
+        "Panama City",
+        "Panama"
+      ],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Port Moresby",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Asunción",
+      "variants": [
+        "Asuncion"
+      ],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Lima",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Manila",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Warschau",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Lissabon",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Brazzaville",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Kigali",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Bukarest",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Moskau",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Honiara",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Lusaka",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Apia",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "San Marino",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "São Tomé",
+      "variants": [
+        "Sao Tome"
+      ],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Riad",
+      "variants": [
+        "Riyadh"
+      ],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Stockholm",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Bern",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Dakar",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Belgrad",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Victoria",
+      "variants": [],
+      "letters": [
+        "V"
+      ]
+    },
+    {
+      "name": "Freetown",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Harare",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Singapur",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Bratislava",
+      "variants": [
+        "Pressburg"
+      ],
+      "letters": [
+        "B",
+        "P"
+      ]
+    },
+    {
+      "name": "Ljubljana",
+      "variants": [
+        "Laibach"
+      ],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Mogadischu",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Madrid",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Sri Jayewardenepura Kotte",
+      "variants": [
+        "Kotte"
+      ],
+      "letters": [
+        "S",
+        "K"
+      ]
+    },
+    {
+      "name": "Colombo",
+      "variants": [],
+      "letters": [
+        "C"
+      ]
+    },
+    {
+      "name": "Basseterre",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Castries",
+      "variants": [],
+      "letters": [
+        "C"
+      ]
+    },
+    {
+      "name": "Kingstown",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Pretoria",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Kapstadt",
+      "variants": [
+        "Cape Town"
+      ],
+      "letters": [
+        "K",
+        "C"
+      ]
+    },
+    {
+      "name": "Bloemfontein",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Khartum",
+      "variants": [
+        "Khartoum"
+      ],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Seoul",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Juba",
+      "variants": [],
+      "letters": [
+        "J"
+      ]
+    },
+    {
+      "name": "Paramaribo",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Damaskus",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Duschanbe",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Dodoma",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Bangkok",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Lomé",
+      "variants": [
+        "Lome"
+      ],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Nuku'alofa",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Port of Spain",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "N'Djamena",
+      "variants": [
+        "Ndschamena"
+      ],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Prag",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Tunis",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Ankara",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Aschgabat",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Funafuti",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Kampala",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kiew",
+      "variants": [
+        "Kyjiw",
+        "Kyiv"
+      ],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Budapest",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Montevideo",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Taschkent",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Port Vila",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Caracas",
+      "variants": [],
+      "letters": [
+        "C"
+      ]
+    },
+    {
+      "name": "Abu Dhabi",
+      "variants": [
+        "Abu Dabi"
+      ],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Washington",
+      "variants": [
+        "Washington, D.C."
+      ],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "London",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Hanoi",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Bangui",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Nikosia",
+      "variants": [
+        "Nicosia"
+      ],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Pristina",
+      "variants": [
+        "Priština"
+      ],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Taipeh",
+      "variants": [
+        "Taipei"
+      ],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Ramallah",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Vatikanstadt",
+      "variants": [],
+      "letters": [
+        "V"
+      ]
+    }
+  ]
+}

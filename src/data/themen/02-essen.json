@@ -1,0 +1,72 @@
+[
+  {
+    "id": "obst",
+    "label": "Obst",
+    "task": "EIN OBST MIT",
+    "group": "Essen & Trinken",
+    "words": "Acerola, Ananas, Apfel, Aprikose / Marille, Avocado, Banane, Birne, Blaubeere / Heidelbeere, Brombeere, Cranberry / Moosbeere, Cherimoya, Clementine, Dattel, Drachenfrucht / Pitahaya, Durian, Erdbeere, Feige, Granatapfel, Grapefruit, Guave, Hagebutte, Himbeere, Holunder, Honigmelone, Jackfrucht, Johannisbeere, Kaki, Kaktusfeige, Kirsche, Kiwi, Kokosnuss, Kumquat, Limette, Litschi, Mandarine, Mango, Mangostan, Maracuja / Passionsfrucht, Melone, Mirabelle, Mispel, Moltebeere, Maulbeere, Nashi, Nektarine, Olive, Orange / Apfelsine, Papaya, Pfirsich, Physalis, Pflaume, Pomelo, Preiselbeere, Quitte, Rambutan, Reneklode, Rhabarber, Sanddorn, Sauerkirsche, Schlehe, Stachelbeere, Sternfrucht / Karambole, Tamarinde, Traube / Weintraube, Wassermelone, Weichsel, Zitrone, Zwetschge"
+  },
+  {
+    "id": "gemuese",
+    "label": "Gemüse",
+    "task": "EIN GEMÜSE MIT",
+    "group": "Essen & Trinken",
+    "words": "Artischocke, Aubergine, Bambussprossen, Bärlauch, Blattspinat, Blumenkohl, Bohne, Brokkoli, Butternut, Chicorée, Chili, Chinakohl, Edamame, Endivie, Erbse, Feldsalat, Fenchel, Frühlingszwiebel, Grünkohl, Gurke, Ingwer, Kaiserschote / Zuckerschote, Kartoffel, Karotte / Möhre, Kichererbse, Knoblauch, Kohlrabi, Kopfsalat, Kresse, Kürbis, Lauch / Porree, Linse, Mais, Mangold, Meerrettich, Okra, Oliven, Pak Choi, Paprika, Pastinake, Peperoni, Petersilienwurzel, Pilz, Radicchio, Radieschen, Rettich, Romanesco, Rosenkohl, Rote Bete, Rotkohl, Rucola, Schalotte, Schwarzwurzel, Sellerie, Spargel, Spinat, Steckrübe, Süßkartoffel, Tomate, Topinambur, Weißkohl, Wirsing, Yamswurzel, Zucchini, Zwiebel"
+  },
+  {
+    "id": "getraenke",
+    "label": "Getränke",
+    "task": "EIN GETRÄNK MIT",
+    "group": "Essen & Trinken",
+    "words": "Apfelsaft, Apfelschorle, Ayran, Bier, Bubble Tea, Buttermilch, Cappuccino, Cola, Cocktail, Eistee, Espresso, Energydrink, Fanta, Glühwein, Grüner Tee, Heiße Schokolade, Holundersaft, Ingwertee, Johannisbeersaft, Kaffee, Kakao, Kamillentee, Kefir, Kirschsaft, Kombucha, Kräutertee, Latte Macchiato, Limonade / Limo, Lassi, Malzbier, Mate, Milch, Milchshake, Mineralwasser, Mojito, Most, Multivitaminsaft, Orangensaft, Pfefferminztee, Punsch, Radler, Rotwein, Saft, Sekt, Smoothie, Spezi, Sprite, Sprudel, Tee, Tomatensaft, Traubensaft, Wasser, Wein, Weißwein, Wodka, Whisky, Zitronenlimonade, Kakaomilch, Chai, Matcha, Apfelwein, Rum, Gin, Sake, Champagner, Prosecco, Cidre, Yogi Tee, Kirschbananensaft / KiBa"
+  },
+  {
+    "id": "suessigkeiten",
+    "label": "Süßigkeiten",
+    "task": "EINE SÜSSIGKEIT MIT",
+    "group": "Essen & Trinken",
+    "words": "After Eight, Bonbon, Brause, Brownie, Cookie, Corny, Duplo, Eis, Ferrero Rocher, Fruchtgummi, Gummibärchen, Haribo, Hanuta, Kaugummi, Kinder Bueno, Kinderriegel, Kinderschokolade, Kitkat, Knoppers, Lakritz, Lebkuchen, Lolli / Lutscher, Marzipan, Mars, Milka, Milky Way, M&Ms, Maoam, Mentos, Mon Chéri, Muffin, Schokokuss, Nougat, Nutella, Pralinen, Raffaello, Rittersport, Schaumkuss, Schokolade, Snickers, Smarties, Toffifee, Twix, Waffeln, Weingummi, Werthers, Yogurette, Zuckerwatte, Zuckerstange, Kekse, Karamell, Trüffel, Marshmallow, Bounty, Lion, Celebrations, Tic Tac, Oreo, Pick Up, Prinzenrolle, Kokosmakronen, Schokobons, Popcorn, Gebrannte Mandeln, Lindt, Daim, Toblerone"
+  },
+  {
+    "id": "gewuerze",
+    "label": "Gewürze & Kräuter",
+    "task": "EIN GEWÜRZ ODER KRAUT MIT",
+    "group": "Essen & Trinken",
+    "words": "Anis, Basilikum, Bärlauch, Bohnenkraut, Borretsch, Cayennepfeffer, Chili, Curry, Dill, Estragon, Fenchel, Garam Masala, Ingwer, Kardamom, Kerbel, Knoblauch, Koriander, Kreuzkümmel, Kümmel, Kurkuma, Lavendel, Liebstöckel, Lorbeer, Majoran, Minze, Muskat, Nelken / Gewürznelken, Oregano, Paprika, Petersilie, Pfeffer, Piment, Rosmarin, Safran, Salbei, Salz, Schnittlauch, Senf, Sternanis, Sumach, Thymian, Vanille, Wacholder, Wasabi, Zimt, Zitronengras, Zitronenmelisse, Zucker, Ras el Hanout, Baharat, Za'atar, Harissa, Meerrettich, Kresse"
+  },
+  {
+    "id": "kaese",
+    "label": "Käsesorten",
+    "task": "EINE KÄSESORTE MIT",
+    "group": "Essen & Trinken",
+    "words": "Appenzeller, Babybel, Bergkäse, Brie, Burrata, Butterkäse, Camembert, Cheddar, Comté, Edamer, Emmentaler, Feta, Frischkäse, Gorgonzola, Gouda, Gruyère / Greyerzer, Halloumi, Harzer, Havarti, Hüttenkäse, Leerdammer, Limburger, Manchego, Mascarpone, Maasdamer, Mozzarella, Münster, Obatzda, Parmesan, Pecorino, Philadelphia, Provolone, Quark, Raclette, Reblochon, Ricotta, Roquefort, Romadur, Schafskäse, Schmelzkäse, Stilton, Tilsiter, Taleggio, Weichkäse, Ziegenkäse, Bavaria Blu, Cambozola, Grana Padano, Esrom, Tête de Moine, Vacherin, Bel Paese"
+  },
+  {
+    "id": "gebaeck",
+    "label": "Kuchen & Gebäck",
+    "task": "EIN KUCHEN ODER GEBÄCK MIT",
+    "group": "Essen & Trinken",
+    "words": "Amerikaner, Apfelkuchen, Apfelstrudel, Baumkuchen, Berliner / Krapfen, Bienenstich, Biskuitrolle, Brezel, Brownie, Butterkuchen, Cantuccini, Cheesecake / Käsekuchen, Churros, Cookie, Croissant, Cupcake, Donauwelle, Donut, Eclair, Eierschecke, Florentiner, Franzbrötchen, Frankfurter Kranz, Gugelhupf, Hefezopf, Kaiserschmarrn, Keks, Kopenhagener, Kranzkuchen, Lebkuchen, Linzer Torte, Macaron, Madeleine, Makrone, Marmorkuchen, Mohnkuchen, Muffin, Nussecke, Obstkuchen, Plunder, Pfannkuchen, Quarkbällchen, Rhabarberkuchen, Rührkuchen, Sachertorte, Schwarzwälder Kirschtorte, Spekulatius, Stollen, Streuselkuchen, Tarte, Tiramisu, Vanillekipferl, Waffel, Windbeutel, Zimtschnecke, Zitronenkuchen, Zwetschgenkuchen / Pflaumenkuchen, Zupfkuchen, Panettone, Baklava, Scones, Profiteroles, Petit Four, Mandelhörnchen, Schneeball, Spritzgebäck, Kalter Hund, Herrentorte, Prinzregententorte"
+  },
+  {
+    "id": "gerichte",
+    "label": "Gerichte aus aller Welt",
+    "task": "EIN GERICHT MIT",
+    "group": "Essen & Trinken",
+    "words": "Bami Goreng, Biryani, Borschtsch, Bouillabaisse, Burrito, Butter Chicken, Caesar Salad, Ceviche, Chili con Carne, Chop Suey, Couscous, Curry, Dal, Dim Sum, Döner, Enchiladas, Falafel, Fajitas, Fish and Chips, Fondue, Frühlingsrolle, Gazpacho, Gulasch, Gyros, Hummus, Irish Stew, Jambalaya, Kebab, Kimchi, Köttbullar, Lasagne, Lahmacun, Moussaka, Nasi Goreng, Paella, Pad Thai, Pelmeni, Pho, Pierogi, Pizza, Poke Bowl, Quesadilla, Quiche, Ramen, Ratatouille, Risotto, Satay, Schnitzel, Shakshuka, Souvlaki, Spaghetti, Sushi, Tacos, Tagine, Tapas, Tempura, Tikka Masala, Tom Yum, Tortilla, Udon, Wan Tan, Wiener Schnitzel, Yakitori, Zaziki / Tzatziki, Pastel de Nata, Pierogi Ruskie, Cevapcici, Börek, Manti, Teriyaki, Okonomiyaki, Bibimbap, Bulgogi"
+  },
+  {
+    "id": "fastfood",
+    "label": "Fast Food & Snacks",
+    "task": "EIN SNACK ODER FAST FOOD MIT",
+    "group": "Essen & Trinken",
+    "words": "Bagel, Brezel, Burger, Burrito, Chicken Wings, Chicken Nuggets, Chips, Cheeseburger, Corn Dog, Crêpe, Currywurst, Döner, Donut, Erdnüsse, Falafel, Fischbrötchen, Flips / Erdnussflips, Frühlingsrolle, Gyros, Hot Dog, Kebab, Kartoffelpuffer, Lahmacun, Mozzarella Sticks, Muffin, Nachos, Onion Rings / Zwiebelringe, Pizza, Pommes, Popcorn, Quesadilla, Salzstangen, Sandwich, Schaschlik, Subway, Taco, Toast, Wrap, Waffel, Wurstbrot, Bratwurst, Croissant, Cracker, Käsestange, Leberkässemmel, Mettbrötchen, Pita, Panini, Quarkbällchen, Riegel, Studentenfutter, Tortilla Chips, Trail Mix, Nüsse, Obst"
+  },
+  {
+    "id": "fastfood-ketten",
+    "label": "Restaurants & Ketten",
+    "task": "EINE RESTAURANTKETTE MIT",
+    "group": "Essen & Trinken",
+    "words": "Burger King, Block House, Backwerk, Bäckerei Ditsch / Ditsch, Coffee Fellows, Chipotle, Dunkin Donuts / Dunkin, Domino's, Five Guys, Hans im Glück, Hallo Pizza, IKEA Restaurant, Jim Block, Kentucky Fried Chicken / KFC, L'Osteria, McDonald's, Mongo's, Nordsee, Pizza Hut, Peter Pane, Popeyes, Starbucks, Subway, Taco Bell, Tim Hortons, Vapiano, Wendy's, Yormas, Espresso House, Costa Coffee, Joey's Pizza, Call a Pizza, Kamps, Le Crobag, Wienerwald, Maredo, Sausalitos, Cafe del Sol, Hooters, Panda Express, Papa John's, Pret A Manger, Wagamama, Benihana, Ben's Cookies, Krispy Kreme, Chick-fil-A, In-N-Out, Shake Shack"
+  }
+]

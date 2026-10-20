@@ -1,0 +1,72 @@
+[
+  {
+    "id": "de-staedte",
+    "label": "Deutsche Städte",
+    "task": "EINE DEUTSCHE STADT MIT",
+    "group": "Geografie",
+    "words": "Aachen, Augsburg, Aschaffenburg, Ansbach, Aalen, Bamberg, Bayreuth, Berlin, Bielefeld, Bochum, Bonn, Bottrop, Braunschweig, Bremen, Bremerhaven, Bad Segeberg, Chemnitz, Celle, Coburg, Cottbus, Cuxhaven, Darmstadt, Dessau, Dortmund, Dresden, Duisburg, Düsseldorf, Dachau, Eisenach, Emden, Erfurt, Erlangen, Essen, Esslingen, Flensburg, Frankfurt, Freiburg, Fulda, Fürth, Friedrichshafen, Garmisch-Partenkirchen, Gelsenkirchen, Gera, Gießen, Göttingen, Görlitz, Gütersloh, Hagen, Halle, Hamburg, Hameln, Hamm, Hannover, Heidelberg, Heilbronn, Herne, Hildesheim, Husum, Ingolstadt, Iserlohn, Jena, Kaiserslautern, Karlsruhe, Kassel, Kempten, Kiel, Koblenz, Köln, Konstanz, Krefeld, Landshut, Leipzig, Leverkusen, Lindau, Lübeck, Ludwigshafen, Lüneburg, Magdeburg, Mainz, Mannheim, Marburg, Mönchengladbach, Mülheim, München, Münster, Neubrandenburg, Neumünster, Neuss, Nürnberg, Oberhausen, Offenbach, Oldenburg, Osnabrück, Paderborn, Passau, Pforzheim, Potsdam, Quedlinburg, Ravensburg, Recklinghausen, Regensburg, Remscheid, Reutlingen, Rosenheim, Rostock, Saarbrücken, Salzgitter, Schwerin, Siegen, Solingen, Stralsund, Stuttgart, Trier, Tübingen, Ulm, Unna, Uelzen, Villingen-Schwenningen, Viersen, Weimar, Wiesbaden, Wismar, Witten, Wolfsburg, Worms, Wuppertal, Würzburg, Xanten, Zwickau, Zweibrücken"
+  },
+  {
+    "id": "welt-staedte",
+    "label": "Städte der Welt",
+    "task": "EINE STADT MIT",
+    "group": "Geografie",
+    "words": "Amsterdam, Athen, Atlanta, Auckland, Bangkok, Barcelona, Basel, Berlin, Bern, Boston, Brüssel, Budapest, Buenos Aires, Bukarest, Chicago, Dallas, Delhi / Neu-Delhi, Denver, Detroit, Dubai, Dublin, Edinburgh, Florenz, Frankfurt, Genf, Glasgow, Graz, Hamburg, Helsinki, Hongkong, Honolulu, Houston, Innsbruck, Istanbul, Jakarta, Jerusalem, Johannesburg, Kairo, Kapstadt, Kiew / Kyjiw, Köln, Kopenhagen, Krakau, Kuala Lumpur, Las Vegas, Lima, Lissabon, Liverpool, London, Los Angeles, Lyon, Madrid, Mailand, Manchester, Marseille, Melbourne, Mexiko-Stadt, Miami, Montreal, Moskau, Mumbai, München, Nairobi, Neapel, New Orleans, New York, Nizza, Oslo, Osaka, Paris, Peking / Beijing, Philadelphia, Porto, Prag, Rio de Janeiro, Riga, Rom, Rotterdam, Salzburg, San Francisco, Santiago, São Paulo, Seattle, Seoul, Shanghai, Singapur, Sevilla, Sofia, Stockholm, Sydney, Tallinn, Tel Aviv, Tokio, Toronto, Tunis, Turin, Valencia, Vancouver, Venedig, Warschau, Washington, Wien, Wilna / Vilnius, Zürich"
+  },
+  {
+    "id": "fluesse",
+    "label": "Flüsse",
+    "task": "EIN FLUSS MIT",
+    "group": "Geografie",
+    "words": "Aare, Alster, Aller, Amazonas, Amur, Arno, Bode, Brahmaputra, Colorado, Columbia, Donau, Dnepr, Dnjestr, Douro / Duero, Ebro, Eider, Elbe, Ems, Euphrat, Fulda, Ganges, Garonne, Havel, Hudson, Iller, Indus, Inn, Isar, Jangtse, Jordan, Kongo, Lahn, Lech, Lena, Limmat, Loire, Main, Mekong, Memel, Mississippi, Missouri, Mosel, Mulde, Murray, Neckar, Neiße, Niger, Nil, Ob, Oder, Orinoco, Paraná, Po, Regen, Rhein, Rhône, Ruhr, Saale, Saar, Sambesi, Seine, Spree, Themse, Tiber, Tigris, Ural, Volta, Weichsel, Werra, Weser, Wolga, Yukon"
+  },
+  {
+    "id": "berge",
+    "label": "Berge & Gebirge",
+    "task": "EIN BERG ODER GEBIRGE MIT",
+    "group": "Geografie",
+    "words": "Aconcagua, Alpen, Anden, Annapurna, Appalachen, Ararat, Atlas, Ätna, Blocksberg / Brocken, Ben Nevis, Dachstein, Denali, Dolomiten, Eiger, Elbrus, Erzgebirge, Everest / Mount Everest, Feldberg, Fichtelberg, Fuji / Fujiyama, Glockner / Großglockner, Harz, Himalaya, Hindukusch, Jungfrau, Kaukasus, Karpaten, Kilimandscharo, K2, Kordilleren, Matterhorn, Mont Blanc, Mount Rushmore, Nanga Parbat, Olymp, Pyrenäen, Rocky Mountains, Rhön, Schwarzwald, Sierra Nevada, Säntis, Taunus, Tafelberg, Tatra, Teide, Ural, Vesuv, Watzmann, Wendelstein, Westerwald, Zugspitze"
+  },
+  {
+    "id": "inseln",
+    "label": "Inseln",
+    "task": "EINE INSEL MIT",
+    "group": "Geografie",
+    "words": "Amrum, Bali, Barbados, Borkum, Bornholm, Borneo, Capri, Bermuda, Dominica, Elba, Fehmarn, Fidschi, Föhr, Gotland, Gran Canaria, Grönland, Guadeloupe, Hawaii, Helgoland, Hiddensee, Ibiza, Irland, Island, Java, Jamaika, Juist, Korfu, Korsika, Kreta, Kuba, Lanzarote, Langeoog, Madagaskar, Madeira, Mallorca, Malta, Malediven, Martinique, Mauritius, Menorca, Mykonos, Neuseeland, Neuwerk, Norderney, Okinawa, Rhodos, Rügen, Sansibar, Santorini, Sardinien, Seychellen, Sizilien, Spiekeroog, Sri Lanka, Sumatra, Sylt, Tahiti, Taiwan, Teneriffa, Tasmanien, Trinidad, Usedom, Wangerooge, Zypern"
+  },
+  {
+    "id": "gewaesser",
+    "label": "Meere & Seen",
+    "task": "EIN MEER ODER SEE MIT",
+    "group": "Geografie",
+    "words": "Adria, Ägäis, Aralsee, Atlantik, Baikalsee, Bodensee, Chiemsee, Eriesee, Gardasee, Genfersee, Huronsee, Indischer Ozean, Kaspisches Meer, Karibik, Ladogasee, Lago Maggiore, Loch Ness, Mittelmeer, Müritz, Nordsee, Ontariosee, Ostsee, Pazifik, Plöner See, Rotes Meer, Schwarzes Meer, Schweriner See, Starnberger See, Steinhuder Meer, Tegernsee, Titicacasee, Totes Meer, Viktoriasee, Wannsee, Wattenmeer, Zürichsee, Ammersee, Arktischer Ozean / Nordpolarmeer, Beringmeer, Ochotskisches Meer, Gelbes Meer, Japanisches Meer, Tanganjikasee, Malawisee, Michigansee, Oberer See, Neusiedler See, Wolfgangsee, Königssee, Großer Plöner See, Kieler Förde, Irische See, Tyrrhenisches Meer, Ionisches Meer, Weißes Meer, Barentssee, Sargassosee, Südchinesisches Meer"
+  },
+  {
+    "id": "us-staaten",
+    "label": "US-Bundesstaaten",
+    "task": "EIN US-BUNDESSTAAT MIT",
+    "group": "Geografie",
+    "words": "Alabama, Alaska, Arizona, Arkansas, Kalifornien / California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina / Nord-Carolina, North Dakota / Nord-Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina / Süd-Carolina, South Dakota / Süd-Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming"
+  },
+  {
+    "id": "sehenswuerdigkeiten",
+    "label": "Sehenswürdigkeiten",
+    "task": "EINE SEHENSWÜRDIGKEIT MIT",
+    "group": "Geografie",
+    "words": "Akropolis, Alhambra, Angkor Wat, Atomium, Big Ben, Brandenburger Tor, Buckingham Palace, Burj Khalifa, Chichén Itzá, Chinesische Mauer, Christusstatue / Cristo Redentor, CN Tower, Colosseum / Kolosseum, Dom / Kölner Dom, Eiffelturm, Elbphilharmonie, Empire State Building, Fernsehturm, Freiheitsstatue, Golden Gate Bridge, Grand Canyon, Hagia Sophia, Hollywood Sign, Holstentor, Kreml, Schiefer Turm von Pisa, Louvre, Machu Picchu, Mount Rushmore, Neuschwanstein, Niagarafälle, Notre-Dame, Oper Sydney / Sydney Opera House, Petra, Petersdom, Pyramiden, Reichstag, Sagrada Família, Schloss Sanssouci, Sphinx, Stonehenge, Taj Mahal, Tower Bridge, Trevi-Brunnen, Triumphbogen, Versailles, Verbotene Stadt, Westminster Abbey, Zugspitze, Wartburg, Zwinger, Uluru / Ayers Rock, Times Square, Roter Platz, Mont-Saint-Michel, Hofbräuhaus, Miniatur Wunderland, Kapitol, Weißes Haus"
+  },
+  {
+    "id": "sprachen",
+    "label": "Sprachen",
+    "task": "EINE SPRACHE MIT",
+    "group": "Geografie",
+    "words": "Afrikaans, Albanisch, Amharisch, Arabisch, Armenisch, Baskisch, Bengalisch, Bosnisch, Bretonisch, Bulgarisch, Chinesisch / Mandarin, Dänisch, Deutsch, Englisch, Esperanto, Estnisch, Färöisch, Farsi / Persisch, Finnisch, Flämisch, Französisch, Friesisch, Georgisch, Griechisch, Gälisch, Hebräisch, Hindi, Isländisch, Indonesisch, Irisch, Italienisch, Japanisch, Jiddisch, Kantonesisch, Katalanisch, Kisuaheli / Swahili, Klingonisch, Koreanisch, Kroatisch, Kurdisch, Latein, Lettisch, Litauisch, Luxemburgisch, Malaiisch, Maltesisch, Mazedonisch, Mongolisch, Nepali, Niederländisch, Norwegisch, Paschtu, Plattdeutsch, Polnisch, Portugiesisch, Quechua, Rätoromanisch, Rumänisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Sorbisch, Spanisch, Tamil, Thai, Tibetisch, Tschechisch, Türkisch, Ukrainisch, Ungarisch, Urdu, Usbekisch, Vietnamesisch, Walisisch, Weißrussisch / Belarussisch, Xhosa, Yoruba, Zulu"
+  },
+  {
+    "id": "regionen",
+    "label": "Bundesländer & Regionen",
+    "task": "EIN BUNDESLAND ODER EINE REGION MIT",
+    "group": "Geografie",
+    "words": "Allgäu, Andalusien, Baden-Württemberg, Bayern, Berlin, Brandenburg, Bremen, Burgenland, Bretagne, Eifel, Elsass, Emsland, Franken, Friesland, Galicien, Hamburg, Hessen, Holstein, Kärnten, Katalonien, Lappland, Lombardei, Mecklenburg-Vorpommern, Niederösterreich, Niedersachsen, Nordrhein-Westfalen, Normandie, Oberösterreich, Ostfriesland, Provence, Rheinland-Pfalz, Ruhrgebiet, Saarland, Sachsen, Sachsen-Anhalt, Salzburg, Sauerland, Schleswig-Holstein, Schottland, Schwaben, Schwarzwald, Sizilien, Steiermark, Südtirol, Thüringen, Tirol, Toskana, Vorarlberg, Wales, Westfalen, Wien, Bayerischer Wald, Lüneburger Heide, Spreewald, Harz, Uckermark, Vogtland, Odenwald, Oberpfalz, Pfalz, Rheinland, Kanton Zürich, Wallis, Graubünden, Tessin, Bern, Uri, Zug, Luzern, Genf, Aargau, Appenzell"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "voegel",
+    "label": "Vögel",
+    "task": "EIN VOGEL MIT",
+    "group": "Natur & Tiere",
+    "words": "Adler, Albatros, Amsel, Ara, Auerhahn, Blaumeise, Buchfink, Bussard, Dohle, Drossel, Eichelhäher, Eisvogel, Elster, Emu, Ente, Eule, Falke, Fasan, Flamingo, Fink, Fregattvogel, Gans, Geier, Gimpel, Graureiher, Habicht, Hahn, Huhn, Kakadu, Kanarienvogel, Kauz, Kiwi, Kolibri, Kondor, Kormoran, Krähe, Kranich, Kuckuck, Lerche, Möwe, Meise, Milan, Nachtigall, Nandu, Pelikan, Papagei, Pfau, Pinguin, Rabe, Rebhuhn, Reiher, Rotkehlchen, Schwalbe, Schwan, Seeadler, Specht, Spatz / Sperling, Star, Storch, Strauß, Taube, Truthahn / Pute, Tukan, Turmfalke, Uhu, Wachtel, Wellensittich, Wiedehopf, Zaunkönig, Zeisig, Ibis, Kiebitz, Kleiber, Gelbhaubenkakadu, Lachmöwe, Papageitaucher, Schneeeule, Sittich, Weißkopfseeadler"
+  },
+  {
+    "id": "meerestiere",
+    "label": "Fische & Meerestiere",
+    "task": "EIN FISCH ODER MEERESTIER MIT",
+    "group": "Natur & Tiere",
+    "words": "Aal, Anglerfisch, Barsch, Blauwal, Clownfisch, Delfin, Dorsch / Kabeljau, Forelle, Garnele, Goldfisch, Hai, Hammerhai, Hering, Hecht, Hummer, Kalmar, Karpfen, Koi, Krabbe, Krake / Oktopus, Languste, Lachs, Makrele, Manta / Mantarochen, Muräne, Muschel, Narwal, Orca / Schwertwal, Piranha, Plattfisch, Qualle, Robbe, Rochen, Rotbarsch, Sardine, Scholle, Schwertfisch, Seehund, Seelöwe, Seepferdchen, Seestern, Seeigel, Seegurke, Seekuh, Sepia / Tintenfisch, Steinbutt, Stör, Thunfisch, Tigerhai, Walross, Walhai, Wels, Weißer Hai, Zander, Zitteraal, Buckelwal, Pottwal, Kugelfisch / Fugu, Feuerfisch, Barrakuda, Guppy, Neonfisch, Skalar, Rotfeuerfisch, Seeteufel, Flunder"
+  },
+  {
+    "id": "insekten",
+    "label": "Insekten & Krabbeltiere",
+    "task": "EIN INSEKT ODER KRABBELTIER MIT",
+    "group": "Natur & Tiere",
+    "words": "Ameise, Assel, Biene, Blattlaus, Bremse, Borkenkäfer, Eintagsfliege, Fliege, Floh, Gottesanbeterin, Glühwürmchen, Grashüpfer / Heuschrecke, Grille, Hirschkäfer, Hornisse, Hummel, Kakerlake, Käfer, Kellerassel, Laus, Libelle, Marienkäfer, Maikäfer, Milbe, Motte, Mücke, Ohrwurm, Raupe, Regenwurm, Schabe, Schmetterling, Schnake, Schnecke, Silberfischchen, Skorpion, Spinne, Stabheuschrecke, Tausendfüßler, Termite, Tarantel, Vogelspinne, Wanze, Wespe, Weberknecht, Zecke, Zikade, Nacktschnecke, Seidenraupe, Wasserläufer, Feuerwanze, Junikäfer, Pillendreher, Kartoffelkäfer, Zitronenfalter, Admiral, Pfauenauge, Bettwanze"
+  },
+  {
+    "id": "hunderassen",
+    "label": "Hunderassen",
+    "task": "EINE HUNDERASSE MIT",
+    "group": "Natur & Tiere",
+    "words": "Afghane, Akita, Australian Shepherd, Basset, Beagle, Berner Sennenhund, Bernhardiner, Bichon Frisé, Border Collie, Boxer, Bulldogge, Bullterrier, Cavalier King Charles, Chihuahua, Chow-Chow, Cockerspaniel, Collie, Corgi, Dackel / Dachshund, Dalmatiner, Dobermann, Dogge, Deutscher Schäferhund / Schäferhund, Eurasier, Foxterrier, Französische Bulldogge, Golden Retriever, Greyhound, Havaneser, Husky, Irish Setter, Jack Russell, Labrador, Leonberger, Malteser, Mops, Neufundländer, Pekinese, Pinscher, Pitbull, Pudel, Rottweiler, Samojede, Schnauzer, Shiba Inu, Shih Tzu, Spitz, Terrier, Weimaraner, Whippet, Windhund, Yorkshire Terrier, Zwergpinscher, Zwergspitz, Pomeranian, Labradoodle, Malinois, Mastiff, Rhodesian Ridgeback, Setter, Spaniel, Beauceron, Bobtail, Hovawart, Kangal"
+  },
+  {
+    "id": "dinos",
+    "label": "Dinosaurier & Urzeit",
+    "task": "EIN DINOSAURIER MIT",
+    "group": "Natur & Tiere",
+    "words": "Allosaurus, Ankylosaurus, Archaeopteryx, Apatosaurus, Brachiosaurus, Brontosaurus, Carnotaurus, Compsognathus, Dilophosaurus, Diplodocus, Dimetrodon, Edmontosaurus, Gallimimus, Giganotosaurus, Iguanodon, Mammut, Megalodon, Mosasaurus, Oviraptor, Pachycephalosaurus, Parasaurolophus, Plesiosaurus, Pteranodon, Quetzalcoatlus, Raptor, Säbelzahntiger, Spinosaurus, Stegosaurus, Therizinosaurus, Triceratops, Tyrannosaurus / T-Rex, Velociraptor, Wollnashorn, Utahraptor, Baryonyx, Megalosaurus, Microraptor, Troodon, Elasmosaurus, Ichthyosaurus, Protoceratops, Maiasaura, Argentinosaurus, Kentrosaurus, Styracosaurus, Dreadnoughtus, Nodosaurus, Psittacosaurus, Herrerasaurus, Coelophysis"
+  },
+  {
+    "id": "baeume",
+    "label": "Bäume",
+    "task": "EIN BAUM MIT",
+    "group": "Natur & Tiere",
+    "words": "Ahorn, Apfelbaum, Affenbrotbaum / Baobab, Akazie, Birke, Birnbaum, Buche, Eibe, Eiche, Erle, Esche, Eukalyptus, Feigenbaum, Fichte, Ginkgo, Hainbuche, Haselnuss, Kastanie, Kiefer, Kirschbaum, Kokospalme, Lärche, Linde, Magnolie, Mammutbaum, Mangobaum, Olivenbaum, Palme, Pappel, Pinie, Platane, Robinie, Rotbuche, Sequoia, Tanne, Teak, Trauerweide, Ulme, Vogelbeere / Eberesche, Walnussbaum, Weide, Weißtanne, Zeder, Zypresse, Zitronenbaum, Mahagoni, Kirschlorbeer, Douglasie, Bambus, Bonsai, Christbaum / Weihnachtsbaum"
+  },
+  {
+    "id": "blumen",
+    "label": "Blumen & Pflanzen",
+    "task": "EINE BLUME ODER PFLANZE MIT",
+    "group": "Natur & Tiere",
+    "words": "Aloe Vera, Amaryllis, Anemone, Aster, Begonie, Brennnessel, Butterblume, Chrysantheme, Dahlie, Distel, Edelweiß, Efeu, Enzian, Farn, Flieder, Fuchsie, Gänseblümchen, Geranie, Gerbera, Gladiole, Glockenblume, Hibiskus, Hortensie, Hyazinthe, Iris, Jasmin, Kaktus, Kamille, Klee, Kornblume, Krokus, Lavendel, Lilie, Löwenzahn, Lotus, Magnolie, Maiglöckchen, Margerite, Mohn, Moos, Narzisse / Osterglocke, Nelke, Orchidee, Pfingstrose, Primel, Ringelblume, Rose, Schneeglöckchen, Sonnenblume, Stiefmütterchen, Tulpe, Usambaraveilchen, Veilchen, Vergissmeinnicht, Weihnachtsstern, Wicke, Seerose, Bambus, Basilikum, Ficus, Monstera, Bogenhanf, Petunie, Zinnie, Zyklame / Alpenveilchen, Fliegenfalle / Venusfliegenfalle, Bonsai, Sukkulente"
+  },
+  {
+    "id": "saeugetiere",
+    "label": "Säugetiere",
+    "task": "EIN SÄUGETIER MIT",
+    "group": "Natur & Tiere",
+    "words": "Affe, Alpaka, Ameisenbär, Antilope, Bär, Biber, Bison, Büffel, Dachs, Delfin, Dromedar, Eichhörnchen, Elch, Elefant, Esel, Faultier, Fledermaus, Frettchen, Fuchs, Gazelle, Gepard, Giraffe, Gorilla, Hamster, Hase, Hirsch, Hund, Hyäne, Igel, Iltis, Jaguar, Kamel, Känguru, Kaninchen, Katze, Koala, Kuh, Lama, Leopard, Löwe, Luchs, Maulwurf, Maus, Meerschweinchen, Murmeltier, Nashorn, Nilpferd, Okapi, Orang-Utan, Otter, Panda, Panther, Pferd, Puma, Ratte, Reh, Rentier, Schaf, Schimpanse, Schwein, Seehund, Stinktier, Tapir, Tiger, Vielfraß, Wal, Waschbär, Wiesel, Wildschwein, Wolf, Yak, Zebra, Ziege, Erdmännchen, Gnu, Lemur, Opossum, Pavian, Quokka, Ozelot, Nerz, Hermelin, Chinchilla, Gürteltier"
+  },
+  {
+    "id": "reptilien",
+    "label": "Reptilien & Amphibien",
+    "task": "EIN REPTIL ODER AMPHIBIUM MIT",
+    "group": "Natur & Tiere",
+    "words": "Alligator, Anakonda, Axolotl, Basilisk, Blindschleiche, Boa, Chamäleon, Eidechse, Feuersalamander, Frosch, Gecko, Gila-Krustenechse, Gavial, Kaiman, Klapperschlange, Kobra, Komodowaran, Kreuzotter, Krokodil, Kröte, Laubfrosch, Leguan, Mamba, Molch, Natter, Ochsenfrosch, Pfeilgiftfrosch, Python, Ringelnatter, Salamander, Schildkröte, Schlange, Seeschildkröte, Unke, Viper, Waran, Wasserschildkröte, Zauneidechse, Agame, Bartagame, Landschildkröte, Riesenschildkröte, Erdkröte, Grasfrosch, Teichmolch, Brückenechse, Kornnatter, Königspython, Taipan, Sandviper"
+  },
+  {
+    "id": "weltraum",
+    "label": "Weltraum",
+    "task": "ETWAS AUS DEM WELTRAUM MIT",
+    "group": "Natur & Tiere",
+    "words": "Andromeda, Asteroid, Astronaut, Atmosphäre, Komet, Erde, Galaxie, Gravitation / Schwerkraft, Jupiter, Kosmos, Krater, Lichtjahr, Mars, Merkur, Meteor, Meteorit, Milchstraße, Mond, Nebel, Neptun, Neutronenstern, Orbit / Umlaufbahn, Planet, Pluto, Polarstern, Quasar, Rakete, Raumstation / ISS, Satellit, Saturn, Schwarzes Loch, Sonne, Sonnensystem, Sternbild, Stern, Sternschnuppe, Supernova, Teleskop, Universum / Weltall, Uranus, Venus, Urknall, Zwergplanet, Großer Wagen, Kleiner Bär, Orion, Sirius, Alpha Centauri, Apollo, Halley, Hubble, Exoplanet, Kuipergürtel, Mondfinsternis, Sonnenfinsternis, Polarlicht / Nordlicht, Raumanzug, Raumschiff, Ufo, Alien / Außerirdischer"
+  },
+  {
+    "id": "wetter",
+    "label": "Wetter & Natur",
+    "task": "ETWAS AUS WETTER ODER NATUR MIT",
+    "group": "Natur & Tiere",
+    "words": "Blitz, Bach, Berg, Brandung, Dürre, Donner, Dunst, Düne, Eis, Erdbeben, Flut, Frost, Gewitter, Gletscher, Glatteis, Hagel, Hitze, Hitzewelle, Hochwasser, Höhle, Hurrikan, Insel, Klippe, Lawine, Monsun, Morgentau, Nebel, Niesel / Nieselregen, Orkan, Platzregen, Quelle, Raureif, Regen, Regenbogen, Sandsturm, Schauer, Schnee, Schneesturm, Sonnenschein, Sturm, Sumpf, Taifun, Tau, Tornado, Tsunami, Unwetter, Vulkan, Wald, Wasserfall, Welle, Wind, Wolke, Wüste, Wirbelsturm, Zyklon, Ebbe, Gezeiten, Hang, Tal, Schlucht, Moor, Meer, Fluss, See, Strand, Steppe, Dschungel, Regenwald, Polarlicht"
+  }
+]

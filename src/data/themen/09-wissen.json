@@ -1,0 +1,135 @@
+[
+  {
+    "id": "elemente",
+    "label": "Chemische Elemente",
+    "task": "EIN CHEMISCHES ELEMENT MIT",
+    "group": "Wissen & Sprache",
+    "words": "Actinium, Aluminium, Americium, Antimon, Argon, Arsen, Astat, Barium, Berkelium, Beryllium, Bismut / Wismut, Blei, Bohrium, Bor, Brom, Cadmium, Caesium / Cäsium, Calcium / Kalzium, Californium, Cer, Chlor, Chrom, Cobalt / Kobalt, Copernicium, Curium, Darmstadtium, Dubnium, Dysprosium, Einsteinium, Eisen, Erbium, Europium, Fermium, Flerovium, Fluor, Francium, Gadolinium, Gallium, Germanium, Gold, Hafnium, Hassium, Helium, Holmium, Indium, Iod / Jod, Iridium, Kalium, Kohlenstoff, Krypton, Kupfer, Lanthan, Lawrencium, Lithium, Livermorium, Lutetium, Magnesium, Mangan, Meitnerium, Mendelevium, Molybdän, Moscovium, Natrium, Neodym, Neon, Neptunium, Nickel, Nihonium, Niob, Nobelium, Oganesson, Osmium, Palladium, Phosphor, Platin, Plutonium, Polonium, Praseodym, Promethium, Protactinium, Quecksilber, Radium, Radon, Rhenium, Rhodium, Roentgenium, Rubidium, Ruthenium, Rutherfordium, Samarium, Sauerstoff, Scandium, Schwefel, Seaborgium, Selen, Silber, Silicium / Silizium, Stickstoff, Strontium, Tantal, Technetium, Tellur, Tenness, Terbium, Thallium, Thorium, Thulium, Titan, Uran, Vanadium, Wasserstoff, Wolfram, Xenon, Ytterbium, Yttrium, Zink, Zinn, Zirconium / Zirkonium"
+  },
+  {
+    "id": "edelsteine",
+    "label": "Edelsteine & Mineralien",
+    "task": "EIN EDELSTEIN ODER MINERAL MIT",
+    "group": "Wissen & Sprache",
+    "words": "Achat, Alexandrit, Amethyst, Aquamarin, Bergkristall, Bernstein, Beryll, Calcit, Chalcedon, Citrin, Diamant, Feldspat, Feuerstein, Granat, Glimmer, Gips, Hämatit, Jade, Jaspis, Karneol, Korund, Koralle, Kristall, Lapislazuli, Malachit, Marmor, Mondstein, Obsidian, Onyx, Opal, Perle, Peridot, Pyrit / Katzengold, Quarz, Rosenquarz, Rubin, Saphir, Smaragd, Spinell, Tigerauge, Topas, Turmalin, Türkis, Zirkon, Tansanit, Granit, Basalt, Talk, Graphit, Salz / Steinsalz, Schwefel, Magnetit, Fluorit, Azurit, Rhodochrosit, Labradorit, Aventurin, Sodalith, Chrysopras, Howlith"
+  },
+  {
+    "id": "krankheiten",
+    "label": "Krankheiten & Wehwehchen",
+    "task": "EINE KRANKHEIT MIT",
+    "group": "Wissen & Sprache",
+    "words": "Akne, Allergie, Angina, Asthma, Arthrose, Blasenentzündung, Blinddarmentzündung, Bronchitis, Burnout, Cholera, Corona / Covid, Diabetes, Durchfall, Erkältung, Fieber, Gastritis, Gicht, Grippe, Gürtelrose, Hexenschuss, Heuschnupfen, Herpes, Husten, Halsschmerzen, Hepatitis, Kopfschmerzen, Karies, Keuchhusten, Krebs, Kater, Läuse, Lungenentzündung, Magen-Darm, Malaria, Masern, Migräne, Mittelohrentzündung, Mumps, Muskelkater, Neurodermitis, Nasenbluten, Pest, Pocken, Rheuma, Röteln, Rückenschmerzen, Schnupfen, Scharlach, Sodbrennen, Sonnenbrand, Sonnenstich, Schluckauf, Tetanus, Tuberkulose, Übelkeit, Verstopfung, Warze, Windpocken, Zahnschmerzen, Zerrung, Zeckenbiss, Zuckerkrankheit, Bauchschmerzen, Blase, Beule, Prellung, Verstauchung, Bänderriss, Knochenbruch, Platzwunde, Schürfwunde, Insektenstich, Mückenstich, Kreislaufprobleme, Ohrenschmerzen, Bindehautentzündung, Pfeiffersches Drüsenfieber, Borreliose, Kurzsichtigkeit, Weitsichtigkeit, Schwindel"
+  },
+  {
+    "id": "englisch",
+    "label": "Englische Wörter",
+    "task": "EIN ENGLISCHES WORT MIT",
+    "group": "Wissen & Sprache",
+    "open": true,
+    "words": "Apple, Airport, Baby, Ball, Banana, Bed, Bird, Black, Blue, Book, Boy, Bread, Brother, Car, Cat, Chair, Cheese, Child, City, Cloud, Cold, Day, Dog, Door, Dream, Duck, Ear, Earth, Egg, Eye, Face, Family, Father, Fire, Fish, Flower, Food, Friend, Garden, Girl, Glass, Green, Hair, Hand, Happy, Hat, Head, Heart, Home, Horse, House, Ice, Island, Jacket, Juice, Key, King, Kitchen, Knife, Lamp, Leaf, Light, Love, Milk, Money, Moon, Mother, Mountain, Mouse, Music, Name, Night, Nose, Ocean, Orange, Paper, Pen, People, Queen, Question, Rain, Red, River, Road, Room, School, Sea, Shoe, Sister, Sky, Snow, Star, Street, Summer, Sun, Table, Teacher, Time, Tree, Umbrella, Uncle, Village, Voice, Water, Weather, White, Window, Winter, Woman, World, Yellow, Year, Zoo, Zero"
+  },
+  {
+    "id": "verben",
+    "label": "Verben",
+    "task": "EIN VERB MIT",
+    "group": "Wissen & Sprache",
+    "open": true,
+    "words": "atmen, arbeiten, backen, baden, bauen, beißen, bellen, bleiben, brennen, bringen, denken, drehen, drücken, dürfen, essen, erklären, fahren, fallen, fangen, finden, fliegen, fragen, freuen, geben, gehen, gewinnen, glauben, graben, haben, halten, hängen, helfen, holen, hören, hüpfen, jagen, jammern, jubeln, kaufen, kennen, klettern, kochen, kommen, können, lachen, laufen, leben, lernen, lesen, liegen, lieben, machen, malen, müssen, nehmen, nennen, nähen, öffnen, packen, putzen, quatschen, quaken, rennen, rufen, rutschen, sagen, schlafen, schreiben, schreien, schwimmen, sehen, singen, sitzen, spielen, sprechen, springen, stehen, tanzen, tauchen, tragen, trinken, turnen, üben, umarmen, verlieren, vergessen, wachsen, waschen, warten, werfen, wissen, wohnen, zahlen, zeichnen, zeigen, ziehen, zittern"
+  },
+  {
+    "id": "adjektive",
+    "label": "Adjektive",
+    "task": "EIN ADJEKTIV MIT",
+    "group": "Wissen & Sprache",
+    "open": true,
+    "words": "alt, arm, ängstlich, bunt, blau, böse, breit, dick, dumm, dunkel, dünn, ehrlich, eckig, einsam, eng, fair, faul, fett, fleißig, frech, freundlich, froh, früh, ganz, gelb, gemein, gesund, glatt, glücklich, groß, grün, gut, hart, hässlich, heiß, hell, hoch, hübsch, hungrig, interessant, jung, kalt, klein, klug, krank, kurz, lang, langsam, laut, leise, lecker, leer, lieb, lustig, müde, mutig, nass, neu, nett, niedlich, offen, ordentlich, peinlich, perfekt, rot, rund, ruhig, sauer, scharf, schlau, schnell, schön, schwach, schwer, stark, still, süß, toll, traurig, trocken, teuer, übel, ungeduldig, voll, verrückt, wach, warm, weich, weit, wild, witzig, zahm, zart, zufrieden, zornig"
+  },
+  {
+    "id": "gefuehle",
+    "label": "Gefühle",
+    "task": "EIN GEFÜHL MIT",
+    "group": "Wissen & Sprache",
+    "open": true,
+    "words": "Angst, Ärger, Aufregung, Begeisterung, Dankbarkeit, Demut, Eifersucht, Ekel, Einsamkeit, Enttäuschung, Erleichterung, Freude, Frust, Furcht, Geborgenheit, Glück, Hass, Heimweh, Hoffnung, Hunger, Interesse, Kummer, Langeweile, Liebe, Lust, Mitleid, Mut, Neid, Neugier, Nervosität, Panik, Reue, Ruhe, Scham, Schuld, Sehnsucht, Sorge, Spaß, Stolz, Stress, Trauer, Trotz, Überraschung, Unsicherheit, Verliebtheit, Vertrauen, Verzweiflung, Wut, Zufriedenheit, Zuneigung, Zorn, Zweifel, Fernweh, Gelassenheit, Heiterkeit, Ohnmacht, Schadenfreude, Wehmut, Übermut"
+  },
+  {
+    "id": "erfindungen",
+    "label": "Erfindungen",
+    "task": "EINE ERFINDUNG MIT",
+    "group": "Wissen & Sprache",
+    "open": true,
+    "words": "Auto, Atombombe, Batterie, Brille, Buchdruck, Computer, Dampfmaschine, Dynamit, Elektromotor, Fahrrad, Fernseher, Flugzeug, Fotografie / Kamera, Glühbirne, Handy, Internet, Impfung, Kompass, Kühlschrank, Laser, Lokomotive, Mikroskop, Mikrowelle, Motor, Papier, Penicillin, Radio, Rad, Rakete, Röntgen, Schießpulver, Smartphone, Taschenrechner, Teleskop, Telefon, Toilette, Uhr, Waschmaschine, Zahnbürste, Zündholz / Streichholz, Reißverschluss, Klettverschluss, Post-it, Jeans, Kaugummi, Ketchup, Teebeutel, Dübel, Airbag, Sicherheitsgurt, Mp3, MRT, Herzschrittmacher, Solarzelle, Windrad, Zeppelin, Zahnpasta, Zement, Glas, Spiegel, Schrift, Zahl Null / Null, Ampel, Aufzug / Fahrstuhl, Rolltreppe, GPS, WLAN, USB, Bluetooth"
+  },
+  {
+    "id": "rund",
+    "label": "Etwas Rundes",
+    "task": "ETWAS RUNDES MIT",
+    "group": "Gemischtes",
+    "open": true,
+    "words": "Apfel, Ball, Ballon, Billardkugel, Brötchen, CD, Donut, Erbse, Erde, Euro / Münze, Fußball, Globus, Hula-Hoop, Kreis, Knopf, Kugel, Kreisel, Kuchen, Lenkrad, Melone, Mond, Murmel, Orange, Perle, Pizza, Planet, Pfannkuchen, Rad, Reifen, Ring, Rettungsring, Schallplatte, Schüssel, Seifenblase, Sonne, Teller, Tomate, Trommel, Uhr, Wassermelone, Weintraube, Zielscheibe, Kürbis, Linse, Auge, Pupille, Bauchnabel, Keks, Frisbee, Kaugummikugel, Kirsche, Olive, Pille, Rosine, Steuerrad, Untersetzer"
+  },
+  {
+    "id": "fliegt",
+    "label": "Etwas, das fliegt",
+    "task": "ETWAS, DAS FLIEGT, MIT",
+    "group": "Gemischtes",
+    "open": true,
+    "words": "Adler, Biene, Ballon / Luftballon, Blatt, Bumerang, Drache, Drohne, Düsenjet, Ente, Feder, Flugzeug, Fledermaus, Fliege, Frisbee, Gleitschirm, Hubschrauber, Heißluftballon, Hummel, Insekt, Jet, Kolibri, Libelle, Marienkäfer, Möwe, Mücke, Papierflieger, Pfeil, Rakete, Satellit, Schmetterling, Schneeflocke, Segelflugzeug, Seifenblase, Taube, Ufo, Vogel, Wespe, Wolke, Zeppelin, Superman, Hexe, Peter Pan, Pegasus, Phönix, Komet, Meteor, Konfetti, Staub, Pollen, Löwenzahnsamen, Federball, Ball, Gerücht, Zeit"
+  },
+  {
+    "id": "gruen",
+    "label": "Etwas Grünes",
+    "task": "ETWAS GRÜNES MIT",
+    "group": "Gemischtes",
+    "open": true,
+    "words": "Ampel, Apfel, Avocado, Basilikum, Blatt, Brokkoli, Erbse, Efeu, Frosch, Gras, Grünkohl, Gurke, Hulk, Kiwi, Klee, Kaktus, Krokodil, Kohlrabi, Laubfrosch, Limette, Moos, Minze, Oliven, Paprika, Petersilie, Pistazie, Raupe, Rasen, Salat, Schnittlauch, Shrek, Smaragd, Spinat, Tannenbaum, Wald, Wiese, Zucchini, Laub, Leguan, Grashüpfer, Gecko, Yoda, Grinch, Kermit, Absinth, Waldmeister, Matcha, Jade, Billardtisch, Fußballplatz, Rosenkohl, Spargel, Schildkröte"
+  },
+  {
+    "id": "kalt",
+    "label": "Etwas Kaltes",
+    "task": "ETWAS KALTES MIT",
+    "group": "Gemischtes",
+    "open": true,
+    "words": "Antarktis, Arktis, Eis, Eisberg, Eisbär, Eisdiele, Eiswürfel, Eiszapfen, Eistee, Frost, Gefrierschrank, Gletscher, Grönland, Hagel, Iglu, Kühlschrank, Kühltasche, Limo, Milchshake, Nordpol, Pinguin, Polarkreis, Raureif, Schnee, Schneeball, Schneemann, Schneeflocke, Sibirien, Slushy, Sorbet, Südpol, Tiefkühlpizza, Winter, Wassereis, Yeti, Zitroneneis, Kühlakku, Kaltfront, Wind, Nacht, Dusche, Bier, Cola, Gurke, Hände, Füße, Nase, Antarktika, Alaska, Frozen, Elsa, Olaf, Eiskunstlauf, Eishockey, Eiskaffee"
+  },
+  {
+    "id": "laut",
+    "label": "Etwas Lautes",
+    "task": "ETWAS LAUTES MIT",
+    "group": "Gemischtes",
+    "open": true,
+    "words": "Alarm, Autohupe / Hupe, Baby, Baustelle, Bohrmaschine, Böller, Donner, Explosion, Feuerwerk, Flugzeug, Gewitter, Glocke, Hund, Hubschrauber, Kirchenglocke, Konzert, Laubbläser, Lautsprecher, Löwe, Motorrad, Martinshorn / Sirene, Pfeife, Presslufthammer, Rasenmäher, Rakete, Rockkonzert, Schlagzeug, Schuss, Staubsauger, Stadion, Trompete, Tröte, Trommel, Vuvuzela, Wecker, Wasserfall, Zug, Kreissäge, Schreien, Schnarchen, Nachbarn, Party, Disco, Gong, Megafon, Hahn, Esel, Elefant, Kettensäge, Formel 1, Düsenjet, Mixer, Föhn, Gewehr"
+  },
+  {
+    "id": "supermarkt-kaufen",
+    "label": "Etwas im Supermarkt",
+    "task": "ETWAS AUS DEM SUPERMARKT MIT",
+    "group": "Gemischtes",
+    "open": true,
+    "words": "Apfel, Alufolie, Banane, Batterien, Bier, Brot, Butter, Chips, Cola, Duschgel, Eier, Eis, Essig, Fisch, Fleisch, Gurke, Gummibärchen, Haferflocken, Honig, Joghurt, Kaffee, Kartoffeln, Käse, Ketchup, Kekse, Klopapier, Kaugummi, Limonade, Mehl, Milch, Müsli, Nudeln, Nutella, Öl, Orangen, Pizza, Quark, Reis, Salat, Salz, Sahne, Schokolade, Senf, Shampoo, Spülmittel, Tee, Toast, Tomaten, Tiefkühlpizza, Waschmittel, Wasser, Wurst, Zahnpasta, Zucker, Zwiebeln, Zeitschrift, Blumen, Pfand, Einkaufswagen, Kasse, Tüte, Paprika, Gewürze"
+  },
+  {
+    "id": "ausreden",
+    "label": "Ausreden",
+    "task": "EINE AUSREDE MIT",
+    "group": "Gemischtes",
+    "open": true,
+    "words": "Akku leer, Bahn hatte Verspätung, Bauchweh, Bus verpasst, Der Hund hat's gefressen, Erkältung, Fahrrad kaputt, Funkloch, Hausaufgaben vergessen, Internet weg, Ich war krank, Kopfschmerzen, Keine Zeit, Migräne, Muss Oma helfen, Nicht gehört, Oma hat Geburtstag, Panne, Rückenschmerzen, Stau, Schlüssel verloren, Termin, Verschlafen, Wecker hat nicht geklingelt, WLAN war weg, Zug ausgefallen, Zahnarzt, Ich hab's nicht gesehen, Handy war aus, Kein Netz, Glatteis, Unwetter, Lehrer hat's nicht gesagt, Nachbar, Notfall"
+  },
+  {
+    "id": "verlieren",
+    "label": "Etwas, das man verliert",
+    "task": "ETWAS, DAS MAN VERLIEREN KANN, MIT",
+    "group": "Gemischtes",
+    "open": true,
+    "words": "Ausweis, Ball, Brille, Bus, Faden, Fahrkarte, Freunde, Geduld, Geld, Geldbeutel, Gedächtnis, Gewicht, Haare, Handschuh, Handy, Hoffnung, Job, Kopf, Kontrolle, Lust, Mut, Nerven, Ohrring, Orientierung, Portemonnaie, Regenschirm, Ring, Schlüssel, Socke, Spiel, Stimme, Überblick, Verstand, Wette, Zahn, Zeit, Zug, Zettel, Kopfhörer, Airpods, Mütze, Schal, Fernbedienung, Gleichgewicht, Würde, Wahl"
+  },
+  {
+    "id": "superkraefte",
+    "label": "Superkräfte",
+    "task": "EINE SUPERKRAFT MIT",
+    "group": "Gemischtes",
+    "open": true,
+    "words": "Atmen unter Wasser, Beamen / Teleportation, Blitze, Dehnbarkeit, Eis, Feuer, Fliegen, Gedankenlesen, Gestaltwandeln, Heilung, Hellsehen, Kraft / Superkraft, Laserblick, Magie, Nachtsicht, Röntgenblick, Schnelligkeit, Schrumpfen, Spinnensinn, Telekinese, Telepathie, Tierflüstern, Unsichtbarkeit, Unverwundbarkeit, Unsterblichkeit, Wetterkontrolle, Wachsen, Zeitreisen, Zeit anhalten, Klonen, Durch Wände gehen, Mit Tieren sprechen, Gedankenkontrolle, Superhören, Supersprung, Elektrizität, Magnetismus, Pflanzenkontrolle, Wasserkontrolle, Sprachen verstehen"
+  }
+]

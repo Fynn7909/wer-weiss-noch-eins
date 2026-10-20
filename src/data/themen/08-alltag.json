@@ -1,0 +1,86 @@
+[
+  {
+    "id": "koerper",
+    "label": "Körperteile",
+    "task": "EIN KÖRPERTEIL MIT",
+    "group": "Alltag",
+    "words": "Achsel, Achillessehne, Arm, Auge, Augenbraue, Augenlid, Backe / Wange, Bauch, Bauchnabel / Nabel, Becken, Bein, Blase, Blinddarm, Brust, Daumen, Darm, Ellenbogen, Ferse, Finger, Fingernagel, Fuß, Gallenblase, Gaumen, Gehirn / Hirn, Gelenk, Gesicht, Haar, Hals, Hand, Handgelenk, Herz, Hüfte, Kehlkopf, Kiefer, Kinn, Knie, Kniescheibe, Knöchel, Knochen, Kopf, Leber, Lippe, Lunge, Magen, Mandeln, Milz, Mund, Muskel, Nacken, Nase, Nasenloch, Nerv, Niere, Ohr, Ohrläppchen, Oberschenkel, Po / Hintern, Pupille, Rippe, Rücken, Schädel, Schienbein, Schläfe, Schlüsselbein, Schulter, Sehne, Stirn, Wade, Wimper, Wirbelsäule, Zahn, Zahnfleisch, Zeh, Zunge, Zwerchfell, Haut, Iris, Trommelfell, Speiseröhre, Luftröhre, Unterarm, Oberarm, Handfläche, Fußsohle, Steißbein"
+  },
+  {
+    "id": "kleidung",
+    "label": "Kleidung",
+    "task": "EIN KLEIDUNGSSTÜCK MIT",
+    "group": "Alltag",
+    "words": "Anorak, Anzug, Badeanzug, Badehose, Bademantel, Baskenmütze, Bikini, Blazer, Bluse, BH, Boxershorts, Cap / Basecap, Cardigan, Daunenjacke, Dirndl, Fleecejacke, Fliege, Gürtel, Hemd, Handschuhe, Hoodie, Hose, Hosenträger, Hut, Jacke, Jeans, Jogginghose, Kapuzenpulli, Kittel, Kleid, Kopftuch, Kostüm, Krawatte, Lederhose, Leggings, Mantel, Minirock, Mütze, Nachthemd, Overall, Parka, Poncho, Polohemd, Pullover / Pulli, Pyjama / Schlafanzug, Regenjacke, Rock, Rollkragenpullover, Sakko, Sari, Schal, Schürze, Shorts, Socken, Sport-BH, Stirnband, Strickjacke, Strumpfhose, Sweatshirt, T-Shirt, Tanktop / Top, Toga, Trainingsanzug, Trenchcoat, Tunika, Turban, Unterhemd, Unterhose, Uniform, Weste, Windjacke, Zylinder, Kimono, Latzhose, Lätzchen, Schuhe, Stiefel, Sandalen, Turnschuhe / Sneaker, Pantoffeln / Hausschuhe, Gummistiefel, Ballerinas, Pumps, Badelatschen"
+  },
+  {
+    "id": "moebel",
+    "label": "Möbel & Einrichtung",
+    "task": "EIN MÖBELSTÜCK MIT",
+    "group": "Alltag",
+    "words": "Badewanne, Bank, Barhocker, Bett, Bilderrahmen, Bücherregal, Couch / Sofa, Couchtisch, Kommode, Esstisch, Etagenbett, Garderobe, Hängematte, Hocker, Kamin, Kinderbett, Kissen, Kleiderschrank, Kronleuchter, Lampe, Liegestuhl, Matratze, Nachttisch, Ottomane, Pult, Regal, Schaukelstuhl, Schrank, Schreibtisch, Schuhschrank, Sessel, Sideboard, Spiegel, Stuhl, Teppich, Tisch, Truhe, Vitrine, Vorhang / Gardine, Wasserbett, Wiege, Werkbank, Wandregal, Zeitungsständer, Hochbett, Schlafsofa, Bürostuhl, Gamingstuhl, Sitzsack, Pouf, Klappstuhl, Klapptisch, Theke, Tresen, Fensterbank, Stehlampe, Uhr / Wanduhr, Jalousie, Rollo, Fußmatte, Garderobenständer, Kinderstuhl / Hochstuhl, Wickeltisch, Schminktisch, Konsole"
+  },
+  {
+    "id": "kueche",
+    "label": "In der Küche",
+    "task": "ETWAS IN DER KÜCHE MIT",
+    "group": "Alltag",
+    "words": "Auflaufform, Backblech, Backofen, Becher, Besteck, Brett / Schneidebrett, Brotkasten, Brotmesser, Dose, Dosenöffner, Eierbecher, Eieruhr, Eimer, Esslöffel, Flaschenöffner, Gabel, Geschirr, Gewürzregal, Glas, Herd, Kaffeemaschine, Kanne, Kartoffelschäler / Sparschäler, Kelle, Knoblauchpresse, Kochlöffel, Korkenzieher, Kühlschrank, Küchenrolle, Löffel, Messbecher, Messer, Mikrowelle, Mixer, Mülleimer, Nudelholz, Ofenhandschuh, Pfanne, Pfannenwender, Pfeffermühle, Reibe, Rührschüssel, Salzstreuer, Schale, Schneebesen, Schöpfkelle, Schüssel, Schwamm, Sieb, Spülbecken / Spüle, Spülmaschine, Spülmittel, Tasse, Teekanne, Teelöffel, Teller, Thermoskanne, Tablett, Toaster, Topf, Topflappen, Trichter, Untersetzer, Waage / Küchenwaage, Wasserkocher, Wok, Zange, Zitronenpresse, Zuckerdose, Geschirrtuch, Frischhaltefolie, Alufolie, Backpapier, Muffinform, Springform, Ausstecher, Mörser, Salatschleuder"
+  },
+  {
+    "id": "werkzeug",
+    "label": "Werkzeuge",
+    "task": "EIN WERKZEUG MIT",
+    "group": "Alltag",
+    "words": "Akkuschrauber, Axt / Beil, Bohrer, Bohrmaschine, Brecheisen / Brechstange, Bügelsäge, Cuttermesser / Teppichmesser, Dübel, Feile, Flex / Winkelschleifer, Fuchsschwanz, Hammer, Handsäge, Heißklebepistole, Hobel, Imbusschlüssel / Inbusschlüssel, Kneifzange, Kettensäge, Kelle, Leiter, Lötkolben, Maßband, Meißel, Multimeter, Nagel, Pinsel, Pinzette, Rohrzange, Säge, Schaufel, Schere, Schleifpapier, Schleifmaschine, Schraube, Schraubendreher / Schraubenzieher, Schraubenschlüssel, Schraubstock, Seitenschneider, Spachtel, Spaten, Stichsäge, Tacker, Taschenmesser, Wasserwaage, Werkzeugkasten, Winkel, Zange, Zollstock, Zirkel, Rechen / Harke, Hacke, Gartenschere, Schubkarre, Gießkanne, Kreissäge, Stemmeisen, Klebeband, Kabelbinder, Spanngurt, Wagenheber, Pumpe, Akku, Lineal, Bleistift"
+  },
+  {
+    "id": "schule",
+    "label": "In der Schule",
+    "task": "ETWAS IN DER SCHULE MIT",
+    "group": "Alltag",
+    "words": "Aula, Arbeitsblatt, Aufsatz, Bleistift, Block, Buch, Biologie, Chemie, Deutsch, Direktor / Schulleiter, Englisch, Ethik, Füller, Filzstift, Federmappe / Mäppchen, Ferien, Französisch, Geodreieck, Geografie / Erdkunde, Geschichte, Hausaufgaben, Hausmeister, Heft, Hofpause / Pause, Informatik, Klasse, Klassenarbeit, Klassenbuch, Kreide, Kunst, Latein, Lehrer, Lineal, Mathe / Mathematik, Mensa, Musik, Notizblock, Note, Ordner, Physik, Pinsel, Politik, Radiergummi, Religion, Referat, Ranzen / Schulranzen / Rucksack, Schere, Schüler, Schulhof, Spanisch, Spitzer, Sport, Stundenplan, Tafel, Taschenrechner, Test, Turnhalle, Tintenkiller, Unterricht, Vokabeln, Wandertag, Whiteboard, Wasserfarben, Zeugnis, Zirkel, Zettel, Klebestift / Kleber, Textmarker, Klassenfahrt, Klassensprecher, Sekretariat, Beamer, Smartboard, Gong / Klingel, Nachsitzen, Projekttag, Schulbus"
+  },
+  {
+    "id": "farben",
+    "label": "Farben",
+    "task": "EINE FARBE MIT",
+    "group": "Alltag",
+    "words": "Aquamarin, Apricot, Anthrazit, Azurblau, Beige, Bernstein, Blau, Bordeaux, Braun, Bronze, Champagner, Creme, Cyan, Dunkelblau, Dunkelgrün, Elfenbein, Flieder, Fuchsia, Gelb, Gold, Grau, Grün, Himmelblau, Hellblau, Indigo, Jade, Kaki / Khaki, Karmesin, Kobaltblau, Koralle, Kupfer, Lachs, Lavendel, Lila, Limette, Magenta, Mint, Marineblau, Ocker, Oliv, Orange, Petrol, Pink, Purpur, Rosa, Rosé, Rostrot, Rot, Rubinrot, Safran, Sand, Schwarz, Senf, Silber, Smaragd, Taubenblau, Terrakotta, Türkis, Ultramarin, Violett, Weinrot, Weiß, Zitronengelb, Zinnober, Neongrün, Pastell, Knallrot, Babyblau, Altrosa, Cognac, Mauve, Taupe, Perlweiß, Schokobraun, Tannengrün, Graphit"
+  },
+  {
+    "id": "bad",
+    "label": "Im Badezimmer",
+    "task": "ETWAS IM BADEZIMMER MIT",
+    "group": "Alltag",
+    "words": "Abfluss, Badematte, Badewanne, Badeente, Bademantel, Bürste, Creme, Deo, Dusche, Duschgel, Duschvorhang, Fliesen, Föhn, Gesichtswasser, Glätteisen, Haarbürste, Haargummi, Haarspray, Handtuch, Handseife, Kamm, Klobürste, Klopapier / Toilettenpapier, Kosmetik, Lippenstift, Lockenstab, Make-up, Mascara, Mundwasser, Nagelfeile, Nagellack, Nagelschere, Parfüm, Pflaster, Pinzette, Puder, Rasierer, Rasierschaum, Seife, Shampoo, Spiegel, Spülung, Schwamm, Tampon, Toilette / Klo, Waage, Waschbecken, Waschlappen, Waschmaschine, Wattestäbchen, Wattepad, Zahnbürste, Zahnpasta, Zahnseide, Zahnputzbecher, Badezusatz, Bodylotion, Heizung, Lüfter, Medizinschrank, Peeling, Rasierwasser, Sonnencreme, Wäschekorb, Duschkopf, Kalkreiniger, Gel, Pinsel, Concealer, Eyeliner"
+  },
+  {
+    "id": "stadt",
+    "label": "Gebäude & Orte",
+    "task": "EIN GEBÄUDE ODER ORT MIT",
+    "group": "Alltag",
+    "words": "Apotheke, Autobahn, Bahnhof, Bank, Bäckerei, Bibliothek, Bowlingbahn, Brücke, Bücherei, Burg, Bushaltestelle, Café, Campingplatz, Dom, Disco, Einkaufszentrum, Fabrik, Feuerwache, Flughafen, Freibad, Friedhof, Friseur, Fußgängerzone, Garage, Gefängnis, Gericht, Hafen, Hallenbad, Hochhaus, Hotel, Hütte, Jugendherberge, Kaserne, Kathedrale, Kino, Kiosk, Kirche, Kindergarten, Kneipe, Krankenhaus, Leuchtturm, Markt, Moschee, Museum, Oper, Palast, Park, Parkhaus, Polizeiwache, Post, Rathaus, Restaurant, Schloss, Schule, Schwimmbad, Spielplatz, Stadion, Supermarkt, Synagoge, Tankstelle, Tempel, Theater, Tierheim, Turm, Universität, Villa, Wolkenkratzer, Werkstatt, Zoo, Zirkus, Zahnarztpraxis, Arztpraxis, Altenheim, Amt, Freizeitpark, Golfplatz, Kläranlage, Kraftwerk, Bauernhof, Mühle, Windrad, Stall, Scheune, Lagerhaus"
+  },
+  {
+    "id": "weihnachten",
+    "label": "Weihnachten",
+    "task": "ETWAS ZU WEIHNACHTEN MIT",
+    "group": "Alltag",
+    "words": "Adventskalender, Adventskranz, Advent, Baumschmuck, Bescherung, Christbaumkugel / Kugel, Christkind, Dezember, Engel, Elch, Elfen / Wichtel, Feiertage, Festessen, Gans, Geschenke, Geschenkpapier, Glühwein, Glocke, Heiligabend, Hirte, Jesus, Josef, Kerze, Kirche, Krippe, Kekse / Plätzchen, Lametta, Lebkuchen, Lichterkette, Lieder / Weihnachtslieder, Maria, Marzipan, Mistelzweig, Nikolaus, Nussknacker, Ochse, Esel, Punsch, Rentier, Rudolph, Schlitten, Schnee, Schneemann, Socken, Spekulatius, Stern, Stollen, Strumpf, Tannenbaum / Weihnachtsbaum, Tannenzapfen, Wunschzettel, Weihnachtsmann, Weihnachtsmarkt, Zimtstern, Zuckerstange, Heilige Drei Könige, Bethlehem, Krampus, Knecht Ruprecht, Grinch, Kamin, Familie, Raclette, Fondue, Schneeflocke, Rauschgoldengel, Räuchermännchen, Schwibbogen, Pyramide, Bratapfel, Mandarine"
+  },
+  {
+    "id": "grusel",
+    "label": "Grusel & Halloween",
+    "task": "ETWAS GRUSELIGES MIT",
+    "group": "Alltag",
+    "words": "Alptraum, Axt, Blut, Besen, Clown, Dämon, Dracula, Fledermaus, Frankenstein, Fluch, Friedhof, Gespenst / Geist, Ghul, Gift, Grab, Grabstein, Gruft, Hexe, Halloween, Horror, Irrlicht, Kerze, Kessel, Kürbis, Keller, Knochen, Kobold, Kreischen, Mumie, Monster, Nebel, Nacht, Ouija-Brett, Poltergeist, Rabe, Ratte, Sarg, Schatten, Schädel, Skelett, Spinne, Spinnennetz, Spukhaus, Sense, Süßes oder Saures, Tod, Totenkopf, Untoter, Vampir, Voodoo-Puppe, Vollmond, Werwolf, Zombie, Zauberer, Zaubertrank, Exorzist, Chucky, Freddy Krueger, Jason, Michael Myers, Pennywise / Es, Slenderman, Annabelle, Gruselkabinett, Geisterbahn, Hexenbesen, Kostüm, Maske, Teufel, Ungeheuer, Banshee, Gargoyle, Golem, Kreuz, Knoblauch, Pfahl, Spinnweben"
+  },
+  {
+    "id": "materialien",
+    "label": "Materialien & Stoffe",
+    "task": "EIN MATERIAL MIT",
+    "group": "Alltag",
+    "words": "Alu / Aluminium, Asphalt, Baumwolle, Beton, Blech, Blei, Bronze, Carbon, Chrom, Denim, Diamant, Eisen, Filz, Fleece, Glas, Gold, Gips, Granit, Gummi, Holz, Jute, Kaschmir, Keramik, Kork, Kunststoff / Plastik, Kupfer, Lack, Latex, Leder, Leinen, Lehm, Marmor, Messing, Mörtel, Nylon, Papier, Pappe, Polyester, Porzellan, Satin, Samt, Sand, Schiefer, Seide, Silber, Silikon, Stahl, Stein, Styropor, Ton, Titan, Tüll, Viskose, Wachs, Wolle, Zement, Ziegel, Zink, Zinn, Elastan, Cord, Jersey, Kevlar, Plexiglas, Linoleum, Laminat, Parkett, Teer, Bambus, Rattan, Wildleder, Kunstleder, Edelstahl, Gusseisen, Sperrholz, Spanplatte"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "jungennamen",
+    "label": "Jungennamen",
+    "task": "EIN JUNGENNAME MIT",
+    "group": "Menschen & Namen",
+    "words": "Aaron, Adam, Ahmed, Alexander, Ali, Andreas, Anton, Arne, Ben, Benjamin, Bastian, Bernd, Bruno, Carl / Karl, Christian, Christoph, Daniel, David, Dennis, Dominik, Elias, Emil, Erik, Elia, Fabian, Felix, Finn, Florian, Frank, Franz, Fynn, Georg, Gregor, Hannes, Hans, Heinrich, Henri / Henry, Hugo, Ibrahim, Ilias, Jakob, Jan, Jannik, Jonas, Jonathan, Joshua, Julian, Jürgen, Kai, Kevin, Klaus, Konstantin, Lars, Leo, Leon, Levi, Linus, Louis, Luca / Luka, Lukas, Malte, Marc / Mark, Marco, Martin, Matteo, Max, Maximilian, Michael, Mika, Milan, Moritz, Mustafa, Nico, Niklas, Noah, Ole, Oliver, Oscar / Oskar, Otto, Patrick, Paul, Peter, Philipp, Quentin, Rafael, Robert, Robin, Samuel, Sebastian, Simon, Stefan, Sven, Theo, Thomas, Tim, Tobias, Tom, Ulrich, Uwe, Valentin, Viktor, Vincent, Walter, Wilhelm, Xaver, Yannick, Yusuf, Zacharias"
+  },
+  {
+    "id": "maedchennamen",
+    "label": "Mädchennamen",
+    "task": "EIN MÄDCHENNAME MIT",
+    "group": "Menschen & Namen",
+    "words": "Alina, Amelie, Anna, Anja, Annika, Antonia, Ayla, Bianca, Birgit, Carla, Carolin, Charlotte, Clara / Klara, Claudia, Daniela, Dana, Doris, Elena, Elif, Elisa, Ella, Emilia, Emma, Eva, Fatma, Finja, Franziska, Frieda, Gabi, Greta, Hanna / Hannah, Heidi, Helena, Ida, Ines, Isabel, Jana, Jasmin, Johanna, Julia, Jule, Karin, Katharina, Kim, Lara, Laura, Lea, Lena, Lina, Lisa, Luisa, Luna, Maja / Maya, Maria, Marie, Melina, Mia, Mila, Miriam, Nadine, Nele, Nina, Nora, Olivia, Paula, Pia, Petra, Ronja, Rosa, Sabine, Sara / Sarah, Selin, Sofia / Sophia, Sophie, Svenja, Tanja, Tina, Ulrike, Ursula, Valentina, Vanessa, Vera, Viktoria, Wilma, Xenia, Yasmin, Yvonne, Zoe, Zeynep"
+  },
+  {
+    "id": "berufe",
+    "label": "Berufe",
+    "task": "EIN BERUF MIT",
+    "group": "Menschen & Namen",
+    "words": "Anwalt, Apotheker, Architekt, Arzt, Astronaut, Bäcker, Bankkaufmann, Bauer / Landwirt, Bauarbeiter, Bibliothekar, Bildhauer, Busfahrer, Chemiker, Chirurg, Dachdecker, Designer, Detektiv, Dirigent, Dolmetscher, Elektriker, Erzieher, Feuerwehrmann, Fischer, Fleischer / Metzger, Florist, Fotograf, Friseur, Gärtner, Geologe, Glaser, Goldschmied, Hausmeister, Hebamme, Imker, Informatiker, Ingenieur, Journalist, Jurist, Juwelier, Kassierer, Kellner, Koch, Kosmetiker, Krankenpfleger, Künstler, Lehrer, Lokführer, Maler, Maurer, Mechaniker, Musiker, Notar, Optiker, Pastor / Pfarrer, Pilot, Polizist, Postbote, Professor, Programmierer, Psychologe, Richter, Sänger, Schauspieler, Schneider, Schornsteinfeger, Schreiner / Tischler, Schuster, Sekretär, Soldat, Steuerberater, Tänzer, Taxifahrer, Tierarzt, Trainer, Übersetzer, Verkäufer, Winzer, Youtuber, Zahnarzt, Zimmermann, Zauberer, Zöllner"
+  },
+  {
+    "id": "musiker",
+    "label": "Musiker & Sänger",
+    "task": "EIN MUSIKER ODER SÄNGER MIT",
+    "group": "Menschen & Namen",
+    "words": "Adele, Andrea Berg, Apache 207, Ariana Grande, Avicii, Bad Bunny, Beyoncé, Billie Eilish, Bob Marley, Bon Jovi, Bruno Mars, Britney Spears, Capital Bra, Cro, Celine Dion, David Bowie, Drake, Dua Lipa, Ed Sheeran, Elton John, Elvis Presley / Elvis, Eminem, Freddie Mercury, Feid, Helene Fischer, Herbert Grönemeyer / Grönemeyer, Harry Styles, Imagine Dragons, Justin Bieber, Jay-Z, Kanye West, Katy Perry, Kendrick Lamar, Lady Gaga, Lana Del Rey, Lena, Lewis Capaldi, Madonna, Mark Forster, Michael Jackson, Miley Cyrus, Nena, Olivia Rodrigo, Peter Fox, Pink, Post Malone, Prince, Rihanna, Robbie Williams, Sabrina Carpenter, Sarah Connor, Selena Gomez, Shakira, Shirin David, Sido, Taylor Swift, The Weeknd, Tim Bendzko, Travis Scott, Udo Lindenberg, Usher, Wincent Weiss, Xavier Naidoo, Zara Larsson, Mozart, Beethoven, Bach, Chopin, Vivaldi, Wagner, Andreas Gabalier, Max Raabe, Nico Santos, Johannes Oerding, Clueso, Felix Jaehn, Robin Schulz, Kygo, Coldplay, Queen, Rammstein, Die Ärzte, Die Toten Hosen"
+  },
+  {
+    "id": "fussballer",
+    "label": "Fußballer",
+    "task": "EIN FUSSBALLER MIT",
+    "group": "Menschen & Namen",
+    "words": "Alaba, Ballack, Beckenbauer, Beckham, Bellingham, Benzema, Boateng, Buffon, Cristiano Ronaldo / Ronaldo, De Bruyne, Drogba, Draxler, Gerd Müller, Götze, Gündogan, Haaland, Havertz, Hummels, Ibrahimovic, Iniesta, Kahn, Kane, Kimmich, Klose, Kroos, Lahm, Lewandowski, Maradona, Mbappé, Messi, Modric, Müller / Thomas Müller, Musiala, Neuer, Neymar, Özil, Pelé, Pogba, Podolski, Ramos, Reus, Ribéry, Robben, Ronaldinho, Rüdiger, Salah, Sané, Schweinsteiger, Ter Stegen, Valverde, Vinícius / Vinicius Junior, Wirtz, Xavi, Yamal / Lamine Yamal, Zidane, Zlatan, Uwe Seeler, Völler, Matthäus, Klinsmann, Bierhoff, Effenberg, Gnabry, Goretzka, Tah, Füllkrug, Undav, Olise, Pedri, Saka, Foden, Griezmann, Kanté, Casemiro, Van Dijk, Henry, Totti"
+  },
+  {
+    "id": "schauspieler",
+    "label": "Schauspieler",
+    "task": "EIN SCHAUSPIELER MIT",
+    "group": "Menschen & Namen",
+    "words": "Adam Sandler, Angelina Jolie, Anne Hathaway, Arnold Schwarzenegger, Ben Stiller, Brad Pitt, Bruce Willis, Cate Blanchett, Channing Tatum, Chris Hemsworth, Chris Pratt, Daniel Radcliffe, Denzel Washington, Dwayne Johnson / The Rock, Elyas M'Barek, Emma Stone, Emma Watson, Florence Pugh, Gal Gadot, George Clooney, Hugh Jackman, Jackie Chan, Jason Statham, Jennifer Lawrence, Jim Carrey, Johnny Depp, Julia Roberts, Keanu Reeves, Leonardo DiCaprio, Margot Robbie, Matthias Schweighöfer, Meryl Streep, Morgan Freeman, Natalie Portman, Nicole Kidman, Owen Wilson, Pedro Pascal, Robert Downey Jr., Ryan Gosling, Ryan Reynolds, Sandra Bullock, Scarlett Johansson, Sylvester Stallone, Til Schweiger, Timothée Chalamet, Tom Cruise, Tom Hanks, Tom Holland, Uma Thurman, Vin Diesel, Will Smith, Zendaya, Zac Efron, Christoph Waltz, Diane Kruger, Daniel Brühl, Heike Makatsch, Karoline Herfurth, Bud Spencer, Terence Hill, Charlie Chaplin, Marilyn Monroe, Audrey Hepburn, Jenna Ortega, Millie Bobby Brown, Kristen Stewart, Robert Pattinson, Henry Cavill, Idris Elba, Kevin Hart, Samuel L. Jackson, Quentin Tarantino"
+  },
+  {
+    "id": "rapper",
+    "label": "Deutsche Rapper",
+    "task": "EIN DEUTSCHER RAPPER MIT",
+    "group": "Menschen & Namen",
+    "words": "Apache 207, Bausa, Bonez MC, Bushido, Capital Bra, Casper, Cro, Ufo361, Dardan, Disarstar, Eko Fresh, Fard, Farid Bang, Fler, Gzuz, Haftbefehl, Jamule, Juju, KC Rebell, Kollegah, Kool Savas, Luciano, Loredana, Marteria, Massiv, Maxwell, MCR-T, Montez, Nimo, Olexesh, Pashanim, Raf Camora, Reezy, RIN, Samra, Shindy, Shirin David, Sido, Summer Cem, T-Low, Trettmann, Yung Hurn, Kontra K, Kalazh44, Ski Aggu, Nina Chuba, Zuna, Azet, Ali Bumaye, Alligatoah, Antilopen Gang, Deichkind, Fanta 4 / Die Fantastischen Vier, K.I.Z, Prinz Pi, Samy Deluxe, Tua, 01099, Badmómzjay, Celo & Abdi, Chapo102, Dante YN, Ennio, Jazn, Lune, Makko, Miksu, Paula Hartmann, Sierra Kidd"
+  },
+  {
+    "id": "historisch",
+    "label": "Berühmte Personen der Geschichte",
+    "task": "EINE BERÜHMTE PERSON DER GESCHICHTE MIT",
+    "group": "Menschen & Namen",
+    "words": "Abraham Lincoln / Lincoln, Albert Einstein / Einstein, Alexander der Große, Anne Frank, Aristoteles, Bismarck / Otto von Bismarck, Buddha, Caesar / Julius Caesar, Charles Darwin / Darwin, Che Guevara, Cleopatra / Kleopatra, Columbus / Kolumbus, Da Vinci / Leonardo da Vinci, Dschingis Khan, Elisabeth / Sisi, Galileo / Galilei, Gandhi, George Washington, Goethe, Gutenberg, Hannibal, Heinrich VIII, Isaac Newton / Newton, Jeanne d'Arc, Jesus, Karl der Große, Kant, Konfuzius, Kopernikus, Luther / Martin Luther, Marco Polo, Marie Curie, Martin Luther King, Michelangelo, Mozart, Napoleon, Nelson Mandela / Mandela, Nero, Nofretete, Nostradamus, Platon, Pythagoras, Queen Victoria, Ramses, Rembrandt, Robin Hood, Schiller, Shakespeare, Sokrates, Stephen Hawking / Hawking, Tesla / Nikola Tesla, Tutanchamun, Van Gogh, Vasco da Gama, Willy Brandt, Wilhelm Tell, Queen Elizabeth / Elisabeth II, Kennedy / John F. Kennedy, Konrad Adenauer / Adenauer, Angela Merkel / Merkel, Picasso, Freud, Marx, Humboldt, Barbarossa, Attila, Spartacus, Archimedes, Hippokrates"
+  },
+  {
+    "id": "promis",
+    "label": "Influencer & YouTuber",
+    "task": "EIN INFLUENCER ODER YOUTUBER MIT",
+    "group": "Menschen & Namen",
+    "open": true,
+    "words": "Bibi / BibisBeautyPalace, Bonjwa, Dagi Bee, Dner, Gronkh, HandOfBlood, Julien Bam, Knossi, Ksfreak, LeFloid, Le Shrimp, MontanaBlack, MrBeast, Papaplatte, PietSmiet, Pamela Reif, Paluten, Rewi, Rezo, Ronny Berger, Shurjoka, Simon Desue, Sascha Huber, Trymacs, Unge, Wichtiger, Zarbex, Elotrix, Tanzverbot, Stegi, GLP / GermanLetsPlay, Kelly MissesVlog, Lisa und Lena, Inscope21, Mexify, Rumathra, Sidemen, KSI, Logan Paul, Jake Paul, Kai Cenat, IShowSpeed, Pewdiepie, Ninja, Markiplier, Dream, Ludwig, Pokimane, xQc, Khaby Lame, Charli D'Amelio, Addison Rae, Bella Poarch, Younes Zarou, Eligella, Reved, Sintica, Fritz Meinecke, Max Hoss, Hänno, Smiley, Dhalucard, Satter, Sterzik, Varion"
+  },
+  {
+    "id": "mythologie",
+    "label": "Götter & Sagengestalten",
+    "task": "EIN GOTT ODER EINE SAGENGESTALT MIT",
+    "group": "Menschen & Namen",
+    "words": "Achilles, Amor, Anubis, Aphrodite, Apollo / Apollon, Ares, Artemis, Athene, Atlas, Baldur, Bacchus, Cerberus / Zerberus, Chronos, Demeter, Dionysos, Drache, Freya, Frigg, Gorgo, Hades, Hephaistos, Hera, Herkules / Herakles, Hermes, Horus, Hydra, Ikarus, Isis, Janus, Juno, Jupiter, Kraken, Loki, Mars, Medusa, Merkur, Minotaurus, Neptun, Nymphe, Odin, Odysseus, Osiris, Pan, Pegasus, Perseus, Phönix, Poseidon, Prometheus, Ra, Seth, Sirene, Thor, Titan, Troll, Venus, Valkyrie / Walküre, Vulcan / Vulkan, Zeus, Zyklop, Einhorn, Greif, Basilisk, Kentaur / Zentaur, Golem, Yeti, Elfe, Zwerg, Riese, Kobold, Hexe, Vampir, Werwolf, Banshee, Gnom, Wassermann, Nixe, Rübezahl, Siegfried, Brunhilde, Loreley / Lorelei"
+  },
+  {
+    "id": "maerchen",
+    "label": "Märchenfiguren",
+    "task": "EINE MÄRCHENFIGUR MIT",
+    "group": "Menschen & Namen",
+    "words": "Aladin, Aschenputtel / Cinderella, Ali Baba, Baba Jaga, Bremer Stadtmusikanten, Däumelinchen, Dornröschen, Drosselbart / König Drosselbart, Esel, Froschkönig, Frau Holle, Fee, Gestiefelter Kater, Goldmarie, Gretel, Hänsel, Hans im Glück, Hexe, Jorinde, Joringel, Kleine Meerjungfrau / Arielle, Kalif Storch, Rotkäppchen, Rapunzel, Rumpelstilzchen, Schneewittchen, Sieben Zwerge, Sterntaler, Sindbad, Schneeweißchen, Rosenrot, Tischlein deck dich, Pechmarie, Prinz, Prinzessin, Wolf / Böser Wolf, Zwerg Nase, Zauberer, Däumling, Hase, Igel, Wolf und die sieben Geißlein / Sieben Geißlein, Tapferes Schneiderlein, Schneekönigin, Hässliches Entlein, Kaiser, Pinocchio, Peter Pan, Tinkerbell / Glöckchen, Alice, Grinsekatze, Hutmacher, Herzkönigin, Mogli, Balu, Struwwelpeter, Max und Moritz, Pumuckl, Münchhausen, Till Eulenspiegel, Rübezahl, Heidi, Pippi Langstrumpf, Michel"
+  }
+]

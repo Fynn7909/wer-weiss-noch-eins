@@ -1,0 +1,3236 @@
+{
+  "id": "animals",
+  "label": "Tiere",
+  "task": "EIN TIER MIT",
+  "entries": [
+    {
+      "name": "Aal",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Adler",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Admiral",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Affe",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Albatros",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Alligator",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Alpaka",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Ameise",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Ameisenbär",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Amsel",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Anakonda",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Anglerfisch",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Antilope",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Ara",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Assel",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Auerhahn",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Auerochse",
+      "variants": [
+        "Ur"
+      ],
+      "letters": [
+        "A",
+        "U"
+      ]
+    },
+    {
+      "name": "Auster",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Axolotl",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Bachstelze",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bandwurm",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bär",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Barrakuda",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Barsch",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bartgeier",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Basilisk",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Beluga",
+      "variants": [
+        "Weißwal"
+      ],
+      "letters": [
+        "B",
+        "W"
+      ]
+    },
+    {
+      "name": "Bernhardiner",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Biber",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Biene",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bison",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Blattlaus",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Blauwal",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Blindschleiche",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Blutegel",
+      "variants": [
+        "Egel"
+      ],
+      "letters": [
+        "B",
+        "E"
+      ]
+    },
+    {
+      "name": "Boa",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bonobo",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Borkenkäfer",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Braunbär",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bremse",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Brüllaffe",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Buchfink",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Buckelwal",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Büffel",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bussard",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Capybara",
+      "variants": [
+        "Wasserschwein"
+      ],
+      "letters": [
+        "C",
+        "W"
+      ]
+    },
+    {
+      "name": "Chamäleon",
+      "variants": [],
+      "letters": [
+        "C"
+      ]
+    },
+    {
+      "name": "Chihuahua",
+      "variants": [],
+      "letters": [
+        "C"
+      ]
+    },
+    {
+      "name": "Chinchilla",
+      "variants": [],
+      "letters": [
+        "C"
+      ]
+    },
+    {
+      "name": "Clownfisch",
+      "variants": [],
+      "letters": [
+        "C"
+      ]
+    },
+    {
+      "name": "Collie",
+      "variants": [],
+      "letters": [
+        "C"
+      ]
+    },
+    {
+      "name": "Dachs",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Dackel",
+      "variants": [
+        "Dachshund"
+      ],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Dalmatiner",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Damhirsch",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Degu",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Delfin",
+      "variants": [
+        "Delphin"
+      ],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Dingo",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Dodo",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Dohle",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Dompfaff",
+      "variants": [
+        "Gimpel"
+      ],
+      "letters": [
+        "D",
+        "G"
+      ]
+    },
+    {
+      "name": "Dorade",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Drossel",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Dromedar",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Eichhörnchen",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Eidechse",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Einsiedlerkrebs",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Eintagsfliege",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Eisbär",
+      "variants": [
+        "Polarbär"
+      ],
+      "letters": [
+        "E",
+        "P"
+      ]
+    },
+    {
+      "name": "Eisfuchs",
+      "variants": [
+        "Polarfuchs"
+      ],
+      "letters": [
+        "E",
+        "P"
+      ]
+    },
+    {
+      "name": "Eisvogel",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Elch",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Elefant",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Elster",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Emu",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Ente",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Erdferkel",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Erdmännchen",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Esel",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Eule",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Falke",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Fasan",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Faultier",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Fennek",
+      "variants": [
+        "Wüstenfuchs"
+      ],
+      "letters": [
+        "F",
+        "W"
+      ]
+    },
+    {
+      "name": "Feuersalamander",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Fink",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Flamingo",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Fledermaus",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Fliege",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Fliegender Fisch",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Floh",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Flughörnchen",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Flughund",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Flunder",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Flusspferd",
+      "variants": [
+        "Nilpferd",
+        "Hippo"
+      ],
+      "letters": [
+        "F",
+        "N",
+        "H"
+      ]
+    },
+    {
+      "name": "Forelle",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Frettchen",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Frosch",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Fuchs",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Gämse",
+      "variants": [
+        "Gemse"
+      ],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Gans",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Garnele",
+      "variants": [
+        "Shrimp"
+      ],
+      "letters": [
+        "G",
+        "S"
+      ]
+    },
+    {
+      "name": "Gazelle",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Gecko",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Geier",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Gepard",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Gibbon",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Giraffe",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Glühwürmchen",
+      "variants": [
+        "Leuchtkäfer",
+        "Johanniswürmchen"
+      ],
+      "letters": [
+        "G",
+        "L",
+        "J"
+      ]
+    },
+    {
+      "name": "Gnu",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Goldfisch",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Gorilla",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Gottesanbeterin",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Grille",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Grizzlybär",
+      "variants": [
+        "Grizzly"
+      ],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Guppy",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Gürteltier",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Habicht",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hahn",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hai",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hammerhai",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hamster",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Haselmaus",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hase",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hecht",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Heilbutt",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hering",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hermelin",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Heuschrecke",
+      "variants": [
+        "Grashüpfer"
+      ],
+      "letters": [
+        "H",
+        "G"
+      ]
+    },
+    {
+      "name": "Hirsch",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hirschkäfer",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hornisse",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Huhn",
+      "variants": [
+        "Henne"
+      ],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hummel",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hummer",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hund",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Husky",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Hyäne",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Ibis",
+      "variants": [],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Igel",
+      "variants": [],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Iltis",
+      "variants": [],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Impala",
+      "variants": [],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Islandpferd",
+      "variants": [
+        "Isländer"
+      ],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Jaguar",
+      "variants": [],
+      "letters": [
+        "J"
+      ]
+    },
+    {
+      "name": "Jakobsmuschel",
+      "variants": [],
+      "letters": [
+        "J"
+      ]
+    },
+    {
+      "name": "Junikäfer",
+      "variants": [],
+      "letters": [
+        "J"
+      ]
+    },
+    {
+      "name": "Kabeljau",
+      "variants": [
+        "Dorsch"
+      ],
+      "letters": [
+        "K",
+        "D"
+      ]
+    },
+    {
+      "name": "Käfer",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kaiman",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kaiserpinguin",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kakadu",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kakerlake",
+      "variants": [
+        "Schabe"
+      ],
+      "letters": [
+        "K",
+        "S"
+      ]
+    },
+    {
+      "name": "Kamel",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kampffisch",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kanarienvogel",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Känguru",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kaninchen",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kapuzineraffe",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Karakal",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Karpfen",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kartoffelkäfer",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Katta",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Katze",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kauz",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kiebitz",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kiwi",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Klapperschlange",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Koala",
+      "variants": [
+        "Koalabär"
+      ],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kobra",
+      "variants": [
+        "Cobra"
+      ],
+      "letters": [
+        "K",
+        "C"
+      ]
+    },
+    {
+      "name": "Koboldmaki",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kohlweißling",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Koi",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kojote",
+      "variants": [
+        "Coyote"
+      ],
+      "letters": [
+        "K",
+        "C"
+      ]
+    },
+    {
+      "name": "Kolibri",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Komodowaran",
+      "variants": [
+        "Komododrache"
+      ],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kondor",
+      "variants": [
+        "Condor"
+      ],
+      "letters": [
+        "K",
+        "C"
+      ]
+    },
+    {
+      "name": "Koralle",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kormoran",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Krabbe",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kragenechse",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Krähe",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Krake",
+      "variants": [
+        "Oktopus"
+      ],
+      "letters": [
+        "K",
+        "O"
+      ]
+    },
+    {
+      "name": "Krallenfrosch",
+      "variants": [
+        "Xenopus"
+      ],
+      "letters": [
+        "K",
+        "X"
+      ]
+    },
+    {
+      "name": "Kranich",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Krebs",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kreuzotter",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kreuzspinne",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Krill",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Krokodil",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kröte",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kuckuck",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kudu",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kugelfisch",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kuh",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Labrador",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Lachs",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Lama",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Languste",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Laubfrosch",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Laus",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Leguan",
+      "variants": [
+        "Iguana"
+      ],
+      "letters": [
+        "L",
+        "I"
+      ]
+    },
+    {
+      "name": "Lemming",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Lemur",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Leopard",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Lerche",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Libelle",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Löwe",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Luchs",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Made",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Maikäfer",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Makrele",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mamba",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mammut",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mandrill",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Manta",
+      "variants": [
+        "Mantarochen"
+      ],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Marabu",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Marder",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Marienkäfer",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mauersegler",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Maultier",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Maulwurf",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Maus",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Meerkatze",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Meerschweinchen",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Meise",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Milan",
+      "variants": [
+        "Rotmilan"
+      ],
+      "letters": [
+        "M",
+        "R"
+      ]
+    },
+    {
+      "name": "Milbe",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mistkäfer",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Molch",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mondfisch",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mops",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Moschusochse",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Motte",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Möwe",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mücke",
+      "variants": [
+        "Moskito"
+      ],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mufflon",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mungo",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Muräne",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Murmeltier",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Muschel",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Nachtigall",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nacktmull",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nacktschnecke",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nandu",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Narwal",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nasenaffe",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nasenbär",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nashorn",
+      "variants": [
+        "Rhinozeros"
+      ],
+      "letters": [
+        "N",
+        "R"
+      ]
+    },
+    {
+      "name": "Natter",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nautilus",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Neonfisch",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nerz",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nymphensittich",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Ochse",
+      "variants": [],
+      "letters": [
+        "O"
+      ]
+    },
+    {
+      "name": "Ochsenfrosch",
+      "variants": [],
+      "letters": [
+        "O"
+      ]
+    },
+    {
+      "name": "Ohrwurm",
+      "variants": [],
+      "letters": [
+        "O"
+      ]
+    },
+    {
+      "name": "Okapi",
+      "variants": [],
+      "letters": [
+        "O"
+      ]
+    },
+    {
+      "name": "Olm",
+      "variants": [],
+      "letters": [
+        "O"
+      ]
+    },
+    {
+      "name": "Opossum",
+      "variants": [],
+      "letters": [
+        "O"
+      ]
+    },
+    {
+      "name": "Orang-Utan",
+      "variants": [],
+      "letters": [
+        "O"
+      ]
+    },
+    {
+      "name": "Orca",
+      "variants": [
+        "Schwertwal",
+        "Killerwal"
+      ],
+      "letters": [
+        "O",
+        "S",
+        "K"
+      ]
+    },
+    {
+      "name": "Oryx",
+      "variants": [],
+      "letters": [
+        "O"
+      ]
+    },
+    {
+      "name": "Otter",
+      "variants": [
+        "Fischotter"
+      ],
+      "letters": [
+        "O",
+        "F"
+      ]
+    },
+    {
+      "name": "Ozelot",
+      "variants": [],
+      "letters": [
+        "O"
+      ]
+    },
+    {
+      "name": "Panda",
+      "variants": [
+        "Pandabär",
+        "Großer Panda"
+      ],
+      "letters": [
+        "P",
+        "G"
+      ]
+    },
+    {
+      "name": "Panther",
+      "variants": [
+        "Panter"
+      ],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Pantoffeltierchen",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Papagei",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Pavian",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Pelikan",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Perlhuhn",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Pfau",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Pfeilgiftfrosch",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Pferd",
+      "variants": [
+        "Ross"
+      ],
+      "letters": [
+        "P",
+        "R"
+      ]
+    },
+    {
+      "name": "Pinguin",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Piranha",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Pony",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Pottwal",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Präriehund",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Pudel",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Puma",
+      "variants": [
+        "Berglöwe"
+      ],
+      "letters": [
+        "P",
+        "B"
+      ]
+    },
+    {
+      "name": "Python",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Quagga",
+      "variants": [],
+      "letters": [
+        "Q"
+      ]
+    },
+    {
+      "name": "Qualle",
+      "variants": [],
+      "letters": [
+        "Q"
+      ]
+    },
+    {
+      "name": "Quappe",
+      "variants": [],
+      "letters": [
+        "Q"
+      ]
+    },
+    {
+      "name": "Quastenflosser",
+      "variants": [],
+      "letters": [
+        "Q"
+      ]
+    },
+    {
+      "name": "Quetzal",
+      "variants": [],
+      "letters": [
+        "Q"
+      ]
+    },
+    {
+      "name": "Quokka",
+      "variants": [],
+      "letters": [
+        "Q"
+      ]
+    },
+    {
+      "name": "Rabe",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Ratte",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Raupe",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Rebhuhn",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Regenwurm",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Reh",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Reiher",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Rennmaus",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Rentier",
+      "variants": [
+        "Ren",
+        "Karibu"
+      ],
+      "letters": [
+        "R",
+        "K"
+      ]
+    },
+    {
+      "name": "Rhesusaffe",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Rind",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Ringelnatter",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Robbe",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Rochen",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Roter Panda",
+      "variants": [
+        "Kleiner Panda"
+      ],
+      "letters": [
+        "R",
+        "K"
+      ]
+    },
+    {
+      "name": "Rotfeuerfisch",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Rotkehlchen",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Rottweiler",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Säbelzahntiger",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Salamander",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Sardelle",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Sardine",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schaf",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schäferhund",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schakal",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schellfisch",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schildkröte",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schimpanse",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schlange",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schleie",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schmetterling",
+      "variants": [
+        "Falter"
+      ],
+      "letters": [
+        "S",
+        "F"
+      ]
+    },
+    {
+      "name": "Schnabeltier",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schnake",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schnecke",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schneeeule",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schneeleopard",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Scholle",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schwalbe",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schwalbenschwanz",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schwan",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schwarze Witwe",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schwein",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schweinswal",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schwertfisch",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Seeadler",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "See-Elefant",
+      "variants": [
+        "Elefantenrobbe"
+      ],
+      "letters": [
+        "S",
+        "E"
+      ]
+    },
+    {
+      "name": "Seegurke",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Seehund",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Seeigel",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Seekuh",
+      "variants": [
+        "Manati"
+      ],
+      "letters": [
+        "S",
+        "M"
+      ]
+    },
+    {
+      "name": "Seelachs",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Seelöwe",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Seeotter",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Seepferdchen",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Seestern",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Seeanemone",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Seidenraupe",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Sepia",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Serval",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Siebenschläfer",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Silberfischchen",
+      "variants": [
+        "Silberfisch"
+      ],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Skalar",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Skorpion",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Spatz",
+      "variants": [
+        "Sperling"
+      ],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Specht",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Spinne",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Spitzmaus",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Springbock",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Stabheuschrecke",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Stachelschwein",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Star",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Steinbock",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Stichling",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Stieglitz",
+      "variants": [
+        "Distelfink"
+      ],
+      "letters": [
+        "S",
+        "D"
+      ]
+    },
+    {
+      "name": "Stier",
+      "variants": [
+        "Bulle"
+      ],
+      "letters": [
+        "S",
+        "B"
+      ]
+    },
+    {
+      "name": "Stinktier",
+      "variants": [
+        "Skunk"
+      ],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Stör",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Storch",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Strauß",
+      "variants": [
+        "Vogel Strauß"
+      ],
+      "letters": [
+        "S",
+        "V"
+      ]
+    },
+    {
+      "name": "Streifenhörnchen",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Tagpfauenauge",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Tapir",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Tarantel",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Tasmanischer Teufel",
+      "variants": [
+        "Beutelteufel"
+      ],
+      "letters": [
+        "T",
+        "B"
+      ]
+    },
+    {
+      "name": "Taube",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Tausendfüßer",
+      "variants": [
+        "Tausendfüßler"
+      ],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Termite",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Thunfisch",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Tiger",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Tintenfisch",
+      "variants": [
+        "Kalmar"
+      ],
+      "letters": [
+        "T",
+        "K"
+      ]
+    },
+    {
+      "name": "Totenkopfäffchen",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Trampeltier",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Truthahn",
+      "variants": [
+        "Pute"
+      ],
+      "letters": [
+        "T",
+        "P"
+      ]
+    },
+    {
+      "name": "Tukan",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Turmfalke",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Tyrannosaurus",
+      "variants": [
+        "T-Rex"
+      ],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Uferschwalbe",
+      "variants": [],
+      "letters": [
+        "U"
+      ]
+    },
+    {
+      "name": "Uhu",
+      "variants": [],
+      "letters": [
+        "U"
+      ]
+    },
+    {
+      "name": "Unke",
+      "variants": [],
+      "letters": [
+        "U"
+      ]
+    },
+    {
+      "name": "Urzeitkrebs",
+      "variants": [],
+      "letters": [
+        "U"
+      ]
+    },
+    {
+      "name": "Vampirfledermaus",
+      "variants": [],
+      "letters": [
+        "V"
+      ]
+    },
+    {
+      "name": "Vielfraß",
+      "variants": [],
+      "letters": [
+        "V"
+      ]
+    },
+    {
+      "name": "Vikunja",
+      "variants": [],
+      "letters": [
+        "V"
+      ]
+    },
+    {
+      "name": "Viper",
+      "variants": [],
+      "letters": [
+        "V"
+      ]
+    },
+    {
+      "name": "Vogelspinne",
+      "variants": [],
+      "letters": [
+        "V"
+      ]
+    },
+    {
+      "name": "Wachtel",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wal",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Walhai",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Walross",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wanze",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Waran",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Warzenschwein",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Waschbär",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wasserbüffel",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wasserläufer",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Weberknecht",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Weinbergschnecke",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Weißer Hai",
+      "variants": [
+        "Weißhai"
+      ],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wellensittich",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wels",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wespe",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wiedehopf",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wiesel",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wildkatze",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wildschwein",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wisent",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wolf",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wombat",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wühlmaus",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Wurm",
+      "variants": [],
+      "letters": [
+        "W"
+      ]
+    },
+    {
+      "name": "Xerus",
+      "variants": [],
+      "letters": [
+        "X"
+      ]
+    },
+    {
+      "name": "Xoloitzcuintle",
+      "variants": [
+        "Xolo"
+      ],
+      "letters": [
+        "X"
+      ]
+    },
+    {
+      "name": "Yak",
+      "variants": [
+        "Jak"
+      ],
+      "letters": [
+        "Y",
+        "J"
+      ]
+    },
+    {
+      "name": "Yorkshire Terrier",
+      "variants": [
+        "Yorkie"
+      ],
+      "letters": [
+        "Y"
+      ]
+    },
+    {
+      "name": "Ypsiloneule",
+      "variants": [],
+      "letters": [
+        "Y"
+      ]
+    },
+    {
+      "name": "Zackenbarsch",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Zander",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Zaunkönig",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Zebra",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Zebrafink",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Zebu",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Zecke",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Zibetkatze",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Ziege",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Ziesel",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Zikade",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Zilpzalp",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Zitronenfalter",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Zitteraal",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Zwergflusspferd",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    }
+  ]
+}

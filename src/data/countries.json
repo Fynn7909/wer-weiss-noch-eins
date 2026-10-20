@@ -1,0 +1,1498 @@
+{
+  "id": "countries",
+  "label": "Länder",
+  "task": "EIN LAND MIT",
+  "notes": "Plain \"Kongo\" is only a variant of \"Republik Kongo\" (official short form of that state); the DR Kongo is reachable via \"Demokratische Republik Kongo\", \"DR Kongo\", \"Kongo-Kinshasa\". Plain \"Korea\" omitted (ambiguous); \"England\" omitted (not a state).",
+  "entries": [
+    {
+      "name": "Afghanistan",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Ägypten",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Albanien",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Algerien",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Andorra",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Angola",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Antigua und Barbuda",
+      "variants": [
+        "Antigua"
+      ],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Äquatorialguinea",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Argentinien",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Armenien",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Aserbaidschan",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Äthiopien",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Australien",
+      "variants": [],
+      "letters": [
+        "A"
+      ]
+    },
+    {
+      "name": "Bahamas",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bahrain",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bangladesch",
+      "variants": [
+        "Bangladesh"
+      ],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Barbados",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Belarus",
+      "variants": [
+        "Weißrussland"
+      ],
+      "letters": [
+        "B",
+        "W"
+      ]
+    },
+    {
+      "name": "Belgien",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Belize",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Benin",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bhutan",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bolivien",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bosnien und Herzegowina",
+      "variants": [
+        "Bosnien",
+        "Bosnien-Herzegowina"
+      ],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Botswana",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Brasilien",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Brunei",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Bulgarien",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Burkina Faso",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Burundi",
+      "variants": [],
+      "letters": [
+        "B"
+      ]
+    },
+    {
+      "name": "Chile",
+      "variants": [],
+      "letters": [
+        "C"
+      ]
+    },
+    {
+      "name": "China",
+      "variants": [
+        "Volksrepublik China"
+      ],
+      "letters": [
+        "C",
+        "V"
+      ]
+    },
+    {
+      "name": "Costa Rica",
+      "variants": [],
+      "letters": [
+        "C"
+      ]
+    },
+    {
+      "name": "Dänemark",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Deutschland",
+      "variants": [
+        "Bundesrepublik Deutschland",
+        "BRD"
+      ],
+      "letters": [
+        "D",
+        "B"
+      ]
+    },
+    {
+      "name": "Dominica",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Dominikanische Republik",
+      "variants": [],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Dschibuti",
+      "variants": [
+        "Djibouti"
+      ],
+      "letters": [
+        "D"
+      ]
+    },
+    {
+      "name": "Demokratische Republik Kongo",
+      "variants": [
+        "DR Kongo",
+        "Kongo-Kinshasa"
+      ],
+      "letters": [
+        "D",
+        "K"
+      ]
+    },
+    {
+      "name": "Ecuador",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Elfenbeinküste",
+      "variants": [
+        "Côte d'Ivoire",
+        "Cote d'Ivoire",
+        "Ivory Coast"
+      ],
+      "letters": [
+        "E",
+        "C",
+        "I"
+      ]
+    },
+    {
+      "name": "El Salvador",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Eritrea",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Estland",
+      "variants": [],
+      "letters": [
+        "E"
+      ]
+    },
+    {
+      "name": "Eswatini",
+      "variants": [
+        "Swasiland"
+      ],
+      "letters": [
+        "E",
+        "S"
+      ]
+    },
+    {
+      "name": "Fidschi",
+      "variants": [
+        "Fiji"
+      ],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Finnland",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Frankreich",
+      "variants": [],
+      "letters": [
+        "F"
+      ]
+    },
+    {
+      "name": "Gabun",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Gambia",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Georgien",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Ghana",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Grenada",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Griechenland",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Guatemala",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Guinea",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Guinea-Bissau",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Guyana",
+      "variants": [],
+      "letters": [
+        "G"
+      ]
+    },
+    {
+      "name": "Haiti",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Honduras",
+      "variants": [],
+      "letters": [
+        "H"
+      ]
+    },
+    {
+      "name": "Indien",
+      "variants": [],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Indonesien",
+      "variants": [],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Irak",
+      "variants": [],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Iran",
+      "variants": [],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Irland",
+      "variants": [],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Island",
+      "variants": [],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Israel",
+      "variants": [],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Italien",
+      "variants": [],
+      "letters": [
+        "I"
+      ]
+    },
+    {
+      "name": "Jamaika",
+      "variants": [
+        "Jamaica"
+      ],
+      "letters": [
+        "J"
+      ]
+    },
+    {
+      "name": "Japan",
+      "variants": [],
+      "letters": [
+        "J"
+      ]
+    },
+    {
+      "name": "Jemen",
+      "variants": [],
+      "letters": [
+        "J"
+      ]
+    },
+    {
+      "name": "Jordanien",
+      "variants": [],
+      "letters": [
+        "J"
+      ]
+    },
+    {
+      "name": "Kambodscha",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kamerun",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kanada",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kap Verde",
+      "variants": [
+        "Cabo Verde"
+      ],
+      "letters": [
+        "K",
+        "C"
+      ]
+    },
+    {
+      "name": "Kasachstan",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Katar",
+      "variants": [
+        "Qatar"
+      ],
+      "letters": [
+        "K",
+        "Q"
+      ]
+    },
+    {
+      "name": "Kenia",
+      "variants": [
+        "Kenya"
+      ],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kirgisistan",
+      "variants": [
+        "Kirgistan"
+      ],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kiribati",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kolumbien",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Komoren",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kroatien",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kuba",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Kuwait",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Laos",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Lesotho",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Lettland",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Libanon",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Liberia",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Libyen",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Liechtenstein",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Litauen",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Luxemburg",
+      "variants": [],
+      "letters": [
+        "L"
+      ]
+    },
+    {
+      "name": "Madagaskar",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Malawi",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Malaysia",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Malediven",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mali",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Malta",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Marokko",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Marshallinseln",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mauretanien",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mauritius",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mexiko",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mikronesien",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Moldau",
+      "variants": [
+        "Moldawien",
+        "Republik Moldau",
+        "Moldova"
+      ],
+      "letters": [
+        "M",
+        "R"
+      ]
+    },
+    {
+      "name": "Monaco",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mongolei",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Montenegro",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Mosambik",
+      "variants": [],
+      "letters": [
+        "M"
+      ]
+    },
+    {
+      "name": "Myanmar",
+      "variants": [
+        "Birma",
+        "Burma"
+      ],
+      "letters": [
+        "M",
+        "B"
+      ]
+    },
+    {
+      "name": "Namibia",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nauru",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nepal",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Neuseeland",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nicaragua",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Niederlande",
+      "variants": [
+        "Holland"
+      ],
+      "letters": [
+        "N",
+        "H"
+      ]
+    },
+    {
+      "name": "Niger",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nigeria",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nordkorea",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Nordmazedonien",
+      "variants": [
+        "Mazedonien"
+      ],
+      "letters": [
+        "N",
+        "M"
+      ]
+    },
+    {
+      "name": "Norwegen",
+      "variants": [],
+      "letters": [
+        "N"
+      ]
+    },
+    {
+      "name": "Oman",
+      "variants": [],
+      "letters": [
+        "O"
+      ]
+    },
+    {
+      "name": "Österreich",
+      "variants": [],
+      "letters": [
+        "O"
+      ]
+    },
+    {
+      "name": "Osttimor",
+      "variants": [
+        "Timor-Leste"
+      ],
+      "letters": [
+        "O",
+        "T"
+      ]
+    },
+    {
+      "name": "Pakistan",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Palau",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Panama",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Papua-Neuguinea",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Paraguay",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Peru",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Philippinen",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Polen",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Portugal",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Republik Kongo",
+      "variants": [
+        "Kongo",
+        "Kongo-Brazzaville"
+      ],
+      "letters": [
+        "R",
+        "K"
+      ]
+    },
+    {
+      "name": "Ruanda",
+      "variants": [
+        "Rwanda"
+      ],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Rumänien",
+      "variants": [],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Russland",
+      "variants": [
+        "Russische Föderation"
+      ],
+      "letters": [
+        "R"
+      ]
+    },
+    {
+      "name": "Salomonen",
+      "variants": [
+        "Salomoninseln"
+      ],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Sambia",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Samoa",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "San Marino",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "São Tomé und Príncipe",
+      "variants": [
+        "Sao Tome und Principe"
+      ],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Saudi-Arabien",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schweden",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Schweiz",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Senegal",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Serbien",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Seychellen",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Sierra Leone",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Simbabwe",
+      "variants": [
+        "Zimbabwe"
+      ],
+      "letters": [
+        "S",
+        "Z"
+      ]
+    },
+    {
+      "name": "Singapur",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Slowakei",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Slowenien",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Somalia",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Spanien",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Sri Lanka",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "St. Kitts und Nevis",
+      "variants": [
+        "Sankt Kitts und Nevis"
+      ],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "St. Lucia",
+      "variants": [
+        "Sankt Lucia",
+        "Saint Lucia"
+      ],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "St. Vincent und die Grenadinen",
+      "variants": [
+        "Sankt Vincent und die Grenadinen"
+      ],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Südafrika",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Sudan",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Südkorea",
+      "variants": [
+        "Republik Korea"
+      ],
+      "letters": [
+        "S",
+        "R"
+      ]
+    },
+    {
+      "name": "Südsudan",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Suriname",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Syrien",
+      "variants": [],
+      "letters": [
+        "S"
+      ]
+    },
+    {
+      "name": "Tadschikistan",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Tansania",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Thailand",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Togo",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Tonga",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Trinidad und Tobago",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Tschad",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Tschechien",
+      "variants": [
+        "Tschechische Republik"
+      ],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Tunesien",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Türkei",
+      "variants": [
+        "Türkiye",
+        "Turkey"
+      ],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Turkmenistan",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Tuvalu",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Uganda",
+      "variants": [],
+      "letters": [
+        "U"
+      ]
+    },
+    {
+      "name": "Ukraine",
+      "variants": [],
+      "letters": [
+        "U"
+      ]
+    },
+    {
+      "name": "Ungarn",
+      "variants": [],
+      "letters": [
+        "U"
+      ]
+    },
+    {
+      "name": "Uruguay",
+      "variants": [],
+      "letters": [
+        "U"
+      ]
+    },
+    {
+      "name": "Usbekistan",
+      "variants": [],
+      "letters": [
+        "U"
+      ]
+    },
+    {
+      "name": "Vanuatu",
+      "variants": [],
+      "letters": [
+        "V"
+      ]
+    },
+    {
+      "name": "Venezuela",
+      "variants": [],
+      "letters": [
+        "V"
+      ]
+    },
+    {
+      "name": "Vereinigte Arabische Emirate",
+      "variants": [
+        "VAE",
+        "Emirate"
+      ],
+      "letters": [
+        "V",
+        "E"
+      ]
+    },
+    {
+      "name": "Vereinigte Staaten",
+      "variants": [
+        "Vereinigte Staaten von Amerika",
+        "USA",
+        "Amerika"
+      ],
+      "letters": [
+        "V",
+        "U",
+        "A"
+      ]
+    },
+    {
+      "name": "Vereinigtes Königreich",
+      "variants": [
+        "Großbritannien",
+        "UK"
+      ],
+      "letters": [
+        "V",
+        "G",
+        "U"
+      ]
+    },
+    {
+      "name": "Vietnam",
+      "variants": [],
+      "letters": [
+        "V"
+      ]
+    },
+    {
+      "name": "Zentralafrikanische Republik",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Zypern",
+      "variants": [],
+      "letters": [
+        "Z"
+      ]
+    },
+    {
+      "name": "Kosovo",
+      "variants": [],
+      "letters": [
+        "K"
+      ]
+    },
+    {
+      "name": "Taiwan",
+      "variants": [],
+      "letters": [
+        "T"
+      ]
+    },
+    {
+      "name": "Palästina",
+      "variants": [],
+      "letters": [
+        "P"
+      ]
+    },
+    {
+      "name": "Vatikanstadt",
+      "variants": [
+        "Vatikan"
+      ],
+      "letters": [
+        "V"
+      ]
+    }
+  ]
+}
