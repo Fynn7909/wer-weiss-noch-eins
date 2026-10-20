@@ -1109,7 +1109,6 @@ export function startApp(root, rawCategories) {
             <div class="row"><label class="label" for="think">Bedenkzeit<small data-v="thinknote"></small></label>
               <div class="slider"><input id="think" type="range" min="3" max="15" step="1"><output></output></div>
             </div>
-            ${host ? '<div class="suggests" data-v="suggests"></div>' : ''}
             <div class="row"><span class="label">Schlag auf Schlag<small>Countdown läuft sofort</small></span>
               ${
                 host
@@ -1178,21 +1177,19 @@ export function startApp(root, rawCategories) {
         const { rounds = settings.rounds, thinkTime = settings.thinkTime, rapid = false } = host ? lobbyInfo() : info();
         morphText(v('rounds'), String(rounds), { blur: 3, duration: 220 });
         if (host) {
-          const offers = players.filter((p) => !p.host && p.suggest != null && p.suggest !== settings.thinkTime);
-          v('suggests').innerHTML = offers
-            .map((p) => `<button class="tchip" data-take="${p.suggest}">${esc(p.name)}: ${p.suggest} s <span class="take">übernehmen</span></button>`)
-            .join('');
-          v('suggests').querySelectorAll('[data-take]').forEach((b) => {
-            b.onclick = () => {
-              settings.thinkTime = Number(b.dataset.take);
+          // Bedenkzeit darf jeder einstellen: was ein Gast schiebt, gilt sofort für alle
+          const wish = players.find((p) => !p.host && p.suggest != null)?.suggest;
+          if (wish != null) {
+            if (wish !== settings.thinkTime) {
+              settings.thinkTime = wish;
               saveSettings();
-              showRange(settings.thinkTime);
-              vibrate(8);
-              pushInfo();
-              net.room.clearSuggest(settings.thinkTime);
-            };
-          });
-          morphText(v('thinknote'), offers.length ? `${offers.length === 1 ? 'Ein Vorschlag' : `${offers.length} Vorschläge`}` : '', { blur: 3 });
+              showRange(wish);
+              net.info = lobbyInfo();
+              net.room.setInfo(net.info);
+            }
+            net.room.clearSuggest();
+            return;
+          }
           const go = el.querySelector('[data-act="go"]');
           go.disabled = players.length < MIN_PLAYERS;
           const missing = players.filter((p) => (p.picks ?? 0) === 0).map((p) => p.name);
@@ -1211,12 +1208,12 @@ export function startApp(root, rawCategories) {
           v('rapid').textContent = rapid ? 'An' : 'Aus';
           // Vorschlag übernommen (oder keiner da): Regler zeigt wieder, was gilt
           const echoed = players[myIndex]?.suggest;
-          if (mySuggest != null && echoed === mySuggest) suggestSeen = true;
+          if (mySuggest != null && (echoed === mySuggest || thinkTime === mySuggest)) suggestSeen = true;
           if (suggestSeen && echoed == null) mySuggest = null;
           if (mySuggest == null && Number(range.value) !== thinkTime) showRange(thinkTime);
           morphText(
             v('thinknote'),
-            mySuggest == null ? `${hostName} entscheidet – schieb für einen Vorschlag` : `Vorschlag geschickt · gilt: ${thinkTime} s`,
+            mySuggest == null ? 'Gilt für alle' : 'Wird übernommen …',
             { blur: 3 },
           );
         }

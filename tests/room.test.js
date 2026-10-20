@@ -141,7 +141,7 @@ describe('Lobby-Wünsche', () => {
     ]);
     const seen = b.inbox.at(-1).players[1];
     expect(seen).toMatchObject({ name: 'Max', picks: 3, suggest: 8 });
-    host.clearSuggest(8);
+    host.clearSuggest();
     expect(host.players()[1].suggest).toBe(null);
   });
 

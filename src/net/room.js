@@ -130,9 +130,9 @@ export function createHostRoom({ name, token }, events) {
     },
     /** Alle Wünsche fürs Planen der Partie: [{name, picks}] in Spielreihenfolge. */
     picks: () => players.map((p) => ({ name: p.name, picks: [...p.picks] })),
-    /** Vorschläge, die gerade übernommen wurden, verschwinden. */
-    clearSuggest(value) {
-      players.forEach((p) => p.suggest === value && (p.suggest = null));
+    /** Übernommene Bedenkzeit-Wünsche verschwinden. */
+    clearSuggest() {
+      players.forEach((p) => (p.suggest = null));
       pushLobby();
     },
     rename(next) {
