@@ -248,7 +248,7 @@ export function startApp(root, rawCategories) {
     };
     el.querySelector('[data-act="solo"]').onclick = (e) => {
       sfx.unlock();
-      launch(e.currentTarget, showSolo);
+      launch(e.currentTarget, showSoloMenu);
     };
     el.querySelector('[data-act="how"]').onclick = showHowTo;
     function showCategory() {
@@ -2140,16 +2140,90 @@ export function startApp(root, rawCategories) {
 
   /* ---------------- Solo ---------------- */
 
-  /** Solo braucht eine Liste zum Prüfen: Zufall oder Themen ohne Liste spielen ein zufälliges Listen-Thema. */
-  function soloCategory() {
-    const c = byId[settings.categoryId];
-    if (c && !c.open) return c;
-    const pool = themePool();
-    return byId[pool[Math.floor(Math.random() * pool.length)]];
+  /** Bestwert pro Thema: { best, plays }. Ganz frühe Spielstände waren nur eine Zahl. */
+  const soloRecord = (id) => {
+    const r = store.get(`solo:${id}`, null);
+    return typeof r === 'number' ? { best: r, plays: 1 } : r;
+  };
+
+  /** Solo-Start: Bestwerte-Tabelle oben, darunter alle Themen mit Liste (nur die kann das Spiel allein prüfen). */
+  function showSoloMenu() {
+    stopGame();
+    leaveScreen(root);
+    const playable = categories.filter((c) => !c.open);
+    const played = playable
+      .map((c) => ({ c, r: soloRecord(c.id) }))
+      .filter((x) => x.r)
+      .sort((a, b) => b.r.best - a.r.best || a.c.label.localeCompare(b.c.label, 'de'));
+    const groups = new Map([['Klassiker', MAIN.map((id) => byId[id]).filter(Boolean)]]);
+    for (const c of playable) {
+      if (MAIN.includes(c.id)) continue;
+      const g = c.custom ? 'Eigene' : (c.group ?? 'Sonstiges');
+      if (!groups.has(g)) groups.set(g, []);
+      groups.get(g).push(c);
+    }
+    const chip = (c) => {
+      const r = soloRecord(c.id);
+      return `<button class="tchip" data-play="${c.id}">${esc(c.label)}${r ? ` <span class="tbest">${r.best}</span>` : ''}</button>`;
+    };
+    const el = h(`
+      <main class="screen setup solomenu">
+        <header class="topbar">
+          <button class="link back" data-act="back">← Zurück</button>
+          <div class="meta">Solo · ${SOLO_SECONDS} Sekunden</div>
+        </header>
+        <section class="panel wide">
+          <h1 class="serif">Gegen die Uhr.</h1>
+          <p class="lede">Thema wählen, dann hast du ${SOLO_SECONDS} Sekunden. Nach jedem Treffer kommt ein zufälliger neuer Buchstabe. Schaffst du mehr als beim letzten Mal?</p>
+          <h3 class="meta solohead">Deine Bestwerte</h3>
+          ${
+            played.length
+              ? `<ol class="solorecs">${played
+                  .map(
+                    ({ c, r }, i) =>
+                      `<li><button data-play="${c.id}"><span class="rank">${i + 1}</span><span class="name">${esc(c.label)}</span><small>${r.plays}× gespielt</small><b>${r.best}</b></button></li>`,
+                  )
+                  .join('')}</ol>`
+              : '<p class="lede">Noch nichts gespielt. Such dir unten ein Thema aus.</p>'
+          }
+          <h3 class="meta solohead">Thema wählen</h3>
+          <input class="tsearch" type="search" placeholder="Thema suchen" aria-label="Thema suchen" autocomplete="off">
+          <div class="tgroups">
+            ${[...groups]
+              .map(
+                ([g, list]) =>
+                  `<section data-group><h3 class="meta">${esc(g)}</h3><div class="tchips">${list.map(chip).join('')}</div></section>`,
+              )
+              .join('')}
+            <p class="tnone lede" hidden>Nichts gefunden.</p>
+          </div>
+        </section>
+      </main>`);
+    root.append(el);
+    el.querySelector('[data-act="back"]').onclick = () => land('[data-act="solo"]', showStart);
+    el.querySelectorAll('[data-play]').forEach((b) => {
+      b.onclick = () => showSolo(byId[b.dataset.play]);
+    });
+    const search = el.querySelector('.tsearch');
+    search.oninput = () => {
+      const q = normalize(search.value);
+      let any = false;
+      el.querySelectorAll('[data-group]').forEach((sec) => {
+        let shown = 0;
+        sec.querySelectorAll('.tchip').forEach((b) => {
+          const hit = !q || normalize(byId[b.dataset.play].label).includes(q);
+          b.hidden = !hit;
+          if (hit) shown++;
+        });
+        sec.hidden = shown === 0;
+        any ||= shown > 0;
+      });
+      el.querySelector('.tnone').hidden = any;
+    };
   }
 
   /** Allein gegen die Uhr: nach jedem Treffer ein neuer Buchstabe. Uhr läuft hier, Logik in solo.js. */
-  function showSolo(cat = soloCategory()) {
+  function showSolo(cat) {
     stopGame();
     leaveScreen(root);
     let s = createSolo({ category: cat });
@@ -2280,7 +2354,7 @@ export function startApp(root, rawCategories) {
     el.querySelector('[data-act="quit"]').onclick = () => {
       pause();
       document.removeEventListener('visibilitychange', onVisible);
-      showStart();
+      showSoloMenu();
     };
 
     showScore();
@@ -2306,10 +2380,10 @@ export function startApp(root, rawCategories) {
 
   function showSoloEnd(s, cat) {
     const n = soloScore(s);
-    const key = `solo:${cat.id}`;
-    const best = store.get(key, 0);
+    const old = soloRecord(cat.id);
+    const best = old?.best ?? 0;
     const record = n > best;
-    if (record) store.set(key, n);
+    store.set(`solo:${cat.id}`, { best: Math.max(n, best), plays: (old?.plays ?? 0) + 1 });
     if (record && n > 0) sfx.win();
     leaveScreen(root);
     const el = h(`
@@ -2327,7 +2401,7 @@ export function startApp(root, rawCategories) {
           }</p>
           ${n ? `<ul class="chips">${s.answers.map((a) => `<li class="chip">${esc(a.text)}</li>`).join('')}</ul>` : ''}
           <div class="row2">
-            <button class="pill" data-act="home">Startseite</button>
+            <button class="pill" data-act="table">Bestwerte</button>
             <button class="pill primary" data-act="again">Nochmal <span class="arrow"></span></button>
           </div>
         </section>
@@ -2335,7 +2409,7 @@ export function startApp(root, rawCategories) {
     root.append(el);
     if (record && n > 0) requestAnimationFrame(() => confetti(el.querySelector('.confetti')));
     el.querySelector('[data-act="again"]').onclick = () => showSolo(cat);
-    el.querySelector('[data-act="home"]').onclick = showStart;
+    el.querySelector('[data-act="table"]').onclick = showSoloMenu;
   }
 
   function showWinner(s) {

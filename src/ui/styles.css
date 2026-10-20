@@ -3098,3 +3098,87 @@ input[type='range']::-moz-range-thumb {
     display: none;
   }
 }
+
+/* ---------- Solo: Bestwerte + Themenwahl ---------- */
+
+.solomenu .solohead {
+  margin: 26px 0 8px;
+  font-weight: 500;
+}
+
+.solomenu .tsearch {
+  width: 100%;
+  margin-top: 0;
+}
+
+.solomenu .tgroups {
+  overflow: visible;
+  background: none;
+  margin: 0;
+  padding: 0 0 24px;
+}
+
+.tbest {
+  margin-left: 4px;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent);
+}
+
+.solorecs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.solorecs button {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 28px 1fr auto auto;
+  align-items: baseline;
+  gap: 10px;
+  padding: 12px 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.solorecs li:last-child button {
+  border-bottom: 1px solid var(--line);
+}
+
+.solorecs .rank {
+  font-size: 12px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.solorecs small {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.solorecs b {
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1;
+  min-width: 2ch;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.solorecs li:first-child b {
+  color: var(--accent);
+}
+
+@media (hover: hover) {
+  .solorecs button:hover .name {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
