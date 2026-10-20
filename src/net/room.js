@@ -1,7 +1,7 @@
 // Raum = Lobby + Zuordnung Verbindung -> Spieler. Spielregeln stecken in logic/game.js,
 // Transport in peer.js; hier nur, wer drin ist und welche Nachricht wohin geht.
 //
-// Nachrichten Gast -> Host:  hello {name, token} · act {action, seq} · pick {picks} · suggest {thinkTime} · bye
+// Nachrichten Gast -> Host:  hello {name, token} · act {action, seq} · pick {picks} · suggest {thinkTime | countdown} · bye
 // Nachrichten Host -> Gast:  lobby {players, info, you, back} · start {you, state, seq, customs} · state {state, seq} · refuse {reason} · bye
 
 export const MAX_ROOM = 8;
@@ -10,7 +10,7 @@ const MAX_PICKS = 3;
 /** Themenwahl aus dem Netz: höchstens 3 kurze, verschiedene Texte. Ob es die Themen gibt, prüft die App. */
 const cleanPicks = (list) =>
   Array.isArray(list) ? [...new Set(list.filter((x) => typeof x === 'string' && x.length <= 40))].slice(0, MAX_PICKS) : [];
-const cleanSuggest = (n) => (Number.isInteger(n) && n >= 3 && n <= 15 ? n : null);
+const cleanSuggest = (n, max = 15) => (Number.isInteger(n) && n >= 3 && n <= max ? n : null);
 
 /** Gleiche Namen unterscheidbar machen: "Max", "Max 2" … */
 function uniqueName(name, taken) {
@@ -30,11 +30,11 @@ export function createHostRoom({ name, token }, events) {
   let inGame = false;
   let info = {};
   let last = null; // letzter Spielstand, für wer neu verbindet
-  const players = [{ name: uniqueName(name, []), token, conn: null, online: true, self: true, picks: [], suggest: null }];
+  const players = [{ name: uniqueName(name, []), token, conn: null, online: true, self: true, picks: [], suggest: null, suggestCount: null }];
 
   // Gäste sehen von fremden Themen nur die Anzahl – Überraschung bleibt
   const publicList = () =>
-    players.map((p) => ({ name: p.name, online: p.online, host: isHost(p), picks: p.picks.length, suggest: p.suggest }));
+    players.map((p) => ({ name: p.name, online: p.online, host: isHost(p), picks: p.picks.length, suggest: p.suggest, suggestCount: p.suggestCount }));
   const byConn = (id) => (id == null ? -1 : players.findIndex((p) => p.conn === id));
   const isHost = (p) => p.self === true;
   /** Jeder Gast bekommt die Liste plus seinen eigenen Platz (you). */
@@ -71,6 +71,7 @@ export function createHostRoom({ name, token }, events) {
         online: true,
         picks: [],
         suggest: null,
+        suggestCount: null,
       });
       pushLobby();
       return;
@@ -83,6 +84,7 @@ export function createHostRoom({ name, token }, events) {
       const i = byConn(id);
       if (i < 0 || inGame) return;
       if (msg.t === 'pick') players[i].picks = cleanPicks(msg.picks);
+      else if ('countdown' in msg) players[i].suggestCount = cleanSuggest(msg.countdown, 10);
       else players[i].suggest = cleanSuggest(msg.thinkTime);
       pushLobby();
       return;
@@ -132,7 +134,7 @@ export function createHostRoom({ name, token }, events) {
     picks: () => players.map((p) => ({ name: p.name, picks: [...p.picks] })),
     /** Übernommene Bedenkzeit-Wünsche verschwinden. */
     clearSuggest() {
-      players.forEach((p) => (p.suggest = null));
+      players.forEach((p) => (p.suggest = p.suggestCount = null));
       pushLobby();
     },
     rename(next) {
@@ -197,6 +199,9 @@ export function createGuestRoom({ name, token }, events) {
     },
     suggest(thinkTime) {
       transport?.send({ t: 'suggest', thinkTime });
+    },
+    suggestCountdown(countdown) {
+      transport?.send({ t: 'suggest', countdown });
     },
     bye() {
       transport?.send({ t: 'bye' });

@@ -1,9 +1,10 @@
-// Einziger Ort mit echter Zeit. Bedenkzeit läuft still, danach kommt der große Countdown 5-4-3-2-1.
+// Einziger Ort mit echter Zeit. Bedenkzeit läuft still, danach kommt der große Countdown (Standard 5-4-3-2-1).
 
 export const COUNTDOWN = 5;
 
 export function createTimer({ onThink, onCount, onTimeout }) {
   let thinkMs = 0;
+  let countFrom = COUNTDOWN;
   let elapsed = 0; // ohne Pausen
   let startedAt = 0;
   let running = false;
@@ -20,7 +21,7 @@ export function createTimer({ onThink, onCount, onTimeout }) {
     if (t < thinkMs) {
       onThink?.(1 - t / thinkMs);
     } else {
-      const left = COUNTDOWN - Math.floor((t - thinkMs) / 1000);
+      const left = countFrom - Math.floor((t - thinkMs) / 1000);
       if (left <= 0) {
         stop();
         onTimeout?.();
@@ -41,10 +42,11 @@ export function createTimer({ onThink, onCount, onTimeout }) {
   }
 
   return {
-    /** Neuer Zug. rapid = Countdown sofort. */
-    start(seconds, rapid) {
+    /** Neuer Zug. rapid = Countdown sofort, count = Länge des Countdowns. */
+    start(seconds, rapid, count = COUNTDOWN) {
       stop();
       thinkMs = rapid ? 0 : seconds * 1000;
+      countFrom = count;
       elapsed = 0;
       lastCount = null;
       this.resume();

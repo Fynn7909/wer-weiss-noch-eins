@@ -134,22 +134,24 @@ describe('Lobby-Wünsche', () => {
     const b = join('b', 'Ole');
     a.room.pick(['countries', 'food', 'animals', 'zuviel', 42]);
     a.room.suggest(8);
+    a.room.suggestCountdown(7);
     expect(host.picks()).toEqual([
       { name: 'Lena', picks: [] },
       { name: 'Max', picks: ['countries', 'food', 'animals'] },
       { name: 'Ole', picks: [] },
     ]);
     const seen = b.inbox.at(-1).players[1];
-    expect(seen).toMatchObject({ name: 'Max', picks: 3, suggest: 8 });
+    expect(seen).toMatchObject({ name: 'Max', picks: 3, suggest: 8, suggestCount: 7 });
     host.clearSuggest();
-    expect(host.players()[1].suggest).toBe(null);
+    expect(host.players()[1]).toMatchObject({ suggest: null, suggestCount: null });
   });
 
   it('Unsinn wird ignoriert, im Spiel ändert sich nichts mehr', () => {
     const { host, join } = setup();
     const a = join('a', 'Max');
     a.room.suggest(99);
-    expect(host.players()[1].suggest).toBe(null);
+    a.room.suggestCountdown(11);
+    expect(host.players()[1]).toMatchObject({ suggest: null, suggestCount: null });
     host.setPicks(['food']);
     expect(host.picks()[0].picks).toEqual(['food']);
     host.start({}, 1, []);

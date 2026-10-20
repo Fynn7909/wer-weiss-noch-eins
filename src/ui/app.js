@@ -30,7 +30,7 @@ import {
   popClose,
   popOpen,
 } from './morph.js';
-import { createTimer } from './timer.js';
+import { COUNTDOWN, createTimer } from './timer.js';
 
 const SAYINGS = {
   fast: ['Das ist ja Schlag auf Schlag hier!', 'Zack.', 'Ohne Nachdenken.', 'Der war schnell.'],
@@ -40,7 +40,7 @@ const SAYINGS = {
 };
 const pick = (list) => list[Math.floor(Math.random() * list.length)];
 
-const DEFAULTS = { categoryId: 'countries', thinkTime: 5, rapid: false, sound: true, rounds: 5 };
+const DEFAULTS = { categoryId: 'countries', thinkTime: 5, countdown: COUNTDOWN, rapid: false, sound: true, rounds: 5 };
 const MAIN = ['countries', 'food', 'animals'];
 const RANDOM = 'random';
 // Startseite: alle paar Sekunden rückt der Punkt weiter und die Riesenschrift zeigt ein anderes Thema
@@ -331,6 +331,9 @@ export function startApp(root, rawCategories) {
         <div class="row"><label class="label" for="think">Bedenkzeit</label>
           <div class="slider"><input id="think" type="range" min="3" max="15" step="1" value="${settings.thinkTime}"><output>${settings.thinkTime} s</output></div>
         </div>
+        <div class="row"><label class="label" for="countdown">Countdown<small>Läuft nach der Bedenkzeit</small></label>
+          <div class="slider"><input id="countdown" type="range" min="3" max="10" step="1" value="${settings.countdown}"><output>${settings.countdown} s</output></div>
+        </div>
         <div class="row"><span class="label">Schlag auf Schlag<small>Countdown läuft sofort</small></span>
           <button class="switch" role="switch" aria-checked="${settings.rapid}" data-toggle="rapid" aria-label="Schlag auf Schlag"></button>
         </div>
@@ -364,13 +367,15 @@ export function startApp(root, rawCategories) {
     });
     el.querySelector('[data-act="themes"]').onclick = (e) => showThemes(choose, e.currentTarget);
     new ResizeObserver(() => moveIndicator(seg)).observe(seg);
-    const range = el.querySelector('#think');
-    range.oninput = () => {
-      settings.thinkTime = Number(range.value);
-      morphText(range.nextElementSibling, `${settings.thinkTime} s`, { blur: 3, duration: 220 });
-      saveSettings();
-      onChange('thinkTime');
-    };
+    for (const [id, key] of [['think', 'thinkTime'], ['countdown', 'countdown']]) {
+      const range = el.querySelector(`#${id}`);
+      range.oninput = () => {
+        settings[key] = Number(range.value);
+        morphText(range.nextElementSibling, `${settings[key]} s`, { blur: 3, duration: 220 });
+        saveSettings();
+        onChange(key);
+      };
+    }
     el.querySelectorAll('[data-toggle]').forEach((b) => {
       b.onclick = () => {
         const key = b.dataset.toggle;
@@ -572,7 +577,7 @@ export function startApp(root, rawCategories) {
             <li>Oben steht die Aufgabe, z.&nbsp;B. <em>Ein Land mit T</em>.</li>
             <li>Wer dran ist, tippt eine Antwort ein. Danach geht das Handy weiter.</li>
             <li>Nichts doppelt. Es zählt der Anfangsbuchstabe, so wie getippt wurde.</li>
-            <li>Nach der Bedenkzeit wird von 5 runtergezählt. Bei 0 bist du raus.</li>
+            <li>Nach der Bedenkzeit wird runtergezählt (5 Sekunden, einstellbar). Bei 0 bist du raus.</li>
             <li>Kennt das Spiel eine Antwort nicht, stimmen die anderen ab: Zählt das?</li>
             <li>Wer zuletzt übrig ist, gewinnt.</li>
           </ol>
@@ -844,7 +849,7 @@ export function startApp(root, rawCategories) {
     }
   }
 
-  const lobbyInfo = () => ({ rounds: settings.rounds, thinkTime: settings.thinkTime, rapid: settings.rapid });
+  const lobbyInfo = () => ({ rounds: settings.rounds, thinkTime: settings.thinkTime, countdown: settings.countdown, rapid: settings.rapid });
 
   /** Eigene Online-Themen, gemerkt fürs nächste Mal. Nur eingebaute – eigene Kategorien kennen die anderen nicht. */
   let myPicks = store.get('picks', []).filter((id) => byId[id] && !id.startsWith('eigen-'));
@@ -982,7 +987,7 @@ export function startApp(root, rawCategories) {
     game = {
       ...createGame({
         names: playerNames,
-        settings: { thinkTime: settings.thinkTime, rapid: settings.rapid, pool: [], direct: true },
+        settings: { thinkTime: settings.thinkTime, countdown: settings.countdown, rapid: settings.rapid, pool: [], direct: true },
         category: byId[categoryId],
         seed: (Math.random() * 2 ** 31) | 0,
       }),
@@ -1109,6 +1114,9 @@ export function startApp(root, rawCategories) {
             <div class="row"><label class="label" for="think">Bedenkzeit<small data-v="thinknote"></small></label>
               <div class="slider"><input id="think" type="range" min="3" max="15" step="1"><output></output></div>
             </div>
+            <div class="row"><label class="label" for="countdown">Countdown<small data-v="countnote"></small></label>
+              <div class="slider"><input id="countdown" type="range" min="3" max="10" step="1"><output></output></div>
+            </div>
             <div class="row"><span class="label">Schlag auf Schlag<small>Countdown läuft sofort</small></span>
               ${
                 host
@@ -1132,12 +1140,8 @@ export function startApp(root, rawCategories) {
     root.append(el);
     const list = el.querySelector('.lplayers');
     const hint = el.querySelector('.hint');
-    const range = el.querySelector('#think');
-    const rangeOut = range.nextElementSibling;
     const v = (k) => el.querySelector(`[data-v="${k}"]`);
     const link = () => `${location.origin}${location.pathname}?raum=${net.code}`;
-    let mySuggest = null; // Gast: eigener Vorschlag, solange der Host ihn nicht übernommen hat
-    let suggestSeen = false; // Host hat den Vorschlag bekommen – verschwindet er wieder, ist er übernommen
 
     const showSlots = () => {
       v('slots').innerHTML = Array.from({ length: PICKS }, (_, i) => {
@@ -1146,9 +1150,54 @@ export function startApp(root, rawCategories) {
       }).join('');
       el.querySelector('[data-act="pick"]').textContent = myPicks.length ? 'Ändern' : 'Wählen';
     };
-    const showRange = (n) => {
-      range.value = n;
-      morphText(rangeOut, `${n} s`, { blur: 3, duration: 220 });
+    const pushInfo = () => {
+      net.info = lobbyInfo();
+      net.room.setInfo(net.info);
+    };
+    /** Regler, den jeder schieben darf. Beim Gast bleibt der eigene Wunsch stehen, bis der Host ihn übernommen hat. */
+    const wishSlider = (id, key, send) => {
+      const range = el.querySelector(`#${id}`);
+      const out = range.nextElementSibling;
+      let mine = null; // Gast: eigener Vorschlag, solange der Host ihn nicht übernommen hat
+      let seen = false; // Host hat den Vorschlag bekommen – verschwindet er wieder, ist er übernommen
+      const show = (n) => {
+        range.value = n;
+        morphText(out, `${n} s`, { blur: 3, duration: 220 });
+      };
+      if (host) {
+        range.oninput = () => {
+          settings[key] = Number(range.value);
+          show(settings[key]);
+          saveSettings();
+          pushInfo();
+          lobbyView.render();
+        };
+      } else {
+        range.oninput = () => morphText(out, `${range.value} s`, { blur: 3, duration: 220 });
+        // erst beim Loslassen schicken, nicht bei jedem Zwischenschritt
+        range.onchange = () => {
+          mine = Number(range.value);
+          seen = false;
+          send(mine);
+          vibrate(6);
+          lobbyView.render();
+        };
+      }
+      show(host ? settings[key] : (info()[key] ?? settings[key]));
+      return {
+        show,
+        /** Gast: Stand vom Host abgleichen. true, solange der eigene Wunsch noch unterwegs ist. */
+        sync(current, echoed) {
+          if (mine != null && (echoed === mine || current === mine)) seen = true;
+          if (seen && echoed == null) mine = null;
+          if (mine == null && Number(range.value) !== current) show(current);
+          return mine != null;
+        },
+      };
+    };
+    const sliders = {
+      thinkTime: wishSlider('think', 'thinkTime', (n) => net.room.suggest(n)),
+      countdown: wishSlider('countdown', 'countdown', (n) => net.room.suggestCountdown(n)),
     };
 
     lobbyView = {
@@ -1162,6 +1211,7 @@ export function startApp(root, rawCategories) {
               p.host && 'Raum',
               i === myIndex && 'du',
               p.suggest != null && !host && i !== myIndex ? `${p.suggest} s?` : null,
+              p.suggestCount != null && !host && i !== myIndex ? `Countdown ${p.suggestCount} s?` : null,
             ].filter(Boolean);
             return `<li class="lrow${i === myIndex ? ' me' : ''}">
               <span class="num">${String(i + 1).padStart(2, '0')}</span>
@@ -1174,18 +1224,29 @@ export function startApp(root, rawCategories) {
         list.querySelectorAll('.lpicks').forEach((dots, i) =>
           [...dots.children].forEach((d, k) => d.classList.toggle('on', k < (players[i].picks ?? 0))),
         );
-        const { rounds = settings.rounds, thinkTime = settings.thinkTime, rapid = false } = host ? lobbyInfo() : info();
+        const {
+          rounds = settings.rounds,
+          thinkTime = settings.thinkTime,
+          countdown = COUNTDOWN,
+          rapid = false,
+        } = host ? lobbyInfo() : info();
         morphText(v('rounds'), String(rounds), { blur: 3, duration: 220 });
         if (host) {
-          // Bedenkzeit darf jeder einstellen: was ein Gast schiebt, gilt sofort für alle
-          const wish = players.find((p) => !p.host && p.suggest != null)?.suggest;
-          if (wish != null) {
-            if (wish !== settings.thinkTime) {
-              settings.thinkTime = wish;
+          // Bedenkzeit und Countdown darf jeder einstellen: was ein Gast schiebt, gilt sofort für alle
+          const wishes = {
+            thinkTime: players.find((p) => !p.host && p.suggest != null)?.suggest,
+            countdown: players.find((p) => !p.host && p.suggestCount != null)?.suggestCount,
+          };
+          const wished = Object.entries(wishes).filter(([, n]) => n != null);
+          if (wished.length) {
+            const changed = wished.filter(([key, n]) => n !== settings[key]);
+            for (const [key, n] of changed) {
+              settings[key] = n;
+              sliders[key].show(n);
+            }
+            if (changed.length) {
               saveSettings();
-              showRange(wish);
-              net.info = lobbyInfo();
-              net.room.setInfo(net.info);
+              pushInfo();
             }
             net.room.clearSuggest();
             return;
@@ -1207,25 +1268,15 @@ export function startApp(root, rawCategories) {
           v('wait').textContent = `Du bist drin. ${hostName} startet die Partie.`;
           v('rapid').textContent = rapid ? 'An' : 'Aus';
           // Vorschlag übernommen (oder keiner da): Regler zeigt wieder, was gilt
-          const echoed = players[myIndex]?.suggest;
-          if (mySuggest != null && (echoed === mySuggest || thinkTime === mySuggest)) suggestSeen = true;
-          if (suggestSeen && echoed == null) mySuggest = null;
-          if (mySuggest == null && Number(range.value) !== thinkTime) showRange(thinkTime);
-          morphText(
-            v('thinknote'),
-            mySuggest == null ? 'Gilt für alle' : 'Wird übernommen …',
-            { blur: 3 },
-          );
+          const me = players[myIndex];
+          const note = (pending) => (pending ? 'Wird übernommen …' : 'Gilt für alle');
+          morphText(v('thinknote'), note(sliders.thinkTime.sync(thinkTime, me?.suggest)), { blur: 3 });
+          morphText(v('countnote'), note(sliders.countdown.sync(countdown, me?.suggestCount)), { blur: 3 });
         }
       },
     };
 
-    const pushInfo = () => {
-      net.info = lobbyInfo();
-      net.room.setInfo(net.info);
-    };
     showSlots();
-    showRange(host ? settings.thinkTime : (info().thinkTime ?? settings.thinkTime));
     lobbyView.render();
     // gemerkte Themen gleich mitschicken
     if (myPicks.length) setMyPicks(myPicks);
@@ -1241,28 +1292,11 @@ export function startApp(root, rawCategories) {
           pushInfo();
         };
       });
-      range.oninput = () => {
-        settings.thinkTime = Number(range.value);
-        showRange(settings.thinkTime);
-        saveSettings();
-        pushInfo();
-        lobbyView.render();
-      };
       el.querySelector('[data-toggle="rapid"]').onclick = (e) => {
         settings.rapid = !settings.rapid;
         e.currentTarget.setAttribute('aria-checked', settings.rapid);
         saveSettings();
         pushInfo();
-      };
-    } else {
-      range.oninput = () => morphText(rangeOut, `${range.value} s`, { blur: 3, duration: 220 });
-      // erst beim Loslassen schicken, nicht bei jedem Zwischenschritt
-      range.onchange = () => {
-        mySuggest = Number(range.value);
-        suggestSeen = false;
-        net.room.suggest(mySuggest);
-        vibrate(6);
-        lobbyView.render();
       };
     }
     el.querySelector('[data-act="pick"]').onclick = (e) =>
@@ -1327,7 +1361,7 @@ export function startApp(root, rawCategories) {
       view.bar.style.transform = 'scaleX(0)';
       view.stage.classList.add('counting');
       countTo(view.tick ?? view.count, n);
-      if (n === 5) say(pick(SAYINGS.pressure));
+      if (n === (game?.settings.countdown ?? COUNTDOWN)) say(pick(SAYINGS.pressure));
       sfx.tick(n);
     },
     onTimeout() {
@@ -1358,7 +1392,7 @@ export function startApp(root, rawCategories) {
     const random = settings.categoryId === RANDOM;
     return createGame({
       names: playerNames,
-      settings: { thinkTime: settings.thinkTime, rapid: settings.rapid, pool: random ? themePool() : [] },
+      settings: { thinkTime: settings.thinkTime, countdown: settings.countdown, rapid: settings.rapid, pool: random ? themePool() : [] },
       category: random ? lookup : byId[settings.categoryId],
       seed: (Math.random() * 2 ** 31) | 0,
     });
@@ -1675,7 +1709,7 @@ export function startApp(root, rawCategories) {
           if (view.tick) clearCount(view.tick);
           view.bar.style.transform = 'scaleX(1)';
           view.input.value = '';
-          timer.start(s.settings.thinkTime, s.settings.rapid);
+          timer.start(s.settings.thinkTime, s.settings.rapid, s.settings.countdown ?? COUNTDOWN);
           if (net && mine) vibrate([30, 60, 30]);
         } else timer.resume();
         if (net) showLine(s);
@@ -1719,7 +1753,8 @@ export function startApp(root, rawCategories) {
     sfx.valid();
     const ms = s.notice.ms;
     const countdownStarted = !s.settings.rapid && ms > s.settings.thinkTime * 1000;
-    if (countdownStarted && ms > s.settings.thinkTime * 1000 + 3500) say(pick(SAYINGS.close));
+    const countMs = (s.settings.countdown ?? COUNTDOWN) * 1000;
+    if (countdownStarted && ms > s.settings.thinkTime * 1000 + countMs - 1500) say(pick(SAYINGS.close));
     else if (ms < 2200) say(pick(SAYINGS.fast));
   }
 

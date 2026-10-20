@@ -63,7 +63,7 @@ Jeder am eigenen Handy. Startseite → **Online** → „Raum erstellen“ zeigt
 - Verbindung weg: 15 s Wartezeit, wer im selben Tab neu verbindet, bekommt seinen Platz zurück. Danach ist er raus.
 - Host verlässt = Spiel vorbei für alle.
 - Online wird eine **Partie** gespielt: Host stellt Runden (1–10) und „Schlag auf Schlag“ ein.
-  Die Bedenkzeit kann jeder in der Lobby verschieben, sie gilt sofort für alle.
+  Bedenkzeit (3–15 s) und Countdown danach (3–10 s, Standard 5) kann jeder in der Lobby verschieben, sie gelten sofort für alle.
 - Jeder wählt in der Lobby 3 Themen. Runde 1 gehört dem ersten Spieler, Runde 2 dem zweiten usw. –
   aus dessen Themen wird eins ausgelost (wer nichts gewählt hat: Zufallsthema). Jede Runde ist ein ganzes Spiel.
 - Punkte pro Runde nach Platz: 10 · 5 · 3, Rest 0. Danach Tabelle mit Umsortier-Animation (`src/ui/board.js`), nach der letzten Runde Endstand.
