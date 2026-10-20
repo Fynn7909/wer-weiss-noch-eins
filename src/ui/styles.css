@@ -3099,23 +3099,52 @@ input[type='range']::-moz-range-thumb {
   }
 }
 
-/* ---------- Solo: Bestwerte + Themenwahl ---------- */
+/* ---------- Solo-Menü: Themen-Menü mit Bestwerten daneben ---------- */
 
-.solomenu .solohead {
-  margin: 26px 0 8px;
-  font-weight: 500;
+.solomenu .sheet.wide {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 0 28px;
+  overflow: hidden;
 }
 
-.solomenu .tsearch {
-  width: 100%;
-  margin-top: 0;
+.solomain {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
 }
 
-.solomenu .tgroups {
-  overflow: visible;
-  background: none;
+.solomain > .pill {
+  margin-top: 12px;
+}
+
+.solomain .lede {
+  max-width: none;
+  margin: 4px 0 0;
+}
+
+.solomenu .tiles {
+  grid-template-columns: 1fr;
+}
+
+.solobest {
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 22px;
+  border-right: 1px solid var(--line);
+  scrollbar-width: none;
+}
+
+.solobest > .meta {
+  margin: 4px 0 12px;
+}
+
+.soloempty {
   margin: 0;
-  padding: 0 0 24px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
 }
 
 .tbest {
@@ -3134,32 +3163,36 @@ input[type='range']::-moz-range-thumb {
 .solorecs button {
   width: 100%;
   display: grid;
-  grid-template-columns: 28px 1fr auto auto;
-  align-items: baseline;
+  grid-template-columns: 18px 1fr auto;
+  align-items: center;
   gap: 10px;
-  padding: 12px 0;
+  padding: 10px 0;
   border: 0;
   border-top: 1px solid var(--line);
   background: none;
   color: inherit;
   font: inherit;
+  font-size: 14px;
   text-align: left;
   cursor: pointer;
 }
 
-.solorecs li:last-child button {
-  border-bottom: 1px solid var(--line);
+.solorecs li:first-child button {
+  border-top: 0;
 }
 
-.solorecs .rank {
-  font-size: 12px;
+.solorecs .name {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.solorecs .rank,
+.solorecs small {
+  font-size: 11px;
   color: var(--muted);
   font-variant-numeric: tabular-nums;
-}
-
-.solorecs small {
-  font-size: 12px;
-  color: var(--muted);
 }
 
 .solorecs b {
@@ -3167,8 +3200,6 @@ input[type='range']::-moz-range-thumb {
   font-size: 26px;
   font-weight: 500;
   line-height: 1;
-  min-width: 2ch;
-  text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
@@ -3180,5 +3211,63 @@ input[type='range']::-moz-range-thumb {
   .solorecs button:hover .name {
     text-decoration: underline;
     text-underline-offset: 3px;
+  }
+}
+
+/* Handy: Bestwerte als waagerechte Leiste über den Themen */
+@media (max-width: 759px) {
+  .solomenu .sheet.wide {
+    display: flex;
+    flex-direction: column;
+  }
+  .solobest {
+    order: 2;
+    flex: none;
+    overflow: visible;
+    padding: 0;
+    border: 0;
+    margin-top: 14px;
+  }
+  .solobest > .meta {
+    margin: 0 0 8px;
+  }
+  .solomain {
+    display: contents;
+  }
+  .solomain > .meta,
+  .solomain > h2,
+  .solomain > .lede {
+    order: 1;
+  }
+  .solomain > .tiles,
+  .solomain > .tsearch,
+  .solomain > .tgroups,
+  .solomain > .pill {
+    order: 3;
+  }
+  .solorecs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin: 0 -22px;
+    padding: 0 22px;
+  }
+  .solorecs li {
+    flex: none;
+  }
+  .solorecs button,
+  .solorecs li:first-child button {
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 8px 14px;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+  }
+  .solorecs .rank {
+    display: none;
+  }
+  .solorecs b {
+    font-size: 22px;
   }
 }

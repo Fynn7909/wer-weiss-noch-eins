@@ -248,7 +248,7 @@ export function startApp(root, rawCategories) {
     };
     el.querySelector('[data-act="solo"]').onclick = (e) => {
       sfx.unlock();
-      launch(e.currentTarget, showSoloMenu);
+      showSoloMenu(e.currentTarget);
     };
     el.querySelector('[data-act="how"]').onclick = showHowTo;
     function showCategory() {
@@ -2146,10 +2146,8 @@ export function startApp(root, rawCategories) {
     return typeof r === 'number' ? { best: r, plays: 1 } : r;
   };
 
-  /** Solo-Start: Bestwerte-Tabelle oben, darunter alle Themen mit Liste (nur die kann das Spiel allein prüfen). */
-  function showSoloMenu() {
-    stopGame();
-    leaveScreen(root);
+  /** Solo-Menü wie das Themen-Menü: links die eigenen Bestwerte, rechts alle Themen mit Liste (nur die kann das Spiel allein prüfen). */
+  function showSoloMenu(origin) {
     const playable = categories.filter((c) => !c.open);
     const played = playable
       .map((c) => ({ c, r: soloRecord(c.id) }))
@@ -2166,49 +2164,64 @@ export function startApp(root, rawCategories) {
       const r = soloRecord(c.id);
       return `<button class="tchip" data-play="${c.id}">${esc(c.label)}${r ? ` <span class="tbest">${r.best}</span>` : ''}</button>`;
     };
-    const el = h(`
-      <main class="screen setup solomenu">
-        <header class="topbar">
-          <button class="link back" data-act="back">← Zurück</button>
-          <div class="meta">Solo · ${SOLO_SECONDS} Sekunden</div>
-        </header>
-        <section class="panel wide">
-          <h1 class="serif">Gegen die Uhr.</h1>
-          <p class="lede">Thema wählen, dann hast du ${SOLO_SECONDS} Sekunden. Nach jedem Treffer kommt ein zufälliger neuer Buchstabe. Schaffst du mehr als beim letzten Mal?</p>
-          <h3 class="meta solohead">Deine Bestwerte</h3>
-          ${
-            played.length
-              ? `<ol class="solorecs">${played
-                  .map(
-                    ({ c, r }, i) =>
-                      `<li><button data-play="${c.id}"><span class="rank">${i + 1}</span><span class="name">${esc(c.label)}</span><small>${r.plays}× gespielt</small><b>${r.best}</b></button></li>`,
-                  )
-                  .join('')}</ol>`
-              : '<p class="lede">Noch nichts gespielt. Such dir unten ein Thema aus.</p>'
-          }
-          <h3 class="meta solohead">Thema wählen</h3>
-          <input class="tsearch" type="search" placeholder="Thema suchen" aria-label="Thema suchen" autocomplete="off">
-          <div class="tgroups">
-            ${[...groups]
-              .map(
-                ([g, list]) =>
-                  `<section data-group><h3 class="meta">${esc(g)}</h3><div class="tchips">${list.map(chip).join('')}</div></section>`,
-              )
-              .join('')}
-            <p class="tnone lede" hidden>Nichts gefunden.</p>
+    const dlg = h(`
+      <div class="overlay themes solomenu" role="dialog" aria-modal="true" aria-labelledby="solo-t">
+        <div class="sheet wide">
+          <aside class="solobest">
+            <div class="meta">Deine Bestwerte</div>
+            ${
+              played.length
+                ? `<ol class="solorecs">${played
+                    .map(
+                      ({ c, r }, i) =>
+                        `<li><button data-play="${c.id}"><span class="rank">${i + 1}</span><span class="name">${esc(c.label)}<small>${r.plays}× gespielt</small></span><b>${r.best}</b></button></li>`,
+                    )
+                    .join('')}</ol>`
+                : '<p class="soloempty">Noch nichts gespielt. Dein erster Rekord landet hier.</p>'
+            }
+          </aside>
+          <div class="solomain">
+            <div class="meta">Solo · ${SOLO_SECONDS} Sekunden</div>
+            <h2 class="serif" id="solo-t">Gegen die Uhr.</h2>
+            <p class="lede">Nach jedem Treffer kommt ein zufälliger Buchstabe. Schaffst du mehr als letztes Mal?</p>
+            <div class="tiles"><button class="tile" data-act="dice">
+              <span class="dice" aria-hidden="true"><i></i><i></i><i></i></span><b>Zufall</b><small>Irgendein Thema</small>
+            </button></div>
+            <input class="tsearch" type="search" placeholder="Thema suchen" aria-label="Thema suchen" autocomplete="off">
+            <div class="tgroups">
+              ${[...groups]
+                .map(
+                  ([g, list]) =>
+                    `<section data-group><h3 class="meta">${esc(g)}</h3><div class="tchips">${list.map(chip).join('')}</div></section>`,
+                )
+                .join('')}
+              <p class="tnone lede" hidden>Nichts gefunden.</p>
+            </div>
+            <button class="pill" data-close>Schließen</button>
           </div>
-        </section>
-      </main>`);
-    root.append(el);
-    el.querySelector('[data-act="back"]').onclick = () => land('[data-act="solo"]', showStart);
-    el.querySelectorAll('[data-play]').forEach((b) => {
-      b.onclick = () => showSolo(byId[b.dataset.play]);
+        </div>
+      </div>`);
+    const close = () => popClose(dlg, origin);
+    dlg.querySelector('[data-close]').onclick = close;
+    dlg.onclick = (e) => {
+      if (e.target === dlg) close();
+    };
+    dlg.onkeydown = (e) => {
+      if (e.key === 'Escape') close();
+    };
+    const play = (id) => {
+      dlg.remove();
+      showSolo(byId[id]);
+    };
+    dlg.querySelectorAll('[data-play]').forEach((b) => {
+      b.onclick = () => play(b.dataset.play);
     });
-    const search = el.querySelector('.tsearch');
+    dlg.querySelector('[data-act="dice"]').onclick = () => play(playable[Math.floor(Math.random() * playable.length)].id);
+    const search = dlg.querySelector('.tsearch');
     search.oninput = () => {
       const q = normalize(search.value);
       let any = false;
-      el.querySelectorAll('[data-group]').forEach((sec) => {
+      dlg.querySelectorAll('[data-group]').forEach((sec) => {
         let shown = 0;
         sec.querySelectorAll('.tchip').forEach((b) => {
           const hit = !q || normalize(byId[b.dataset.play].label).includes(q);
@@ -2218,8 +2231,16 @@ export function startApp(root, rawCategories) {
         sec.hidden = shown === 0;
         any ||= shown > 0;
       });
-      el.querySelector('.tnone').hidden = any;
+      dlg.querySelector('.tnone').hidden = any;
     };
+    root.append(dlg);
+    popOpen(dlg, origin, dlg.querySelectorAll('.solobest, .solomain > *'));
+  }
+
+  /** Aus dem Spiel zurück: Startseite, Solo-Menü geht aus dem Solo-Knopf auf. */
+  function backToSoloMenu() {
+    showStart();
+    showSoloMenu(root.querySelector('[data-act="solo"]'));
   }
 
   /** Allein gegen die Uhr: nach jedem Treffer ein neuer Buchstabe. Uhr läuft hier, Logik in solo.js. */
@@ -2354,7 +2375,7 @@ export function startApp(root, rawCategories) {
     el.querySelector('[data-act="quit"]').onclick = () => {
       pause();
       document.removeEventListener('visibilitychange', onVisible);
-      showSoloMenu();
+      backToSoloMenu();
     };
 
     showScore();
@@ -2409,7 +2430,7 @@ export function startApp(root, rawCategories) {
     root.append(el);
     if (record && n > 0) requestAnimationFrame(() => confetti(el.querySelector('.confetti')));
     el.querySelector('[data-act="again"]').onclick = () => showSolo(cat);
-    el.querySelector('[data-act="table"]').onclick = showSoloMenu;
+    el.querySelector('[data-act="table"]').onclick = backToSoloMenu;
   }
 
   function showWinner(s) {
